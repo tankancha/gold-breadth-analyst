@@ -1,0 +1,6 @@
+# Local-only files (scraper deps, logs, debug output) — never push these
+local/
+*.pyc
+__pycache__/
+debug_screenshot.png
+*.log
