@@ -925,7 +925,19 @@ def _build_output(header: dict, expiry: dict, chain: list, method: str) -> dict:
         round(total_put_oi / total_call_oi, 3) if total_call_oi else None
     )
 
-    spot = header.get("spot") or _estimate_spot(chain)
+    header_spot = header.get("spot")
+    chain_spot = _estimate_spot(chain)
+    if header_spot and chain_spot:
+        if abs(header_spot - chain_spot) / chain_spot > 0.05:
+            log.warning(
+                f"  header spot {header_spot} disagrees with chain-implied "
+                f"{chain_spot} (>5%); using chain"
+            )
+            spot = chain_spot
+        else:
+            spot = header_spot
+    else:
+        spot = header_spot or chain_spot
 
     return {
         "scraped_at":        datetime.now(timezone.utc).isoformat(),
