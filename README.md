@@ -4,24 +4,26 @@ Cloud-agent skill that publishes the daily Gold Options Flow & Volatility Report
 
 Used by the **Gold Breadth Daily** routine on Claude.ai (runs weekdays at 7:00 AM Asia/Bangkok).
 
-## Architecture: Hybrid
+## Architecture: Hybrid (GitHub Actions + Claude routine)
 
-The cloud agent's `WebFetch` is blocked by Barchart, Yahoo Finance, and other retail finance sites (HTTP 403, Cloudflare bot detection on Anthropic's IP range). Direct API access for COMEX gold options requires either a paid feed (Polygon ~$29/mo) or a stateful gateway (IBKR). To avoid both, the report runs as a hybrid:
+The cloud agent's `WebFetch` is blocked by Barchart, Yahoo Finance, and other retail finance sites (HTTP 403, Cloudflare bot detection on Anthropic's IP range). Direct API access for COMEX gold options requires either a paid feed (Polygon ~$29/mo) or a stateful gateway (IBKR). To avoid both, the report runs as a hybrid — but the *producer* is now **GitHub Actions**, not the user's PC:
 
 ```
 ┌─────────────────────────────────────┐    ┌────────────────────────────────────┐
-│ LOCAL SCRAPER (PC or VPS)           │    │ CLOUD ROUTINE (claude.ai)          │
-│ ~6:50 AM Bangkok, weekdays          │    │ 7:00 AM Bangkok, weekdays          │
+│ GITHUB ACTIONS  (.github/workflows) │    │ CLOUD ROUTINE (claude.ai)          │
+│ 06:50 Bangkok, weekdays             │    │ 07:00 Bangkok, weekdays            │
 ├─────────────────────────────────────┤    ├────────────────────────────────────┤
-│ 1. Run gold-market-breadth scraper  │    │ 1. git pull this repo              │
-│    (Playwright → Barchart.com)      │ →  │ 2. Read data/latest.json           │
+│ 1. scraper/run.py (Playwright)      │    │ 1. git pull this repo              │
+│    → Barchart.com                   │ →  │ 2. Read data/latest.json           │
 │ 2. Write data/latest.json           │    │ 3. Compute zones, GEX summary      │
 │ 3. git commit + git push            │    │ 4. Write 4-paragraph analysis      │
 └─────────────────────────────────────┘    │ 5. Publish Notion sub-page         │
                                             └────────────────────────────────────┘
 ```
 
-Local scraper code lives in the user's existing `gold-market-breadth.skill` (Playwright + Flask). The wrapper script that runs the scraper and pushes to this repo is in their project folder, not committed here.
+Producer code lives at `scraper/` in this repo and runs on the `ubuntu-latest` GHA runner. If Cloudflare blocks the GHA egress, set repo secret `SCRAPE_PROXY_URL` to a residential-proxy endpoint — `scraper/scraper.py` will route Playwright through it automatically.
+
+The legacy local-PC path (`local/push.py` + Windows Task Scheduler) is retained but deprecated. See `local/TASK_SCHEDULER_SETUP.md` for emergency manual operation.
 
 ## Skill location
 
