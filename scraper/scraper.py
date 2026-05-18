@@ -1011,15 +1011,56 @@ def _compute_gex(chain: list, spot: Optional[float]) -> list[dict]:
 
 
 def _estimate_spot(chain: list) -> Optional[float]:
+    """Estimate the underlying futures price from the option chain.
+
+    Strategy waterfall (each ~order of magnitude more reliable than the next):
+      1. Put-call parity: spot ≈ strike + call_last - put_last  (median across
+         strikes where both legs have a last-trade price). This is algebraically
+         tied to live prices, robust to stale OI and historical positioning.
+      2. Intraday-volume PCR crossing: find where put_vol/call_vol crosses 1.0
+         among strikes with material today's volume.
+      3. OI-based PCR crossing (legacy, last resort — can be fooled by deep
+         legacy OI from when the underlying was at a very different price).
+      4. Median strike.
+    """
     if not chain:
         return None
     s = sorted(chain, key=lambda r: r["strike"])
-    for i in range(len(s)-1):
-        a, b = s[i], s[i+1]
+
+    # 1. Put-call parity (most reliable)
+    implied = []
+    for r in s:
+        cl = r.get("call_last")
+        pl = r.get("put_last")
+        if cl and pl and cl > 0 and pl > 0:
+            implied.append(r["strike"] + cl - pl)
+    if len(implied) >= 5:
+        implied.sort()
+        # Trim 10% from each tail to drop quote-glitch outliers, then median
+        trim = max(1, len(implied) // 10)
+        trimmed = implied[trim:-trim] if len(implied) > 2 * trim else implied
+        return round(trimmed[len(trimmed) // 2], 2)
+
+    # 2. Volume-based PCR crossing
+    active = [r for r in s
+              if (r.get("call_vol", 0) or 0) >= 5
+              and (r.get("put_vol", 0) or 0) >= 5]
+    for i in range(len(active) - 1):
+        a, b = active[i], active[i + 1]
+        a_pcr = a["put_vol"] / max(a["call_vol"], 1)
+        b_pcr = b["put_vol"] / max(b["call_vol"], 1)
+        if a_pcr >= 1.0 >= b_pcr:
+            return (a["strike"] + b["strike"]) / 2
+
+    # 3. OI-based PCR crossing (legacy fallback, can be wrong)
+    for i in range(len(s) - 1):
+        a, b = s[i], s[i + 1]
         if a["call_oi"] and a["put_oi"] and b["call_oi"] and b["put_oi"]:
-            if (a["put_oi"]/a["call_oi"]) >= 1.0 >= (b["put_oi"]/b["call_oi"]):
+            if (a["put_oi"] / a["call_oi"]) >= 1.0 >= (b["put_oi"] / b["call_oi"]):
                 return (a["strike"] + b["strike"]) / 2
-    return s[len(s)//2]["strike"]
+
+    # 4. Median strike
+    return s[len(s) // 2]["strike"]
 
 
 def _empty_strike(strike: int) -> dict:
