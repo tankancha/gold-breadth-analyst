@@ -5,6 +5,13 @@
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 <meta name="robots" content="noindex, nofollow">
 <title>Gold Options Flow & Volatility Report</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="preconnect" href="https://fonts.cdnfonts.com" crossorigin>
+<!-- Geist (Vercel design font, via cdnfonts) — falls back to SF Pro / system-ui -->
+<link href="https://fonts.cdnfonts.com/css/geist" rel="stylesheet">
+<!-- JetBrains Mono for every financial number -->
+<link href="https://fonts.googleapis.com/css2?family=JetBrains+Mono:wght@400;500;600;700&display=swap" rel="stylesheet">
 <link rel="stylesheet" href="./assets/style.css">
 <script src="https://cdnjs.cloudflare.com/ajax/libs/Chart.js/4.4.1/chart.umd.min.js"></script>
 </head>
@@ -68,7 +75,7 @@
   <!-- 5-DAY CHANGE PANEL -->
   <div class="card">
     <div class="ch">
-      <svg width="16" height="16" viewBox="0 0 16 16" fill="none"><path d="M1 11l4-5 3 3 4-6 3 4" stroke="#f5c842" stroke-width="1.5" fill="none" stroke-linejoin="round"/></svg>
+      <svg width="16" height="16" viewBox="0 0 16 16" fill="none"><path d="M1 11l4-5 3 3 4-6 3 4" stroke="currentColor" stroke-width="1.5" fill="none" stroke-linejoin="round"/></svg>
       <div class="ct">5-Day Change Tracker</div>
       <div class="cs" id="history-summary">…</div>
     </div>
@@ -106,7 +113,7 @@
   <!-- AI MARKET ANALYSIS -->
   <div class="card">
     <div class="ch">
-      <svg width="16" height="16" viewBox="0 0 16 16" fill="none"><circle cx="8" cy="8" r="6" stroke="#f5c842" stroke-width="1.2"/><path d="M5 8h6M8 5v6" stroke="#f5c842" stroke-width="1.2"/></svg>
+      <svg width="16" height="16" viewBox="0 0 16 16" fill="none"><circle cx="8" cy="8" r="6" stroke="currentColor" stroke-width="1.2"/><path d="M5 8h6M8 5v6" stroke="currentColor" stroke-width="1.2"/></svg>
       <div class="ct">AI Market Analysis — 5-Day Thesis &amp; Prediction</div>
       <div class="cs" id="analysis-stamp">Awaiting today's analysis…</div>
     </div>
@@ -123,7 +130,7 @@
   <!-- CHART 1: OI PROFILE -->
   <div class="card">
     <div class="ch">
-      <svg width="16" height="16" viewBox="0 0 16 16" fill="none"><rect x="1" y="8" width="2" height="7" fill="#f5c842" opacity=".6"/><rect x="4" y="5" width="2" height="10" fill="#f5c842" opacity=".8"/><rect x="7" y="3" width="2" height="12" fill="#f5c842"/><rect x="10" y="6" width="2" height="9" fill="#f5c842" opacity=".7"/><rect x="13" y="4" width="2" height="11" fill="#f5c842" opacity=".9"/></svg>
+      <svg width="16" height="16" viewBox="0 0 16 16" fill="none"><rect x="1" y="8" width="2" height="7" fill="currentColor" opacity=".6"/><rect x="4" y="5" width="2" height="10" fill="currentColor" opacity=".8"/><rect x="7" y="3" width="2" height="12" fill="currentColor"/><rect x="10" y="6" width="2" height="9" fill="currentColor" opacity=".7"/><rect x="13" y="4" width="2" height="11" fill="currentColor" opacity=".9"/></svg>
       <div class="ct">Open Interest Profile by Strike</div>
       <div class="cs" id="oi-subtitle">…</div>
     </div>
@@ -140,7 +147,7 @@
   <!-- CHART 2: VOLUME FLOW -->
   <div class="card">
     <div class="ch">
-      <svg width="16" height="16" viewBox="0 0 16 16" fill="none"><path d="M2 14 L5 8 L8 10 L11 4 L14 6" stroke="#f5c842" stroke-width="1.5" fill="none" stroke-linejoin="round"/><circle cx="14" cy="6" r="2" fill="#f5c842"/></svg>
+      <svg width="16" height="16" viewBox="0 0 16 16" fill="none"><path d="M2 14 L5 8 L8 10 L11 4 L14 6" stroke="currentColor" stroke-width="1.5" fill="none" stroke-linejoin="round"/><circle cx="14" cy="6" r="2" fill="currentColor"/></svg>
       <div class="ct">EOD Volume Flow by Strike</div>
       <div class="cs" id="vol-subtitle">…</div>
     </div>
@@ -156,7 +163,7 @@
   <!-- CHART 3: DELTA ZONE -->
   <div class="card">
     <div class="ch">
-      <svg width="16" height="16" viewBox="0 0 16 16" fill="none"><path d="M1 13L4 7l2 3 3-6 2 4 4-7" stroke="#f5c842" stroke-width="1.4" fill="none" stroke-linejoin="round"/></svg>
+      <svg width="16" height="16" viewBox="0 0 16 16" fill="none"><path d="M1 13L4 7l2 3 3-6 2 4 4-7" stroke="currentColor" stroke-width="1.4" fill="none" stroke-linejoin="round"/></svg>
       <div class="ct">Volume by Delta Zone</div>
       <div class="cs" id="delta-subtitle">…</div>
     </div>
@@ -173,7 +180,7 @@
   <!-- CHART 4: GEX HEATMAP -->
   <div class="card">
     <div class="ch">
-      <svg width="16" height="16" viewBox="0 0 16 16" fill="none"><circle cx="8" cy="8" r="6" stroke="#f5c842" stroke-width="1.2"/><path d="M5 8h6M8 5v6" stroke="#f5c842" stroke-width="1.2"/></svg>
+      <svg width="16" height="16" viewBox="0 0 16 16" fill="none"><circle cx="8" cy="8" r="6" stroke="currentColor" stroke-width="1.2"/><path d="M5 8h6M8 5v6" stroke="currentColor" stroke-width="1.2"/></svg>
       <div class="ct">Gamma Exposure (GEX) Heatmap by Strike</div>
       <div class="cs">Net dealer GEX — negative = pro-trend / vol amplifying</div>
     </div>
@@ -208,12 +215,12 @@
   <!-- DAY TRADE CTA -->
   <div class="card">
     <div class="ch">
-      <svg width="16" height="16" viewBox="0 0 16 16" fill="none"><path d="M3 8l3 3 7-7" stroke="#f5c842" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"/></svg>
+      <svg width="16" height="16" viewBox="0 0 16 16" fill="none"><path d="M3 8l3 3 7-7" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"/></svg>
       <div class="ct">Day Trade Call-to-Action</div>
       <div class="cs">From AI analysis · NOT a trade recommendation</div>
     </div>
     <div class="cb" id="cta-body">
-      <div style="font-family:'IBM Plex Mono',monospace;font-size:10px;color:var(--text3);padding:8px 14px;">
+      <div style="font-family:var(--font-mono);font-size:10px;color:var(--text3);padding:8px 14px;">
         CTA will populate when analysis.json is committed by the morning routine.
       </div>
     </div>
@@ -222,7 +229,7 @@
   <!-- EXECUTIVE STRIKE MATRIX -->
   <div class="card">
     <div class="ch">
-      <svg width="16" height="16" viewBox="0 0 16 16" fill="none"><rect x="1" y="1" width="14" height="14" rx="1" stroke="#f5c842" stroke-width="1.2"/><line x1="1" y1="5.5" x2="15" y2="5.5" stroke="#f5c842" stroke-width=".8"/><line x1="1" y1="10.5" x2="15" y2="10.5" stroke="#f5c842" stroke-width=".8"/><line x1="5.5" y1="1" x2="5.5" y2="15" stroke="#f5c842" stroke-width=".8"/></svg>
+      <svg width="16" height="16" viewBox="0 0 16 16" fill="none"><rect x="1" y="1" width="14" height="14" rx="1" stroke="currentColor" stroke-width="1.2"/><line x1="1" y1="5.5" x2="15" y2="5.5" stroke="currentColor" stroke-width=".8"/><line x1="1" y1="10.5" x2="15" y2="10.5" stroke="currentColor" stroke-width=".8"/><line x1="5.5" y1="1" x2="5.5" y2="15" stroke="currentColor" stroke-width=".8"/></svg>
       <div class="ct">Executive Strike Matrix</div>
       <div class="cs">Key strikes ordered from deep support → breakout zone</div>
     </div>

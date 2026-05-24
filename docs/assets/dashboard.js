@@ -55,16 +55,39 @@ function selectGEXStrikes(gexHeatmap, spot) {
   return scored;
 }
 
-/* Chart.js defaults */
+/* Chart.js defaults — Investory palette */
 function configureCharts() {
-  Chart.defaults.color = '#545f70';
-  Chart.defaults.borderColor = '#1e2530';
-  Chart.defaults.font.family = "'IBM Plex Mono', monospace";
+  Chart.defaults.color = 'rgba(255,255,255,0.54)';                  // --fg-2
+  Chart.defaults.borderColor = 'rgba(255,255,255,0.10)';            // ~--fg-4
+  Chart.defaults.font.family = "'JetBrains Mono', 'SFMono-Regular', monospace";
   Chart.defaults.font.size = 10;
 }
 
-const GC = { color: 'rgba(30,37,48,0.8)', lineWidth: 0.5 };
-const TT = { backgroundColor: '#0f1216', borderColor: '#252d3a', borderWidth: 1 };
+const GC = { color: 'rgba(33,58,100,0.45)', lineWidth: 0.5 };       // --dark-5 alpha
+const TT = {
+  backgroundColor: '#0C1428',                                       // --dark-2
+  borderColor: '#213A64',                                           // --dark-5
+  borderWidth: 1,
+  titleColor: '#FFFFFF',
+  bodyColor: 'rgba(255,255,255,0.84)',
+  padding: 10,
+  cornerRadius: 6,
+};
+
+/* Brand-aligned palette for chart datasets */
+const COLOR = {
+  put:        'rgba(255,77,106,0.65)',
+  putBorder:  'rgba(255,77,106,0.95)',
+  call:       'rgba(26,111,255,0.65)',
+  callBorder: 'rgba(26,111,255,0.95)',
+  bullish:    '#00C896',
+  bullishBg:  'rgba(0,200,150,0.65)',
+  bearish:    '#FF4D6A',
+  bearishBg:  'rgba(255,77,106,0.65)',
+  brand:      '#1A6FFF',
+  brandTeal:  '#00D4A0',
+  info:       '#38BDF8',
+};
 
 /* ─── Renderers ─────────────────────────────────────────────────────── */
 
@@ -163,8 +186,8 @@ function renderOIChart(latest, strikes) {
     data: {
       labels,
       datasets: [
-        { label: 'Put OI', data: putOI, backgroundColor: 'rgba(255,107,53,0.65)', borderColor: 'rgba(255,107,53,0.9)', borderWidth: 1 },
-        { label: 'Call OI', data: callOI, backgroundColor: 'rgba(77,159,255,0.6)', borderColor: 'rgba(77,159,255,0.85)', borderWidth: 1 },
+        { label: 'Put OI', data: putOI, backgroundColor: COLOR.put, borderColor: COLOR.putBorder, borderWidth: 1 },
+        { label: 'Call OI', data: callOI, backgroundColor: COLOR.call, borderColor: COLOR.callBorder, borderWidth: 1 },
       ]
     },
     options: {
@@ -173,7 +196,7 @@ function renderOIChart(latest, strikes) {
       plugins: { legend: { display: false }, tooltip: { ...TT, callbacks: { label: ctx => ' ' + ctx.dataset.label + ': ' + ctx.raw.toLocaleString() } } },
       scales: {
         x: { grid: GC, ticks: { maxRotation: 45, font: { size: 9 } } },
-        y: { grid: GC, title: { display: true, text: 'OI (Contracts)', color: '#545f70', font: { size: 9 } }, ticks: { callback: v => v >= 1000 ? (v / 1000).toFixed(1) + 'K' : v } },
+        y: { grid: GC, title: { display: true, text: 'OI (Contracts)', color: 'rgba(255,255,255,0.32)', font: { size: 9 } }, ticks: { callback: v => v >= 1000 ? (v / 1000).toFixed(1) + 'K' : v } },
       }
     }
   });
@@ -193,8 +216,8 @@ function renderVolChart(latest, strikes) {
     data: {
       labels,
       datasets: [
-        { label: 'Put Volume', data: putVol, backgroundColor: 'rgba(255,107,53,0.7)', borderColor: 'rgba(255,107,53,1)', borderWidth: 1 },
-        { label: 'Call Volume', data: callVol, backgroundColor: 'rgba(77,159,255,0.65)', borderColor: 'rgba(77,159,255,0.9)', borderWidth: 1 },
+        { label: 'Put Volume', data: putVol, backgroundColor: COLOR.put, borderColor: COLOR.putBorder, borderWidth: 1 },
+        { label: 'Call Volume', data: callVol, backgroundColor: COLOR.call, borderColor: COLOR.callBorder, borderWidth: 1 },
       ]
     },
     options: {
@@ -203,7 +226,7 @@ function renderVolChart(latest, strikes) {
       plugins: { legend: { display: false }, tooltip: TT },
       scales: {
         x: { grid: GC, ticks: { maxRotation: 45, font: { size: 9 } } },
-        y: { grid: GC, title: { display: true, text: 'Volume', color: '#545f70', font: { size: 9 } }, ticks: { callback: v => v >= 1000 ? (v / 1000).toFixed(1) + 'K' : v } },
+        y: { grid: GC, title: { display: true, text: 'Volume', color: 'rgba(255,255,255,0.32)', font: { size: 9 } }, ticks: { callback: v => v >= 1000 ? (v / 1000).toFixed(1) + 'K' : v } },
       }
     }
   });
@@ -257,8 +280,8 @@ function renderDeltaChart(latest) {
     data: {
       labels: buckets.map(b => b.key),
       datasets: [
-        { label: 'Put Volume', data: putVols, backgroundColor: 'rgba(255,107,53,0.7)', borderColor: 'rgba(255,107,53,1)', borderWidth: 1 },
-        { label: 'Call Volume', data: callVols, backgroundColor: 'rgba(77,159,255,0.65)', borderColor: 'rgba(77,159,255,0.9)', borderWidth: 1 },
+        { label: 'Put Volume', data: putVols, backgroundColor: COLOR.put, borderColor: COLOR.putBorder, borderWidth: 1 },
+        { label: 'Call Volume', data: callVols, backgroundColor: COLOR.call, borderColor: COLOR.callBorder, borderWidth: 1 },
       ]
     },
     options: {
@@ -267,7 +290,7 @@ function renderDeltaChart(latest) {
       plugins: { legend: { display: false }, tooltip: TT },
       scales: {
         x: { grid: GC, ticks: { font: { size: 9 } } },
-        y: { grid: GC, title: { display: true, text: 'Volume', color: '#545f70', font: { size: 9 } }, ticks: { callback: v => v >= 1000 ? (v / 1000).toFixed(1) + 'K' : v } },
+        y: { grid: GC, title: { display: true, text: 'Volume', color: 'rgba(255,255,255,0.32)', font: { size: 9 } }, ticks: { callback: v => v >= 1000 ? (v / 1000).toFixed(1) + 'K' : v } },
       }
     }
   });
@@ -287,8 +310,8 @@ function renderGEXChart(latest) {
       datasets: [{
         label: 'Net GEX',
         data: gex,
-        backgroundColor: gex.map(v => v < 0 ? 'rgba(255,77,106,0.7)' : 'rgba(0,212,168,0.65)'),
-        borderColor: gex.map(v => v < 0 ? 'rgba(255,77,106,1)' : 'rgba(0,212,168,1)'),
+        backgroundColor: gex.map(v => v < 0 ? COLOR.bearishBg : COLOR.bullishBg),
+        borderColor: gex.map(v => v < 0 ? COLOR.bearish : COLOR.bullish),
         borderWidth: 1
       }]
     },
@@ -298,7 +321,7 @@ function renderGEXChart(latest) {
       plugins: { legend: { display: false }, tooltip: { ...TT, callbacks: { label: ctx => ' GEX: ' + (ctx.raw > 0 ? '+' : '') + ctx.raw.toFixed(2) + (ctx.raw < 0 ? ' [Short Gamma]' : ' [Long Gamma]') } } },
       scales: {
         x: { grid: GC, ticks: { maxRotation: 45, font: { size: 9 } } },
-        y: { grid: GC, title: { display: true, text: 'Net GEX', color: '#545f70', font: { size: 9 } }, ticks: { callback: v => (v > 0 ? '+' : '') + v.toFixed(1) } },
+        y: { grid: GC, title: { display: true, text: 'Net GEX', color: 'rgba(255,255,255,0.32)', font: { size: 9 } }, ticks: { callback: v => (v > 0 ? '+' : '') + v.toFixed(1) } },
       }
     }
   });
@@ -432,10 +455,10 @@ function renderHistory(history) {
     return { last: series[series.length - 1], chg };
   };
 
-  const spotResult = mkSpark('sparkSpot', 'spot', '#f5c842');
-  const mpResult = mkSpark('sparkMP', 'max_pain', '#4d9fff');
-  const pcrResult = mkSpark('sparkPCR', 'pc_oi_ratio', '#ff6b35');
-  const ivResult = mkSpark('sparkIV', 'atm_iv', '#00d4a8');
+  const spotResult = mkSpark('sparkSpot', 'spot', COLOR.brand);
+  const mpResult = mkSpark('sparkMP', 'max_pain', COLOR.brandTeal);
+  const pcrResult = mkSpark('sparkPCR', 'pc_oi_ratio', COLOR.bearish);
+  const ivResult = mkSpark('sparkIV', 'atm_iv', COLOR.bullish);
 
   const writeSpark = (valId, chgId, fmtVal, result, fmtChg) => {
     document.getElementById(valId).textContent = fmtVal(result.last);
@@ -513,8 +536,8 @@ function renderAnalysis(analysis) {
   if (cta) {
     const ctaBody = document.getElementById('cta-body');
     ctaBody.innerHTML = `
-      <div style="font-family:'IBM Plex Mono',monospace;font-size:10px;color:var(--gold);background:rgba(245,200,66,.06);border:1px solid rgba(245,200,66,.2);border-radius:2px;padding:10px 14px;margin-bottom:14px;">
-        ⚡ STRUCTURE BIAS: ${cta.bias || '—'} · Entry ${cta.entry_zone || '—'} · Pivot ${cta.pivot || '—'}
+      <div style="font-family:var(--font-mono);font-size:11px;font-weight:500;color:var(--brand-blue);background:rgba(26,111,255,0.06);border:1px solid rgba(26,111,255,0.22);border-radius:var(--radius-md);padding:11px 14px;margin-bottom:14px;letter-spacing:0.02em;">
+        STRUCTURE BIAS · ${cta.bias || '—'} · Entry ${cta.entry_zone || '—'} · Pivot ${cta.pivot || '—'}
       </div>
       <div class="ctagrid">
         <div class="ctac"><div class="ctact">Directional Bias</div><div class="ctav">${cta.bias || '—'}</div><div class="ctad">${cta.bias_note || ''}</div></div>
