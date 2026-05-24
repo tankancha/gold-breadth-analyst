@@ -1,0 +1,257 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta name="robots" content="noindex, nofollow">
+<title>Gold Options Flow & Volatility Report</title>
+<link rel="stylesheet" href="./assets/style.css">
+<script src="https://cdnjs.cloudflare.com/ajax/libs/Chart.js/4.4.1/chart.umd.min.js"></script>
+</head>
+<body>
+
+<div id="datasrc-banner">
+  <div class="dsrc-dot"></div>
+  <span id="banner-text">Loading latest scrape…</span>
+</div>
+
+<div class="hdr">
+  <div>
+    <div class="dtag">Quantitative Research — Gold Derivatives</div>
+    <div class="rtitle">Options Flow &amp; Volatility Report</div>
+    <div class="sline">Symbol: <span id="hdr-symbol">…</span> &nbsp;|&nbsp; DTE: <span id="hdr-dte">…</span> &nbsp;|&nbsp; Expiry: <span id="hdr-expiry">…</span></div>
+  </div>
+  <div class="hrgt">
+    <div class="glbl">Generated On</div>
+    <div class="gdt" id="hdr-date">…</div>
+    <div class="gtm" id="hdr-time">…</div>
+    <div class="cbdg">Self-hosted dashboard</div>
+  </div>
+</div>
+
+<div class="kbar">
+  <div class="ki">
+    <div class="klbl">Future Settle / Chg</div>
+    <div class="kv gld" id="kpi-spot">…</div>
+    <div class="ksub" id="kpi-chg">…</div>
+  </div>
+  <div class="ki">
+    <div class="klbl">Total Open Interest</div>
+    <div class="kv gld" id="kpi-oi">…</div>
+    <div class="ksub" id="kpi-oi-sub">…</div>
+  </div>
+  <div class="ki">
+    <div class="klbl">Total EOD Volume</div>
+    <div class="kv gld" id="kpi-vol">…</div>
+    <div class="ksub" id="kpi-vol-sub">…</div>
+  </div>
+  <div class="ki">
+    <div class="klbl">IV ATM / Max Pain</div>
+    <div class="kv gld" id="kpi-iv">…</div>
+    <div class="ksub" id="kpi-iv-sub">…</div>
+  </div>
+  <div class="ki">
+    <div class="klbl">P/C OI Ratio</div>
+    <div class="kv gld" id="kpi-pcr">…</div>
+    <div class="ksub" id="kpi-pcr-sub">…</div>
+  </div>
+</div>
+
+<div class="istrip">
+  <span class="is-lbl">Last Scrape Summary</span>
+  <span class="is-sep">|</span>
+  <span id="strip-content">Loading…</span>
+</div>
+
+<div class="main">
+
+  <!-- 5-DAY CHANGE PANEL -->
+  <div class="card">
+    <div class="ch">
+      <svg width="16" height="16" viewBox="0 0 16 16" fill="none"><path d="M1 11l4-5 3 3 4-6 3 4" stroke="#f5c842" stroke-width="1.5" fill="none" stroke-linejoin="round"/></svg>
+      <div class="ct">5-Day Change Tracker</div>
+      <div class="cs" id="history-summary">…</div>
+    </div>
+    <div class="cb">
+      <div class="five-day-grid">
+        <div class="spark-card">
+          <div class="spark-label">Spot</div>
+          <div class="spark-value" id="spark-spot-val">…</div>
+          <div class="spark-chg" id="spark-spot-chg">…</div>
+          <div class="cw spark"><canvas id="sparkSpot"></canvas></div>
+        </div>
+        <div class="spark-card">
+          <div class="spark-label">Max Pain</div>
+          <div class="spark-value" id="spark-mp-val">…</div>
+          <div class="spark-chg" id="spark-mp-chg">…</div>
+          <div class="cw spark"><canvas id="sparkMP"></canvas></div>
+        </div>
+        <div class="spark-card">
+          <div class="spark-label">P/C OI Ratio</div>
+          <div class="spark-value" id="spark-pcr-val">…</div>
+          <div class="spark-chg" id="spark-pcr-chg">…</div>
+          <div class="cw spark"><canvas id="sparkPCR"></canvas></div>
+        </div>
+        <div class="spark-card">
+          <div class="spark-label">ATM IV</div>
+          <div class="spark-value" id="spark-iv-val">…</div>
+          <div class="spark-chg" id="spark-iv-chg">…</div>
+          <div class="cw spark"><canvas id="sparkIV"></canvas></div>
+        </div>
+      </div>
+      <div id="history-table-wrap" style="margin-top:14px;"></div>
+    </div>
+  </div>
+
+  <!-- AI MARKET ANALYSIS -->
+  <div class="card">
+    <div class="ch">
+      <svg width="16" height="16" viewBox="0 0 16 16" fill="none"><circle cx="8" cy="8" r="6" stroke="#f5c842" stroke-width="1.2"/><path d="M5 8h6M8 5v6" stroke="#f5c842" stroke-width="1.2"/></svg>
+      <div class="ct">AI Market Analysis — 5-Day Thesis &amp; Prediction</div>
+      <div class="cs" id="analysis-stamp">Awaiting today's analysis…</div>
+    </div>
+    <div class="cb" id="analysis-body">
+      <div class="aisec">
+        <div class="ailbl">Awaiting Analysis</div>
+        <div class="aitxt">
+          <p>The Claude routine has not yet committed <code>docs/data/analysis.json</code> for today. Charts above reflect the latest scraped chain. AI narrative will appear here when the morning routine completes (07:00 Asia/Bangkok weekdays).</p>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- CHART 1: OI PROFILE -->
+  <div class="card">
+    <div class="ch">
+      <svg width="16" height="16" viewBox="0 0 16 16" fill="none"><rect x="1" y="8" width="2" height="7" fill="#f5c842" opacity=".6"/><rect x="4" y="5" width="2" height="10" fill="#f5c842" opacity=".8"/><rect x="7" y="3" width="2" height="12" fill="#f5c842"/><rect x="10" y="6" width="2" height="9" fill="#f5c842" opacity=".7"/><rect x="13" y="4" width="2" height="11" fill="#f5c842" opacity=".9"/></svg>
+      <div class="ct">Open Interest Profile by Strike</div>
+      <div class="cs" id="oi-subtitle">…</div>
+    </div>
+    <div class="cb">
+      <div class="cw"><canvas id="oiChart"></canvas></div>
+      <div class="leg">
+        <div class="li"><div class="ld" style="background:var(--put)"></div>Put OI</div>
+        <div class="li"><div class="ld" style="background:var(--call)"></div>Call OI</div>
+      </div>
+      <div class="mp-line" id="mp-line">…</div>
+    </div>
+  </div>
+
+  <!-- CHART 2: VOLUME FLOW -->
+  <div class="card">
+    <div class="ch">
+      <svg width="16" height="16" viewBox="0 0 16 16" fill="none"><path d="M2 14 L5 8 L8 10 L11 4 L14 6" stroke="#f5c842" stroke-width="1.5" fill="none" stroke-linejoin="round"/><circle cx="14" cy="6" r="2" fill="#f5c842"/></svg>
+      <div class="ct">EOD Volume Flow by Strike</div>
+      <div class="cs" id="vol-subtitle">…</div>
+    </div>
+    <div class="cb">
+      <div class="cw"><canvas id="volChart"></canvas></div>
+      <div class="leg">
+        <div class="li"><div class="ld" style="background:var(--put)"></div>Put Volume</div>
+        <div class="li"><div class="ld" style="background:var(--call)"></div>Call Volume</div>
+      </div>
+    </div>
+  </div>
+
+  <!-- CHART 3: DELTA ZONE -->
+  <div class="card">
+    <div class="ch">
+      <svg width="16" height="16" viewBox="0 0 16 16" fill="none"><path d="M1 13L4 7l2 3 3-6 2 4 4-7" stroke="#f5c842" stroke-width="1.4" fill="none" stroke-linejoin="round"/></svg>
+      <div class="ct">Volume by Delta Zone</div>
+      <div class="cs" id="delta-subtitle">…</div>
+    </div>
+    <div class="cb" style="padding:16px 20px 20px;">
+      <div class="zhbar" id="delta-zone-bar"></div>
+      <div class="cw"><canvas id="deltaChart"></canvas></div>
+      <div class="leg">
+        <div class="li"><div class="ld" style="background:var(--put)"></div>Put Volume</div>
+        <div class="li"><div class="ld" style="background:var(--call)"></div>Call Volume</div>
+      </div>
+    </div>
+  </div>
+
+  <!-- CHART 4: GEX HEATMAP -->
+  <div class="card">
+    <div class="ch">
+      <svg width="16" height="16" viewBox="0 0 16 16" fill="none"><circle cx="8" cy="8" r="6" stroke="#f5c842" stroke-width="1.2"/><path d="M5 8h6M8 5v6" stroke="#f5c842" stroke-width="1.2"/></svg>
+      <div class="ct">Gamma Exposure (GEX) Heatmap by Strike</div>
+      <div class="cs">Net dealer GEX — negative = pro-trend / vol amplifying</div>
+    </div>
+    <div class="cb">
+      <div class="cw"><canvas id="gexChart"></canvas></div>
+      <div class="gex-bar" id="gex-summary"></div>
+    </div>
+  </div>
+
+  <!-- ZONE CARDS -->
+  <div class="zgrid">
+    <div class="zcard sup">
+      <div class="znm sup">↓ Gamma Absorption Zone (Put Wall)</div>
+      <div class="zstr">Top 3 Put OI Strikes</div>
+      <div class="zbdy" id="zone-support">…</div>
+      <div class="zft">
+        <div class="zal">Primary Support</div>
+        <div class="zav sup" id="zone-support-primary">…</div>
+      </div>
+    </div>
+    <div class="zcard res">
+      <div class="znm res">↑ Call Wall</div>
+      <div class="zstr">Top 3 Call OI Strikes</div>
+      <div class="zbdy" id="zone-resistance">…</div>
+      <div class="zft">
+        <div class="zal">Primary Resistance</div>
+        <div class="zav res" id="zone-resistance-primary">…</div>
+      </div>
+    </div>
+  </div>
+
+  <!-- DAY TRADE CTA -->
+  <div class="card">
+    <div class="ch">
+      <svg width="16" height="16" viewBox="0 0 16 16" fill="none"><path d="M3 8l3 3 7-7" stroke="#f5c842" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"/></svg>
+      <div class="ct">Day Trade Call-to-Action</div>
+      <div class="cs">From AI analysis · NOT a trade recommendation</div>
+    </div>
+    <div class="cb" id="cta-body">
+      <div style="font-family:'IBM Plex Mono',monospace;font-size:10px;color:var(--text3);padding:8px 14px;">
+        CTA will populate when analysis.json is committed by the morning routine.
+      </div>
+    </div>
+  </div>
+
+  <!-- EXECUTIVE STRIKE MATRIX -->
+  <div class="card">
+    <div class="ch">
+      <svg width="16" height="16" viewBox="0 0 16 16" fill="none"><rect x="1" y="1" width="14" height="14" rx="1" stroke="#f5c842" stroke-width="1.2"/><line x1="1" y1="5.5" x2="15" y2="5.5" stroke="#f5c842" stroke-width=".8"/><line x1="1" y1="10.5" x2="15" y2="10.5" stroke="#f5c842" stroke-width=".8"/><line x1="5.5" y1="1" x2="5.5" y2="15" stroke="#f5c842" stroke-width=".8"/></svg>
+      <div class="ct">Executive Strike Matrix</div>
+      <div class="cs">Key strikes ordered from deep support → breakout zone</div>
+    </div>
+    <div class="cb" style="padding:0;">
+      <table class="etbl" id="strike-table">
+        <thead>
+          <tr>
+            <th>Strike</th>
+            <th>Zone / Observation</th>
+            <th>Call OI</th>
+            <th>Put OI</th>
+            <th>EOD Vol</th>
+            <th>Net GEX</th>
+            <th>Market Impact</th>
+          </tr>
+        </thead>
+        <tbody id="strike-tbody"></tbody>
+      </table>
+    </div>
+  </div>
+
+</div>
+
+<div class="ftr">
+  <div id="ftr-l">COMEX GOLD · GC · self-hosted dashboard</div>
+  <div>Gold Options Flow &amp; Volatility Report · <a href="https://github.com/tankancha/gold-breadth-analyst" target="_blank" rel="noopener">source on GitHub</a></div>
+  <div>Data: Barchart via GitHub Actions scrape · For informational purposes only</div>
+</div>
+
+<script src="./assets/dashboard.js"></script>
+</body>
+</html>

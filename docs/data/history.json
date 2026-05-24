@@ -1,0 +1,27 @@
+{
+  "generated_at": "2026-05-24T06:10:23.730017+00:00",
+  "window_days": 1,
+  "days": [
+    {
+      "date": "2026-05-24",
+      "spot": 4561.8,
+      "max_pain": 4970,
+      "pc_oi_ratio": 0.67,
+      "atm_iv": 21.41,
+      "total_call_oi": 180688,
+      "total_put_oi": 120473,
+      "total_call_vol": 11264,
+      "total_put_vol": 5112,
+      "put_wall": 4500,
+      "put_wall_oi": 7096,
+      "call_wall": 5000,
+      "call_wall_oi": 7542,
+      "gex_sign": "positive",
+      "gex_total_window": 263.53,
+      "gex_flip_strike": 3650,
+      "scraped_at": "2026-05-18T13:08:47.102392+00:00",
+      "symbol": "GCM26"
+    }
+  ],
+  "deltas": {}
+}
