@@ -52,6 +52,8 @@ User opens https://tankancha.github.io/gold-breadth-analyst/
 
 11. **Don't add a Notion call back into the routine.** The Notion MCP connector (`641c2372-6a53-459e-82ca-5feaeb4a6b7f`) is still configured in your Claude.ai workspace but the routine no longer uses it. If you re-introduce Notion publication, also delete the JSON write — the dashboard already covers that role.
 
+12. **Dashboard visual theme follows the Investory design system**, not an ad-hoc palette. Source: `C:\Users\Admin\OneDrive\Claude Code\Investory\DESIGN.md`. The aesthetic is "Devin-style blue-green gradient atmosphere + Stripe-influenced typography & shadows" — brand blue `#1A6FFF` accent on dark `#070D1C` background with a radial-gradient blue glow halo, Geist (via cdnfonts CDN) for prose, JetBrains Mono (Google Fonts) for every financial number with `font-variant-numeric: tabular-nums`. Bullish `#00C896` / bearish `#FF4D6A` are the trading semantic colors. **Puts render bearish red, calls render brand blue** (consistent across all 3 OI/volume/delta charts). When adding new visual elements: lift token names from `docs/assets/style.css` (e.g. `var(--brand-blue)`, `var(--bullish)`, `var(--shadow-card)`) rather than introducing new hex codes. The old short aliases (`--gold`, `--put`, `--call`, `--text`) still exist for back-compat with `dashboard.js` inline strings — keep them mapped to the new values if you re-paint, don't delete them.
+
 ## Key identifiers
 
 | Thing | Value |
