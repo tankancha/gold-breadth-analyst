@@ -1,27 +1,7 @@
 {
-  "generated_at": "2026-06-05T01:57:21.537242+00:00",
+  "generated_at": "2026-06-08T02:03:35.609740+00:00",
   "window_days": 5,
   "days": [
-    {
-      "date": "2026-06-01",
-      "spot": 4591.9,
-      "max_pain": 5250,
-      "pc_oi_ratio": 0.52,
-      "atm_iv": 21.39,
-      "total_call_oi": 87138,
-      "total_put_oi": 45497,
-      "total_call_vol": 4319,
-      "total_put_vol": 2282,
-      "put_wall": 3980,
-      "put_wall_oi": 2254,
-      "call_wall": 5350,
-      "call_wall_oi": 8011,
-      "gex_sign": "positive",
-      "gex_total_window": 228.64,
-      "gex_flip_strike": 3675,
-      "scraped_at": "2026-06-01T02:04:35.619662+00:00",
-      "symbol": "GCM26"
-    },
     {
       "date": "2026-06-02",
       "spot": 4505.3,
@@ -101,16 +81,36 @@
       "gex_flip_strike": 3610,
       "scraped_at": "2026-06-05T01:57:21.139993+00:00",
       "symbol": "GCM26"
+    },
+    {
+      "date": "2026-06-08",
+      "spot": 4364.5,
+      "max_pain": 5100,
+      "pc_oi_ratio": 0.57,
+      "atm_iv": 21.82,
+      "total_call_oi": 90839,
+      "total_put_oi": 52036,
+      "total_call_vol": 4534,
+      "total_put_vol": 2824,
+      "put_wall": 3900,
+      "put_wall_oi": 2778,
+      "call_wall": 5350,
+      "call_wall_oi": 8011,
+      "gex_sign": "negative",
+      "gex_total_window": -111.31,
+      "gex_flip_strike": 3500,
+      "scraped_at": "2026-06-08T02:03:35.105010+00:00",
+      "symbol": "GCM26"
     }
   ],
   "deltas": {
-    "spot_change": -87.6,
-    "max_pain_drift": -50,
-    "iv_change_pp": -0.94,
-    "pc_oi_change": 0.02,
+    "spot_change": -140.8,
+    "max_pain_drift": -150,
+    "iv_change_pp": -0.05,
+    "pc_oi_change": 0.05,
     "put_wall_migration": [
       3980,
-      3980,
+      3900,
       3900,
       3900,
       3900
@@ -124,17 +124,17 @@
     ],
     "max_pain_path": [
       5250,
-      5250,
       5220,
       5200,
-      5200
+      5200,
+      5100
     ],
     "spot_path": [
-      4591.9,
       4505.3,
       4519.1,
       4466.2,
-      4504.3
+      4504.3,
+      4364.5
     ]
   }
 }
