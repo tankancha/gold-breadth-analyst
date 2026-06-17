@@ -1,26 +1,30 @@
 {
-  "generated_at": "2026-06-17T20:28:31+07:00",
-  "today_summary": "COMEX gold (GCM26) consolidates at $4,354 with ATM IV at 20.92% — the 5-session low — after last week's flush-and-recover cycle. PC OI ratio holds steady at 0.62, confirming persistent call-side dominance and an underlying bullish lean. Max pain anchors at $4,875, a $521 premium over spot that functions as a structural expiry magnet for the remaining 42 DTE. 1σ daily move = $57, bracketing today's session to roughly $4,297–$4,411 absent a macro catalyst.",
-  "five_day_thesis": "The defining event of this 5-day window was the mid-week flush and recovery: spot collapsed from $4,287 (Jun 10) to $4,116 (Jun 12, −4%) under deeply negative dealer GEX (−291 peak on Jun 11), then fully reclaimed losses by Jun 16–17. That GEX overhang has now almost entirely unwound — aggregate net GEX compressed from −291 to −7.07 — meaning the mechanical amplification that turbocharged the downswing is no longer present. ATM IV was crushed 2.42pp in the aftermath (23.34% → 20.92%), confirming the dip overpriced fear; vol sellers won the week. Max pain drifted lower by $125 (5000 → 4875), a sign that option writers are repricing their neutral zone toward spot, though the $521 gap preserves a meaningful expiry pull. The $4,000 put wall has been absolutely immovable — OI grew 46% to 4,935 contracts across 5 sessions — marking the institutional floor; paired with the static $5,370 call ceiling (8,010 OI), the options architecture telegraphs a wide but clearly bounded range through June expiry.",
+  "generated_at": "2026-06-17T20:46:22+07:00",
+  "symbol": "GCM26",
+  "spot_at_analysis": 4354.0,
+  "today_summary": "GCM26 (Jun '26, DTE 42) is trading $4,354 with ATM IV at 20.92% and a call-heavy OI structure of 110,783 calls vs 68,914 puts (P/C ratio 0.62). Intraday flow is decidedly bullish at 7,773 calls vs 3,378 puts (2.3:1 call/put vol). Max pain at $4,875 sits $521 above spot, maintaining structural upside magnetism with 42 days to expiry. Dealers are in near-neutral GEX territory (aggregate −7.07), consistent with a low-volatility drift environment — 1σ daily range is $57, implying a session band of roughly $4,297–$4,411.",
+  "five_day_thesis": "The defining 5-day development is the near-complete GEX recovery from −213.52 (Jun 10) to −7.07 today — a normalization that parallels spot's +$239 bounce from the Jun 12 low of $4,115 and a 4.56pp IV compression from 25.48% to 20.92%, signaling a regime shift from vol-amplifying dealer posture back to stabilizing. Max pain marched lower continuously from $5,000 → $4,875 (−$125 over 5 sessions), narrowing the gap but preserving $521 of structural upside pull into June expiry. The $4,000 put wall has been the unshakeable bedrock for all five sessions — OI now stands at 4,935 contracts today vs 3,377 on Jun 10 (+46%), confirming that institutional protective puts are actively being rolled and expanded, not expiring. Call wall structure remained anchored at $5,350–$5,370 (8,010 contracts), providing a distant but fixed ceiling that leaves substantial runway above current prices. The combination of GEX normalization, IV compression, rising call OI, and persistent put floor anchoring positions the June contract for continued measured upside, with dips likely absorbed by the mechanical floor at $4,000.",
   "what_changed": [
-    "ATM IV −2.42pp to 20.92% (5-session low); post-dip vol crush confirms fear was overpriced at the lows.",
-    "Max pain drifted −$125 to $4,875; option writers migrating neutral zone toward spot but $521 gap still intact.",
-    "Aggregate net GEX collapsed from −291 to −7.07; dealers near gamma-flat, removing the amplifier that drove the Jun 11–12 selloff.",
-    "Spot +$67.5 net for the week (+$238 off the Jun 12 low of $4,116); full recovery with compressed vol into the close.",
-    "$4,000 put wall OI grew 46% (3,377 → 4,935); institutional floor buying accelerated into the dip.",
-    "Total call OI +18.6% (93,430 → 110,783) vs put OI +15.5% (59,651 → 68,914); call-side growth outpacing, keeping PCR anchored at 0.62."
+    "GEX aggregate recovered from −213.52 to −7.07 over 5 sessions — regime flip from vol-amplifying to near-neutral dealer posture",
+    "ATM IV compressed from 23.34% to 20.92% (−2.42pp) — structural shift favoring premium sellers and reducing realized vol",
+    "Max pain drifted lower from $5,000 to $4,875 (−$125) on a steady daily descent, narrowing the upside magnetic gap",
+    "Put wall at $4,000 locked for all 5 sessions and OI expanded from 3,377 to 4,935 (+46%) — active institutional floor-building",
+    "Spot recovered from $4,115 (Jun 12 low) to $4,354 (+$239), repairing the post-selloff technical damage",
+    "Today's call vol at 2.3× put vol (7,773 vs 3,378) — strongest intraday bullish flow of the 5-day window"
   ],
-  "prediction": "Range-bound with mild upward bias into the remainder of June expiry. Local GEX is net-positive between $4,300–$4,395 (call GEX dominant at those strikes), creating a dealer buy-the-dip dynamic and dampening intraday vol. Above $4,400, individual-strike net GEX turns negative (−1.79 at $4,400, −5.45 at $4,450), so a sustained break there would shift dealers to short-gamma hedging and could accelerate to the $4,450–$4,500 zone. Downside is well-defended: nearest put wall is $4,150 (put OI 2,400), major structural floor at $4,000 (4,935 OI). With GEX near-flat globally and IV at cycle lows, the next directional leg requires a macro catalyst — without one, expect the $4,300–$4,420 band to contain price action today.",
+  "prediction": "Bias bullish above $4,300, where cumulative near-spot GEX turns call-dominant (+4.62 at $4,300) and dealer hedging flows become structurally supportive; the $4,355 strike adds the strongest positive GEX in the ATM zone (+7.27), creating a local gamma pin near current price. Path of least resistance targets $4,400 (double-sided OI wall: 1,865 calls + 1,994 puts) then $4,450 and $4,700 if momentum sustains; GEX gamma flip at $3,485 remains safely below, keeping the vol-damping regime intact. A sustained break below $4,300 reactivates the negative GEX cascade and reopens risk toward the $4,150 put wall (2,400 contracts).",
   "day_trade_cta": {
-    "bias": "Long bias / range-fade",
-    "bias_note": "Local GEX is positive $4,300–$4,395 (dealers long gamma = buy-the-dip behavior). Above $4,400, GEX flips negative and moves can accelerate. Preferred direction: buy dips toward pivot, target the GEX inflection.",
-    "entry_zone": "$4,320–$4,360",
-    "entry_zone_note": "ATM cluster zone with net_gex +0.36 to +7.27 at $4,350–$4,355. Current spot is consolidating in this band; dip entries within it receive passive dealer support.",
+    "bias": "Bullish",
+    "bias_note": "Spot +$67.5 over 5 days, GEX near-neutral, call vol 2.3× today, max pain $521 above. Bias flips bearish on a confirmed break below $4,300.",
+    "entry_zone": "$4,330–$4,350",
+    "entry_note": "Buy dips to near-ATM zone — $4,350 strike holds 1,276 call OI + 1,250 put OI (balanced, liquid) and net GEX is +0.36 with the strongest call gamma in the region just above at $4,355 (net +7.27).",
     "pivot": "$4,300",
-    "pivot_note": "$4,300 is the dominant call-GEX anchor (net_gex +4.62, call_gex 22.68). A close below $4,300 removes the primary dealer support bid and opens $4,250 (net_gex −7.05, heavy put pressure).",
-    "stop": "$4,270",
-    "stop_note": "Clears the $4,280–$4,285 zone where net GEX turns sharply negative (−1.58, −2.35); below $4,270 the tape is in unanchored dealer-short territory with no meaningful put wall until $4,150.",
+    "pivot_note": "Key GEX anchor (net +4.62, call dominant). Above = dealer long-gamma pinning regime, buy-the-dip dynamic. Below = negative GEX cascade reactivates, path to $4,150 opens.",
+    "stop": "$4,275",
+    "stop_note": "Below the $4,280 GEX support cluster (net −1.58 at $4,280); −$55 (~1.3%) from entry midpoint. Below this negative GEX dominates to $4,150.",
     "targets": ["$4,400", "$4,450"],
-    "targets_note": "$4,400 = local GEX inflection (net_gex −1.79; first resistance level within 1σ range). $4,450 = next meaningful call cluster (call_gex 10.85, net_gex −5.45); a break there shifts focus to $4,700 (call OI wall, 4,980 contracts)."
+    "target_note": "T1 $4,400: double-sided OI wall (1,865 call + 1,994 put) — take 60% off. T2 $4,450: call OI cluster (call_gex 10.85, net −5.45 = GEX headwind, full exit).",
+    "risk_label": "LOW-MED VOL",
+    "risk_note": "IV 20.92%, GEX near-neutral (−7.07) → expect ~$57 daily 1σ range. Standard position size appropriate."
   }
 }
