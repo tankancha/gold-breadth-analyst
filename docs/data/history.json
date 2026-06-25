@@ -1,27 +1,7 @@
 {
-  "generated_at": "2026-06-24T01:33:40.545371+00:00",
+  "generated_at": "2026-06-25T01:50:29.961957+00:00",
   "window_days": 5,
   "days": [
-    {
-      "date": "2026-06-18",
-      "spot": 4380.3,
-      "max_pain": 4900,
-      "pc_oi_ratio": 0.61,
-      "atm_iv": 21.16,
-      "total_call_oi": 111426,
-      "total_put_oi": 68445,
-      "total_call_vol": 11976,
-      "total_put_vol": 7089,
-      "put_wall": 4000,
-      "put_wall_oi": 3855,
-      "call_wall": 5370,
-      "call_wall_oi": 8010,
-      "gex_sign": "positive",
-      "gex_total_window": 41.04,
-      "gex_flip_strike": 3505,
-      "scraped_at": "2026-06-18T02:07:29.842474+00:00",
-      "symbol": "GCM26"
-    },
     {
       "date": "2026-06-19",
       "spot": 4245.5,
@@ -101,13 +81,33 @@
       "gex_flip_strike": 3320,
       "scraped_at": "2026-06-24T01:33:40.243183+00:00",
       "symbol": "GCM26"
+    },
+    {
+      "date": "2026-06-25",
+      "spot": 4009.8,
+      "max_pain": 4800,
+      "pc_oi_ratio": 0.6,
+      "atm_iv": 22.42,
+      "total_call_oi": 121393,
+      "total_put_oi": 73257,
+      "total_call_vol": 6198,
+      "total_put_vol": 7912,
+      "put_wall": 4000,
+      "put_wall_oi": 3935,
+      "call_wall": 5370,
+      "call_wall_oi": 8010,
+      "gex_sign": "negative",
+      "gex_total_window": -241.34,
+      "gex_flip_strike": 3225,
+      "scraped_at": "2026-06-25T01:50:29.621347+00:00",
+      "symbol": "GCM26"
     }
   ],
   "deltas": {
-    "spot_change": -231.3,
-    "max_pain_drift": -75,
-    "iv_change_pp": 0.6,
-    "pc_oi_change": 0.0,
+    "spot_change": -235.7,
+    "max_pain_drift": -50,
+    "iv_change_pp": 0.36,
+    "pc_oi_change": -0.02,
     "put_wall_migration": [
       4000,
       4000,
@@ -123,18 +123,18 @@
       5370
     ],
     "max_pain_path": [
-      4900,
       4850,
       4850,
       4835,
-      4825
+      4825,
+      4800
     ],
     "spot_path": [
-      4380.3,
       4245.5,
       4245.2,
       4202.5,
-      4149.0
+      4149.0,
+      4009.8
     ]
   }
 }
