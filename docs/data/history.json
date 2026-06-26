@@ -1,27 +1,7 @@
 {
-  "generated_at": "2026-06-25T01:50:29.961957+00:00",
+  "generated_at": "2026-06-26T01:52:55.100394+00:00",
   "window_days": 5,
   "days": [
-    {
-      "date": "2026-06-19",
-      "spot": 4245.5,
-      "max_pain": 4850,
-      "pc_oi_ratio": 0.62,
-      "atm_iv": 22.06,
-      "total_call_oi": 112989,
-      "total_put_oi": 70525,
-      "total_call_vol": 3944,
-      "total_put_vol": 4878,
-      "put_wall": 4000,
-      "put_wall_oi": 4112,
-      "call_wall": 5370,
-      "call_wall_oi": 8010,
-      "gex_sign": "negative",
-      "gex_total_window": -137.68,
-      "gex_flip_strike": 3400,
-      "scraped_at": "2026-06-19T02:32:39.259853+00:00",
-      "symbol": "GCM26"
-    },
     {
       "date": "2026-06-22",
       "spot": 4245.2,
@@ -101,12 +81,32 @@
       "gex_flip_strike": 3225,
       "scraped_at": "2026-06-25T01:50:29.621347+00:00",
       "symbol": "GCM26"
+    },
+    {
+      "date": "2026-06-26",
+      "spot": 4047.1,
+      "max_pain": 4800,
+      "pc_oi_ratio": 0.6,
+      "atm_iv": 26.43,
+      "total_call_oi": 124367,
+      "total_put_oi": 74240,
+      "total_call_vol": 4857,
+      "total_put_vol": 6069,
+      "put_wall": 4000,
+      "put_wall_oi": 4369,
+      "call_wall": 5370,
+      "call_wall_oi": 8010,
+      "gex_sign": "negative",
+      "gex_total_window": -193.05,
+      "gex_flip_strike": 3250,
+      "scraped_at": "2026-06-26T01:52:54.753100+00:00",
+      "symbol": "GCM26"
     }
   ],
   "deltas": {
-    "spot_change": -235.7,
+    "spot_change": -198.1,
     "max_pain_drift": -50,
-    "iv_change_pp": 0.36,
+    "iv_change_pp": 4.37,
     "pc_oi_change": -0.02,
     "put_wall_migration": [
       4000,
@@ -124,17 +124,17 @@
     ],
     "max_pain_path": [
       4850,
-      4850,
       4835,
       4825,
+      4800,
       4800
     ],
     "spot_path": [
-      4245.5,
       4245.2,
       4202.5,
       4149.0,
-      4009.8
+      4009.8,
+      4047.1
     ]
   }
 }
