@@ -1,30 +1,30 @@
 {
-  "generated_at": "2026-07-15T07:08:29+07:00",
+  "generated_at": "2026-07-16T07:08:57+07:00",
   "symbol": "GCM26",
-  "spot_at_analysis": 4005.8,
-  "today_summary": "GCM26 spot at $4,005.8, sitting just $5.8 above the $4,000 put wall (4,386 contracts) — the dominant support level for five straight sessions. ATM IV of 20.47% implies a $51.65 (1σ) daily move, bracketing today's range at roughly $3,954–$4,058. Net GEX within ±$200 of spot is -$180.6, confirming dealers are short gamma and will amplify a break in either direction. Put volume (5,830) outpaced call volume (5,302) today for the first time this week, a fresh defensive tilt in flow.",
-  "five_day_thesis": "Spot has slid $161.6 (-3.9%) over five sessions, from $4,167.4 on 7/7 to $4,005.8 today, while the $4,000 put wall and $5,370 call wall stayed completely unmoved — positioning is anchored even as price grinds straight into the floor. The bigger story is the gamma regime: GEX flipped from positive (+$62.9 window on 7/7) to negative on 7/9 and has deepened sharply to -$102.5 today, a 7.2x jump from yesterday's -$14.2, meaning dealers now amplify rather than dampen moves. ATM IV compressed 1.84pp (22.31% → 20.47%) despite the selloff — an unusual decoupling that suggests options aren't pricing much fear yet even though realized declines have been persistent. Max pain drifted down modestly ($4,795 → $4,750, -$45) but remains $744 (+18.6%) above spot, too distant at 15 DTE to act as a near-term magnet — it mostly reflects stale call OI stacked at $4,700–$6,000 from when gold traded much higher. With spot now testing the put wall directly for the first time in the window and gamma turning more negative every day, the setup favors a volatile resolution rather than a continued grind.",
+  "spot_at_analysis": 4069.8,
+  "today_summary": "GCM26 spot at $4,069.80, up $64.0 (+1.6%) off Tuesday's $4,005.8 low. ATM IV jumped to 23.94% (+3.47pp day/day), pricing a $61.4 (1σ) daily move and bracketing today's range at roughly $4,008–$4,131. Max pain sits at $4,750, +$680 (+16.7%) above spot and too distant to act as a near-term pin; call OI (138,112) still dwarfs put OI (77,378) for a 0.56 P/C ratio, though volume today was far more balanced (6,354 calls vs 5,856 puts). Net GEX within ±$200 of spot is -$107.5 — dealers remain short gamma and will amplify, not dampen, the next directional move.",
+  "five_day_thesis": "Spot round-tripped over the past five sessions — down $151.5 to a $4,005.8 low on 7/14 before bouncing $64.0 to $4,069.80 today, for a net 5-day change of -$87.5 (-2.1%) from $4,157.3. The put wall ($4,000) and the scraper's static call print ($5,370, legacy OI +31% above spot) haven't moved in five sessions, but today's windowed OI shows real resistance sitting much closer in, at $4,700/$4,400/$4,800. Dealer gamma flipped negative on 7/9 and has stayed negative for four of the last five sessions (gex window: +28.2 → -51.3 → -14.2 → -102.5 → -30.9), deepening sharply into the 7/14 low before partially unwinding as spot bounced — the gamma flip strike has held in a tight $3,225–$3,330 band all week, always far below spot, meaning the entire tradable range has been structurally negative gamma. ATM IV expanded 2.33pp over the window (21.61% → 23.94%), with +3.47pp of that move landing in the single session between 7/14 and 7/15 — vol is expanding into the bounce rather than collapsing, a sign dealers are still pricing tail risk even as price stabilizes. Max pain drifted down modestly ($4,780 → $4,750, -$30) and has now held flat for three straight sessions, but at +16.7% above spot it remains a background gravity well, not a tradeable magnet.",
   "what_changed": [
-    "Spot fell $161.6 (-3.9%) over 5 sessions, from $4,167.4 to $4,005.8, now sitting $5.8 above the $4,000 put wall.",
-    "GEX flipped from positive (+$62.9) on 7/7 to negative on 7/9, deepening to -$102.5 today — a 7.2x jump from -$14.2 yesterday.",
-    "Put volume (5,830) exceeded call volume (5,302) today for the first time in the 5-day window, a bearish flow shift.",
-    "ATM IV compressed 1.84pp (22.31% → 20.47%) even as spot declined — unusual for an active selloff.",
-    "Max pain drifted $4,795 → $4,750 (-$45) but stays $744 above spot, too far to matter near-term.",
-    "Put wall ($4,000, 4,386 OI) and call wall ($5,370, 8,008 OI) unchanged all 5 sessions — positioning static, price is not."
+    "Spot round-tripped: down to a $4,005.8 low on 7/14, then +$64.0 (+1.6%) to $4,069.80 today, net -$87.5 (-2.1%) over 5 sessions.",
+    "ATM IV expanded 2.33pp over the window (21.61% → 23.94%), with +3.47pp of that move landing in the last session alone.",
+    "Dealer gamma deepened to -$102.5 (window) at the 7/14 low before partially unwinding to -$30.9 today — negative for 4 of the last 5 sessions.",
+    "Max pain drifted $4,780 → $4,750 (-$30) and has now held flat for three consecutive sessions.",
+    "P/C OI ratio held essentially flat (0.57 → 0.56) — the call-heavy 138,112-vs-77,378 OI structure is entrenched, not reactive to price.",
+    "Put wall ($4,000) and legacy call print ($5,370) unchanged all 5 sessions; real resistance sits closer in, at $4,700/$4,400/$4,800 today."
   ],
-  "prediction": "Bias leans bearish while spot trades at or below $4,000 — negative GEX (-$180.6 near spot) means a clean break of the put wall likely accelerates toward $3,900 then $3,600, the next OI walls. Above $4,000, expect a choppy bounce capped near the 1σ upper band ($4,058) rather than a run at max pain, given how far ($744) that level sits. Invalidation: a daily close back above $4,150 (3rd-largest put OI strike, 2,510 contracts) would flip the setup neutral and stall the downside thesis.",
+  "prediction": "Bias is cautiously constructive above $4,000 — spot has already bounced $64 off that support and gamma has begun unwinding from its -$102.5 trough toward -$30.9, leaving room for a continued grind toward $4,131 (1σ upper band) and then $4,400, the nearest real call-OI wall. Below $4,000, the negative-gamma regime reactivates hard, as it did into the 7/14 low, opening a fast move toward $3,600 then $3,500. Invalidation: a daily close back below $4,000 flips the setup bearish and stalls the bounce thesis.",
   "day_trade_cta": {
-    "bias": "Bearish Break / Fade Bounces",
-    "bias_note": "Spot is testing the $4,000 put wall directly for the first time in 5 sessions; GEX at -$102.5 and deepening favors a violent resolution, not a stall.",
-    "entry_zone": "$4,000–$4,010",
-    "entry_note": "Short on a confirmed break/close below $4,000 with volume; avoid shorting directly into the wall given its 5-session support history.",
-    "pivot": "$4,000",
-    "pivot_note": "Sustained trade below → negative-gamma cascade toward $3,900 then $3,600. Sustained trade above → bounce capped near $4,058 (1σ upper band).",
-    "stop": "$4,058",
-    "stop_note": "Just above the 1σ daily upper bound ($4,057.5) and the $4,055 local call-gamma cluster — invalidates the breakdown thesis.",
-    "targets": ["$3,900", "$3,600"],
-    "target_note": "T1 is the next put-OI wall (2,643 contracts) — take 50% off. T2 is the 3rd-largest put wall (3,309 contracts) — exit remaining.",
+    "bias": "Cautious Bull / Fade the Wall",
+    "bias_note": "Spot bounced $64.0 off the $4,000 put wall and gamma is unwinding from its -$102.5 trough (-$107.5 near spot on the tighter ±$200 window) — the setup favors continuation above $4,000, not a fresh breakdown.",
+    "entry_zone": "$4,020–$4,050",
+    "entry_note": "Buy dips toward the $4,000 put wall with confirmation; avoid chasing the bounce directly into the $4,700–$4,800 call OI cluster.",
+    "pivot": "$4,069.80",
+    "pivot_note": "Sustained trade above → target $4,131 (1σ upper band) then $4,400. Sustained trade below $4,000 → negative-gamma cascade toward $3,600 then $3,500.",
+    "stop": "$3,985",
+    "stop_note": "A clean break below the $4,000 put wall invalidates the long and reactivates the negative-gamma cascade seen into the 7/14 low.",
+    "targets": ["$4,131", "$4,400"],
+    "target_note": "T1 is the 1σ upper band — take 50% off. T2 is the nearest real call-OI wall (4,521 contracts) — exit remaining.",
     "risk_label": "NEGATIVE GEX — HIGH VOL REGIME",
-    "risk_note": "Net GEX -$180.6 near spot with the gamma flip strike near $3,225 — dealers are short gamma and amplifying moves. Expect realized swings beyond the $51.65 (1σ) implied daily range. Reduce size 30-50%."
+    "risk_note": "Net GEX -$107.5 near spot (±$200 window) with the gamma flip strike near $3,260 — dealers remain short gamma across the entire tradable range. Expect swings beyond the $61.4 (1σ) implied daily range. Reduce size 30-50%."
   }
 }
