@@ -1,27 +1,7 @@
 {
-  "generated_at": "2026-07-16T01:08:56.043103+00:00",
+  "generated_at": "2026-07-17T01:13:19.999143+00:00",
   "window_days": 5,
   "days": [
-    {
-      "date": "2026-07-09",
-      "spot": 4082.5,
-      "max_pain": 4770,
-      "pc_oi_ratio": 0.57,
-      "atm_iv": 21.32,
-      "total_call_oi": 136300,
-      "total_put_oi": 77748,
-      "total_call_vol": 7190,
-      "total_put_vol": 4543,
-      "put_wall": 4000,
-      "put_wall_oi": 4128,
-      "call_wall": 5370,
-      "call_wall_oi": 8008,
-      "gex_sign": "negative",
-      "gex_total_window": -51.29,
-      "gex_flip_strike": 3280,
-      "scraped_at": "2026-07-09T01:16:17.299253+00:00",
-      "symbol": "GCM26"
-    },
     {
       "date": "2026-07-13",
       "spot": 4113.6,
@@ -101,13 +81,33 @@
       "gex_flip_strike": 3250,
       "scraped_at": "2026-07-16T01:08:55.698648+00:00",
       "symbol": "GCM26"
+    },
+    {
+      "date": "2026-07-17",
+      "spot": 3992.2,
+      "max_pain": 4790,
+      "pc_oi_ratio": 0.54,
+      "atm_iv": 20.93,
+      "total_call_oi": 138326,
+      "total_put_oi": 74999,
+      "total_call_vol": 5350,
+      "total_put_vol": 5911,
+      "put_wall": 4000,
+      "put_wall_oi": 4115,
+      "call_wall": 5370,
+      "call_wall_oi": 8008,
+      "gex_sign": "negative",
+      "gex_total_window": -96.8,
+      "gex_flip_strike": 3195,
+      "scraped_at": "2026-07-17T01:13:19.612647+00:00",
+      "symbol": "GCM26"
     }
   ],
   "deltas": {
-    "spot_change": -30.6,
-    "max_pain_drift": -20,
-    "iv_change_pp": 0.28,
-    "pc_oi_change": -0.01,
+    "spot_change": -121.4,
+    "max_pain_drift": 40,
+    "iv_change_pp": 0.46,
+    "pc_oi_change": -0.03,
     "put_wall_migration": [
       4000,
       4000,
@@ -123,18 +123,18 @@
       5370
     ],
     "max_pain_path": [
-      4770,
       4750,
       4750,
       4750,
-      4750
+      4750,
+      4790
     ],
     "spot_path": [
-      4082.5,
       4113.6,
       4005.8,
       4069.8,
-      4051.9
+      4051.9,
+      3992.2
     ]
   }
 }
