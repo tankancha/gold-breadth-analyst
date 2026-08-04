@@ -1,30 +1,34 @@
 {
-  "generated_at": "2026-07-24T07:09:01+07:00",
+  "generated_at": "2026-08-04T07:11:20+07:00",
   "symbol": "GCM26",
-  "spot_at_analysis": 4151.8,
-  "today_summary": "GCM26 spot $4,151.8 with max pain $4,795 sitting $643 (+15.5%) above — too distant to exert real pull at just 6 DTE. Chain is call-heavy (P/C OI ratio 0.53: 138,922 call OI vs 74,279 put OI), and ATM IV of 18.19% puts the 1σ daily move at ±$47.6 ($4,104–$4,199). Local dealer gamma is positive across $4,100–$4,350, with the largest concentration at $4,300 (net GEX +28.3), favoring range-bound pinning over trend continuation near spot.",
-  "five_day_thesis": "Spot ripped $159.6 (+4.0%) over the last 5 sessions to $4,151.8 while max pain barely budged (+$5, pinned $4,790–$4,800 all week) — the max-pain gap narrowed from $798 to $643 but remains too wide at 6 DTE to matter tactically. The real story is the GEX regime flip: dealers ran short gamma for four straight sessions (07/17–07/22, window total -96.8 → -53.6 → -59.7 → -0.79) then flipped decisively positive today (+88.4), with the gamma flip strike drifting up from $3,195 to $3,325 as spot pushed through the call-heavy OI shelf. ATM IV compressed 2.74pp (20.93% → 18.19%) despite the rally — a vol crush consistent with a stabilizing dealer book rather than a squeeze. Put wall ($4,000, 4,091 ct) and call wall ($5,370, 8,008 ct) haven't moved once in 5 sessions, so the positioning skeleton is unchanged even as spot ran $160 through it. Net effect: today marks the first session in a week where dealer flows should dampen rather than amplify moves.",
+  "spot_at_analysis": 4106.1,
+  "today_summary": "GCM26 marked $4,106.1 in the 2026-08-03 snapshot, $53.6 (-1.29%) below Friday's $4,159.7, with ATM IV 21.67% on a 114-DTE chain. Open interest is extremely call-heavy - 177,039 calls against 59,839 puts (P/C OI 0.34) - but the weight sits in deep-OTM lottery strikes: 8000c (24,998), 6000c (18,052), 10000c (14,870). That skew drags raw max pain to $6,500, $2,394 above spot, which is an artifact of a long-dated chain rather than a tradeable magnet. Local dealer gamma is negative - net GEX within +/-$200 of spot is -106.4, concentrated at the $4,000 (-33.9) and $3,950 (-27.6) put nodes.",
+  "five_day_thesis": "The dominant change across this window is not flow - it is a contract roll. On 2026-07-31 the scraped expiry jumped from 2 DTE to 117 DTE, and every headline metric broke with it: max pain $4,800 -> $6,500 (+$1,705), call wall $5,370 -> $8,000, put wall $4,000 -> $3,500, and ATM IV 15.69% -> 22.02% (+6.3pp). Read those as a change of instrument, not a regime shift - the +3.48pp five-day IV change is term structure, not a fresh vol bid. What is genuine signal is what happened after the roll: call OI still added 1,412 contracts (175,627 -> 177,039) while put OI added only 336, and volume roughly halved (8,530 -> 4,881 calls, 2,303 -> 1,112 puts), so the call skew is stale inventory rather than actively defended positioning. Spot itself has gone nowhere across the full window - $4,151.8 -> $4,106.1 (-$45.7, -1.1%) - round-tripping $4,050.3 on Jul 24 and $4,159.7 on Jul 31. Net: a wide, illiquid, call-loaded long-dated chain with no directional conviction priced into it, and a local gamma profile that has quietly deteriorated from +54.6 to +9.3 on the scraper's window measure.",
   "what_changed": [
-    "GEX flipped from negative to positive today (window total -0.79 → +88.4) — first vol-dampening session in 5 days",
-    "Spot rallied $159.6 (+4.0%) over 5 sessions to $4,151.8, closing the max-pain gap from $798 to $643",
-    "ATM IV compressed 2.74pp (20.93% → 18.19%), the sharpest vol crush of the window",
-    "Gamma flip strike drifted higher, $3,195 → $3,325, tracking the spot rally",
-    "Put wall $4,000 (4,091 ct) and call wall $5,370 (8,008 ct) unchanged all 5 days — static positioning skeleton",
-    "Near-spot dealer gamma concentration now peaks at $4,300 (net GEX +28.3), the largest positive node in the $4,100–$4,350 shelf"
+    "Expiry rolled 2 DTE -> 117 DTE on 2026-07-31 - the single source of every wall and max-pain jump in this window",
+    "Max pain drifted $4,800 -> $6,500 (+$1,705), now $2,394 above spot and structurally useless as a magnet",
+    "Call wall migrated $5,370 -> $8,000 (24,998 contracts); put wall migrated $4,000 -> $3,500 (4,512 contracts)",
+    "ATM IV rose 18.19% -> 21.67% (+3.48pp) - term-structure effect from the roll, not a new volatility bid",
+    "P/C OI ratio fell 0.53 -> 0.34 as call OI added 38,117 contracts and put OI shed 14,440",
+    "Volume halved to 4,881 calls / 1,112 puts - the thinnest participation of the five-day window"
   ],
-  "prediction": "Today's GEX flip to positive plus the rich positive-gamma shelf between $4,100–$4,350 (peak $4,300, net GEX +28.3) argues for compressed, pinning-type price action rather than trend continuation — the $643 max-pain gap is a 6-DTE distraction, not a near-term target. Bias is neutral-to-mildly-bullish while spot holds above the $4,100 1σ floor / gamma shelf; a break below the $4,000 put wall reopens the prior week's short-gamma amplification regime.",
+  "prediction": "Bias neutral-to-lower while spot holds below $4,175. Negative local gamma (-106.4 net GEX within +/-$200) means dealers amplify rather than dampen moves: the $4,000 node (-33.9 GEX, 2,917 put OI) is the magnet on weakness, and the 1-sigma daily move of $56.05 puts it inside a single session's range. Above $4,175 - the largest positive-GEX shelf near spot (+8.8) - the structure inverts and $4,300 then the $4,500 call wall (9,149 OI) open up; the whole-chain gamma flip does not sit until $4,910.",
   "day_trade_cta": {
-    "bias": "Neutral-to-Bullish (Pinning)",
-    "bias_note": "Positive GEX regime (flipped today from negative) favors range-bound pinning over trend continuation; max pain $4,795 is 15.5% away and too distant at 6 DTE to matter.",
-    "entry_zone": "$4,140–$4,165",
-    "entry_note": "Buy dips into the $4,150 gamma node (net GEX +8.4, 3,081 call OI / 2,445 put OI) with the 1σ floor at $4,104 as the outer guide.",
-    "pivot": "$4,200",
-    "pivot_note": "Sustained trade above → path to the $4,300 gamma wall (largest nearby positive net GEX, +28.3). Rejection here caps the session inside the $4,100–$4,200 range.",
-    "stop": "$4,095",
-    "stop_note": "Below the 1σ floor ($4,104) and the $4,100 OI node — loses the positive-gamma pin and reopens last week's short-gamma amplification regime.",
-    "targets": ["$4,300", "$4,400"],
-    "target_note": "T1 = largest nearby positive-gamma concentration (net GEX +28.3), take 50% off. T2 = $4,400 call wall (4,613 ct, heaviest call OI in the near window), exit remainder.",
-    "risk_label": "LOW-VOL PINNING REGIME",
-    "risk_note": "GEX flipped positive today after 4 sessions negative — expect a compressed ±$47.6 (1σ) daily range, not last week's wider whipsaws."
+    "bias": "Cautious Bear",
+    "bias_note": "Spot $4,106.1 is $53.6 below Friday and sits in negative local gamma (net GEX -106.4 within +/-$200). Bias flips bullish on a sustained hold above $4,175.",
+    "entry_zone": "$4,150-$4,175",
+    "entry_note": "Fade rallies into the $4,175 positive-GEX shelf (+8.8). Alternative trigger: a clean break of $4,050 for continuation into the $4,000 put node.",
+    "pivot": "$4,175",
+    "pivot_note": "Sustained trade above -> $4,300 (1,443 call OI) then the $4,500 wall (9,149). Sustained trade below -> $4,050 then the $4,000 put wall (2,917 OI, -33.9 GEX).",
+    "stop": "$4,210",
+    "stop_note": "+1.2% above the $4,162 entry midpoint. Above it the short-gamma fade is wrong and dealers chase higher toward $4,300.",
+    "targets": [
+      "$4,050",
+      "$4,000",
+      "$3,950"
+    ],
+    "target_note": "T1 $4,050 is 1 sigma ($56.05) from spot - take 50% off. T2 $4,000 is the largest negative-GEX node and a 2,917-contract put wall. T3 $3,950 (2,256 put OI) only on a momentum break.",
+    "risk_label": "SHORT GAMMA / THIN TAPE",
+    "risk_note": "Net GEX -106.4 near spot amplifies moves, but total volume is just 5,993 contracts - the thinnest of the window. Expect wide slippage on a 114-DTE chain; reduce size 30-50%."
   }
 }
