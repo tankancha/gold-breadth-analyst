@@ -1,27 +1,7 @@
 {
-  "generated_at": "2026-08-04T01:08:44.174148+00:00",
+  "generated_at": "2026-08-05T01:07:37.042683+00:00",
   "window_days": 5,
   "days": [
-    {
-      "date": "2026-07-24",
-      "spot": 4050.3,
-      "max_pain": 4795,
-      "pc_oi_ratio": 0.53,
-      "atm_iv": 17.91,
-      "total_call_oi": 138914,
-      "total_put_oi": 74278,
-      "total_call_vol": 6953,
-      "total_put_vol": 4756,
-      "put_wall": 4000,
-      "put_wall_oi": 4090,
-      "call_wall": 5370,
-      "call_wall_oi": 8008,
-      "gex_sign": "negative",
-      "gex_total_window": -13.07,
-      "gex_flip_strike": 3250,
-      "scraped_at": "2026-07-24T01:12:03.907091+00:00",
-      "symbol": "GCM26"
-    },
     {
       "date": "2026-07-27",
       "spot": 4070.9,
@@ -101,40 +81,60 @@
       "gex_flip_strike": 3300,
       "scraped_at": "2026-08-04T01:08:43.869461+00:00",
       "symbol": "GCM26"
+    },
+    {
+      "date": "2026-08-05",
+      "spot": 4151.8,
+      "max_pain": 6500,
+      "pc_oi_ratio": 0.33,
+      "atm_iv": 21.36,
+      "total_call_oi": 185946,
+      "total_put_oi": 61218,
+      "total_call_vol": 13734,
+      "total_put_vol": 2472,
+      "put_wall": 3500,
+      "put_wall_oi": 4524,
+      "call_wall": 8000,
+      "call_wall_oi": 27748,
+      "gex_sign": "positive",
+      "gex_total_window": 79.11,
+      "gex_flip_strike": 3345,
+      "scraped_at": "2026-08-05T01:07:36.532542+00:00",
+      "symbol": "GCM26"
     }
   ],
   "deltas": {
-    "spot_change": 39.5,
-    "max_pain_drift": 1705,
-    "iv_change_pp": 3.76,
-    "pc_oi_change": -0.19,
+    "spot_change": 80.9,
+    "max_pain_drift": 1700,
+    "iv_change_pp": 5.67,
+    "pc_oi_change": -0.18,
     "put_wall_migration": [
       4000,
-      4000,
+      3500,
       3500,
       3500,
       3500
     ],
     "call_wall_migration": [
       5370,
-      5370,
+      8000,
       8000,
       8000,
       8000
     ],
     "max_pain_path": [
-      4795,
       4800,
+      6500,
       6500,
       6500,
       6500
     ],
     "spot_path": [
-      4050.3,
       4070.9,
       4159.7,
       4106.1,
-      4089.8
+      4089.8,
+      4151.8
     ]
   }
 }
