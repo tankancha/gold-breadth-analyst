@@ -1,33 +1,30 @@
 {
-  "generated_at": "2026-08-12T07:15:00+07:00",
+  "generated_at": "2026-08-13T07:12:48+07:00",
   "symbol": "GCM26",
-  "spot_at_analysis": 4419.0,
-  "today_summary": "GCM26 marks $4,419 on the 2026-08-11 settle — today's 06:50 BKK scrape had not landed at analysis time, so this reads the most recent committed chain (23h old). Open interest is overwhelmingly call-side at 190,744 vs 64,829 puts (P/C OI 0.34), and the nearest supply is a 9,728-contract call wall at $4,500 backed by 5,023 more at $4,510. Nearest downside structure is the $4,300 put shelf at 2,344 contracts, then heavier concentrations at $4,000 (3,116) and $3,900 (3,625). ATM IV 22.60% puts the 1σ daily move at $62.91 (1.42%), framing a $4,356–$4,482 band.",
-  "five_day_thesis": "Spot has advanced $267.20 (+6.44%) over five sessions from $4,151.80 to $4,419.00 with only one down day, and ATM IV expanded alongside it from 21.36% to 22.60% (+1.24pp) — a rally the options market is paying up for rather than fading. Net window GEX has grown 5.6x from +79.11 to +443.55 while staying positive all five sessions, so dealers are progressively longer gamma and the regime is increasingly vol-dampening, not vol-amplifying. Both structural walls are unchanged to the tick across the window — put wall pinned at $3,500, call wall at $8,000 — so the entire advance happened inside a static OI frame, with fresh positioning instead stacking at $5,000 (+1,495 calls) and $4,800 (+699). Put builds were an order of magnitude smaller and clustered at $4,050 (+340) and $4,120 (+239), well below spot: downside hedging is thin and defensive, not aggressive. Reported max pain has been frozen at $6,500 every session because 68% of call OI sits at or above $5,000 — treat that print as a legacy-OI artifact, not a magnet.",
+  "spot_at_analysis": 4440.3,
+  "today_summary": "GCM26 marked $4,440.3 with ATM IV 23.05% and a 0.34 P/C OI ratio — 175,174 of 191,027 total call OI sits above spot versus just 8,705 puts, the most one-sided call skew of the current cycle. The binding structure is a 14,604-contract call shelf at $4,500–$4,510, roughly 1.4% overhead and almost exactly one 1σ session ($64.5, 1.45%) away. Net GEX within ±$200 of spot is +274, so dealers are long gamma here and actively dampening range. Headline max pain of $6,300 sits 42% above spot and is an artifact of legacy far-OTM call OI at $5,500 and $8,000 — it carries no near-term pinning force.",
+  "five_day_thesis": "Five sessions ago spot was $4,304.3 with ATM IV at 21.36%; it has since ground $136.0 higher (+3.2%) without a single meaningful down-day, and IV rose 1.69pp alongside it to 23.05%. That combination — spot up, vol up — is the week's real signal: this is call-side premium being bid, not fear being hedged, and it matches call volume running 2.8:1 over puts (4,470 vs 1,611) with the heaviest prints at the upside $4,700, $5,200 and $5,500 strikes. Simultaneously the long-gamma window total expanded 60%, from +294.29 to +470.32, so dealer stabilization deepened even as the underlying rallied — realized range compressed while implied vol expanded, which is why the tape has trended rather than lurched. Max pain finally broke a four-day freeze at $6,500 and drifted -$200 to $6,300, but at 42% above spot it remains a legacy-OI artifact rather than a magnet, and the nominal $3,500 put wall and $8,000 call wall have not moved a single strike all week. The tradeable structure is entirely in the near-spot ladder, where the $4,500 shelf has become the week's decisive ceiling.",
   "what_changed": [
-    "Spot +$267.20 (+6.44%) in five sessions, $4,151.80 → $4,419.00, with only one down day",
-    "ATM IV expanded 21.36% → 22.60% (+1.24pp) — vol bid into strength rather than sold",
-    "Net window GEX grew +79.11 → +443.55 (5.6x) and stayed positive 5 of 5 sessions — dealer long-gamma dampening is deepening",
-    "Call OI built +1,495 at $5,000 and +699 at $4,800 — new supply stacked above spot, not at it",
-    "Max pain frozen at $6,500 all five sessions — 68% of call OI sits ≥$5,000, so the print carries no magnet value this cycle",
-    "Open interest totals unchanged from 2026-08-10 (190,744 / 64,829) while volume fell to 3,559 calls — the exchange OI file had not refreshed at scrape time"
+    "Spot ground +$136.0 (4,304.3 → 4,440.3, +3.2%) across five sessions with no material down-day",
+    "ATM IV expanded +1.69pp (21.36% → 23.05%) while price rallied — call premium bid, not downside hedging",
+    "Long-gamma window total swelled +60% (+294.29 → +470.32), deepening dealer dampening into the rally",
+    "Max pain broke a four-day $6,500 freeze, drifting -$200 to $6,300 — still 42% above spot and non-binding",
+    "Call volume ran 2.8:1 over puts (4,470 vs 1,611), concentrated at upside $4,700 / $5,200 / $5,500 strikes",
+    "Put wall $3,500 and call wall $8,000 unchanged all five sessions — no migration in the structural bookends"
   ],
-  "prediction": "Bias moderately bullish while $4,356 (spot −1σ) holds, but the +443.55 long-gamma surface argues for grind rather than thrust — expect mean reversion inside the $4,356–$4,482 band over trend extension. The $4,500/$4,510 call wall, 14,751 contracts combined, is the level that matters: dealers hedging long gamma sell into it, so a first touch should cap. A sustained hourly close above $4,510 breaks that ceiling and opens $4,600; loss of $4,300 voids the bullish structure.",
+  "prediction": "Bias constructive above $4,400, with the path of least resistance a continued grind into the $4,500–$4,510 call shelf, where 14,604 contracts of call OI should cap the first attempt. Long dealer gamma (+274 near spot) argues for a contained 1σ $64.5 range and mean-reversion rather than trend acceleration, so fade extensions beyond $4,505 until the shelf is cleared on volume. Loss of $4,375 invalidates the constructive read and opens the $4,300 put wall (2,351 contracts).",
   "day_trade_cta": {
-    "bias": "Cautious Bull",
-    "bias_note": "5-day trend +6.44% intact and vol bid. Flips neutral below $4,356, bearish below $4,300.",
-    "entry_zone": "$4,355–$4,395",
-    "entry_note": "Buy dips into the −1σ shelf rather than chasing strength; long-gamma dealers buy weakness, so pullbacks stay shallow and mean-reverting.",
+    "bias": "Constructive, Range-Capped",
+    "bias_note": "Spot $4,440.3 pressing a $4,500/$4,510 call shelf. Constructive above $4,400; flips neutral-to-bearish below $4,375.",
+    "entry_zone": "$4,395–$4,440",
+    "entry_note": "Buy pullbacks into the $4,400 call-OI ledge (1,875 contracts) rather than chasing into the shelf. Long gamma favors fading dips, not breakouts.",
     "pivot": "$4,500",
-    "pivot_note": "9,728-contract call wall. First touch expected to cap. Sustained trade above $4,510 opens $4,600; rejection returns price toward $4,400.",
-    "stop": "$4,295",
-    "stop_note": "−1.8% from entry midpoint, below the $4,300 put shelf (2,344 OI). Beneath it the next real bid is $4,000 (3,116 OI).",
-    "targets": [
-      "$4,500",
-      "$4,600"
-    ],
-    "target_note": "T1 is the $4,500 call wall — take 60% off into it. T2 $4,600 (4,649 call OI) only on a confirmed break of $4,510.",
-    "risk_label": "LONG GAMMA — RANGE",
-    "risk_note": "Net GEX +443.55 and rising, positive 5/5 sessions. Expect suppressed realized vol and a 1σ ≈ $62.91 (1.42%) daily range. Fade extremes; size normal."
+    "pivot_note": "The decisive level. Sustained acceptance above $4,510 clears the gamma flip and opens $4,600 then $4,700. Rejection here returns price to $4,375–$4,400.",
+    "stop": "$4,370",
+    "stop_note": "−1.1% from entry midpoint, just under the $4,375 invalidation. Below it the $4,325–$4,300 put cluster (3,207 contracts) is the next magnet.",
+    "targets": ["$4,500", "$4,600"],
+    "target_note": "T1 is the 9,581-contract call wall — take 60% off, it will not break on the first touch. T2 $4,600 (4,622 calls) only on a confirmed close through $4,510.",
+    "risk_label": "LOW VOL REGIME — PINNED",
+    "risk_note": "Net GEX +274 near spot and +470.32 across the window. Expect a contained 1.0–1.5% session range; size up modestly on mean-reversion, avoid breakout entries."
   }
 }
