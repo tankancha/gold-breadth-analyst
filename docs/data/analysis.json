@@ -1,30 +1,30 @@
 {
-  "generated_at": "2026-08-14T07:46:35+07:00",
+  "generated_at": "2026-08-17T07:14:23+07:00",
   "symbol": "GCM26",
-  "spot_at_analysis": 4419.8,
-  "today_summary": "GCM26 marked $4,419.80, down $46.90 (-1.05%) — the first lower session in five — with ATM IV easing to 23.22% and a 1σ daily band of $64.65 (1.46%). The chain stays structurally call-heavy at 193,417 call OI against 66,542 put OI (P/C 0.34), but today's flow turned defensive: put volume rose to 1,959 while call volume fell to 4,880, lifting the P/C volume ratio to 0.40 from 0.26. Windowed max pain sits at $4,325, $95 below spot, and 14,470 contracts of call OI stacked at $4,500/$4,510 cap the upside — the headline $6,250 max pain is a legacy artifact of far-OTM call OI and is not tradable. Net GEX within ±$200 of spot is +278, leaving dealers long gamma and the tape compressed.",
-  "five_day_thesis": "Five sessions delivered a round trip, not a trend: spot ground from $4,399 to $4,466.70 across four consecutive up days, then surrendered $46.90 today to close the window at $4,419.80 — a net gain of just $20.80 (+0.47%). The tell is that ATM IV added 0.62pp (22.60% → 23.22%) while price went essentially nowhere, meaning the vol bid was paid for protection rather than direction. Dealer positioning explains the compression: near-spot net GEX expanded from +210 to +278, peaking at +284 on 08-13, deepening the long-gamma pocket that has smothered every attempted breakout. Structure has been extraordinarily static — windowed max pain has printed exactly $4,325 and the gamma flip exactly $4,510 in all five sessions, a $185 corridor spot has never escaped. The one genuine migration was the in-window call wall rolling $4,500 → $5,500 on 08-11 with OI there building 12,774 → 13,455, but that higher ceiling only matters once price clears the $4,500/$4,510 gamma block, which remains unbroken.",
+  "spot_at_analysis": 4436.6,
+  "today_summary": "GCM26 opens the week at $4,436.60, +$16.80 (+0.38%) on Friday, with ATM IV collapsing 1.33pp to 21.89% — the lowest reading of the five-day window — and the 1σ daily band tightening to $61.18 (1.38%). Total volume of 4,717 contracts is the thinnest session of the window, down 31% from Friday's 6,839, so today's tape is a liquidity vacuum rather than a directional statement. The tradable max pain — computed on the ±25% strike window, excluding the 88,465 far-OTM calls stacked at $6,000 and above that produce the untradable $6,200 headline — sits at $4,695, $258 above spot, a mild upward pull. That pull is gated: 14,461 contracts of call OI at $4,500/$4,510 supply +187 of the +279 net GEX inside ±$200 of spot, and stand directly between price and the max-pain basin.",
+  "five_day_thesis": "Five sessions produced almost no structural change: spot netted +$17.60 (+0.40%) from $4,419 to $4,436.60, the gamma flip printed $4,510 in all five sessions, the $3,500 put wall held all five, and windowed max pain drifted just $30 ($4,665 → $4,695). Net GEX within ±$200 of spot never left the +274 to +284 band, so dealers have been continuously long gamma and the long-gamma pocket that has capped every rally attempt is exactly as deep today as it was on 08-11. The one genuine regime change is in volatility, and it arrived today: ATM IV had built to 23.39% by 08-13, then gave back 1.50pp to 21.89%, dragging the 1σ band from $65.81 to $61.18 while volume decayed from a 7,659-contract peak on 08-13 to 4,717 today. Positioning migrated up, not down — $5,500 call OI added 676 contracts (12,774 → 13,450), $4,600 added 530 (4,649 → 5,179), while the $4,500 block bled 294 — which is why max pain sits above spot rather than below it. The lone counterweight is a persistent downside hedge bid at $4,000, where put OI grew 235 contracts across the window and absorbed today's single largest print of 306 contracts.",
   "what_changed": [
-    "Spot direction reversed — first down session in five, -$46.90 (-1.05%) to $4,419.80, ending a four-day grind higher.",
-    "Put/call volume ratio jumped 0.26 → 0.40 as put volume rose to 1,959 and call volume fell to 4,880.",
-    "ATM IV gained 0.62pp across the window (22.60% → 23.22%) while spot netted only +0.47% — a protection bid, not a directional one.",
-    "Near-spot net GEX built from +210 to +278, deepening the long-gamma pocket that suppresses realized range.",
-    "Call wall migrated $4,500 → $5,500 on 08-11, with open interest there rising 12,774 → 13,455 contracts.",
-    "Downside hedging concentrated at $4,100 (449 puts) and $4,325 (189 puts) — the heaviest put prints of the five-day window."
+    "ATM IV broke down 1.33pp to 21.89%, the window's low, cutting the 1σ daily band from $65.81 at the 08-13 peak to $61.18.",
+    "Total volume fell to 4,717 contracts, down 31% from Friday and the thinnest session of the five — conviction is absent, not bearish.",
+    "$4,600 call OI built 4,649 → 5,179 (+530) and $5,500 built 12,774 → 13,450 (+676), pulling windowed max pain to $4,695, above spot.",
+    "$4,500 call OI decayed 9,728 → 9,434 (-294), the only meaningful erosion in the near-spot ceiling.",
+    "$4,000 put OI grew 3,116 → 3,351 (+235) and took today's largest single print at 306 contracts — the standing downside hedge.",
+    "Gamma flip $4,510, put wall $3,500, and net GEX (+274 to +284) were unchanged in all five sessions — the structure has not moved."
   ],
-  "prediction": "Bias mildly bearish while spot holds below the $4,510 gamma flip, with the path of least resistance a drift toward windowed max pain at $4,325. Positive dealer gamma (+278) argues for compression rather than trend — expect the $64.65 1σ band to contain the session and rallies to be sold. A sustained trade above $4,510 invalidates the short lean and opens $4,600 (5,125 call OI); below $4,300 net GEX turns negative and the stabilizing bid disappears.",
+  "prediction": "Bias neutral-to-mildly-bullish: windowed max pain at $4,695 pulls $258 higher, but the $4,500/$4,510 call block holds +187 of net GEX and will absorb the first approach. Expect the $61.18 1σ band to contain the session with rallies stalling into $4,500 and dips bought above $4,375 — compressed IV plus record-thin volume argues for a coiling range, not a trend day. A sustained trade above $4,510 unlocks $4,600 (5,179 call OI) and validates the upside pull; below $4,375 the positive gamma nodes at $4,400 and $4,350 are lost and price opens to the $4,300 put shelf (2,323 contracts).",
   "day_trade_cta": {
-    "bias": "Mild Bear — Max-Pain Drift",
-    "bias_note": "Spot $4,419.80 sits $95 above windowed max pain $4,325 and $90 below the $4,510 gamma flip. Bias flips bullish on a sustained hold above $4,510.",
-    "entry_zone": "$4,440–$4,470",
-    "entry_note": "Sell failed rallies into the $4,500/$4,510 call block (14,470 combined OI). Do not chase weakness below $4,400 — long dealer gamma mutes downside follow-through.",
+    "bias": "Neutral-Bull — Gamma-Gated",
+    "bias_note": "Windowed max pain $4,695 sits $258 above spot $4,436.60, but the $4,510 gamma flip gates the path. Bias turns bearish only below $4,375.",
+    "entry_zone": "$4,400–$4,440",
+    "entry_note": "Buy dips into the $4,400 gamma node (+15.2) with spot holding above $4,375. Do not chase strength into $4,500 — 14,461 contracts of call OI there will absorb the first test.",
     "pivot": "$4,510",
-    "pivot_note": "Gamma flip strike, unchanged all five sessions. Above it dealers stop suppressing rallies and $4,600 opens; below it the pin toward $4,325 stays intact.",
-    "stop": "$4,515",
-    "stop_note": "+1.35% from the $4,455 entry midpoint, placed just above the gamma flip. A sustained trade through $4,510 is a regime change, not noise.",
-    "targets": ["$4,360", "$4,325"],
-    "target_note": "T1 $4,360 — top of the max-pain shelf, take 50% off. T2 $4,325 — windowed max pain and the strike where net GEX turns negative; exit the remainder.",
-    "risk_label": "PINNED / LOW-VOL REGIME",
-    "risk_note": "Net GEX of +278 within ±$200 of spot compresses realized range; 1σ daily is $64.65 (1.46%). Size for a chop tape — expect fades, not trends."
+    "pivot_note": "Gamma flip, unchanged in all five sessions. Above it dealer suppression lifts and the $4,695 max-pain basin opens; below it price stays pinned in the $4,375–$4,500 corridor.",
+    "stop": "$4,375",
+    "stop_note": "−1.02% from the $4,420 entry midpoint. Below $4,375 the positive gamma nodes at $4,400 and $4,350 are lost and the negative pockets at $4,325 and $4,300 activate.",
+    "targets": ["$4,500", "$4,600"],
+    "target_note": "T1 $4,500 — the call wall and gamma block, take 50% off into it. T2 $4,600 — 5,179 call OI, valid only on a sustained break of the $4,510 pivot.",
+    "risk_label": "PINNED / VOL-COMPRESSED",
+    "risk_note": "Net GEX +279 within ±$200 of spot with IV at a window-low 21.89% and volume at 4,717. Expect a $61 range and fades at the edges — size for chop, not for a breakout."
   }
 }
