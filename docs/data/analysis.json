@@ -1,33 +1,51 @@
 {
-  "generated_at": "2026-08-24T07:11:08+07:00",
+  "generated_at": "2026-08-25T07:09:12+07:00",
   "symbol": "GCM26",
-  "spot_at_analysis": 4679.5,
-  "today_summary": "GCM26 marked $4,679.50, +$109.00 (+2.38%) from Friday's $4,570.50 and a new high for the 5-day window. Flow was violently one-sided: 20,417 call contracts against 5,612 puts (3.64:1), the heaviest call tape of the window and roughly 4x the 5,238 printed on 2026-08-18. ATM IV lifted to 24.77% even as price rallied, a call-demand vol bid rather than a hedging bid. Net GEX within +/-$200 of spot is +500.2, so dealers sit long gamma and are selling strength / buying weakness into the close.",
-  "five_day_thesis": "Spot has added $206.50 (+4.62%) in five sessions, from $4,473.00 on 2026-08-18 through a single $4,420.00 dip on 08-19 to $4,679.50 today, and the option chain has been chasing rather than leading it. The tell is IV expanding +2.88pp (21.89% -> 24.77%) into a rally: premium is being bid for upside convexity, not downside protection, which is confirmed by the 5-day OI build concentrating in calls at $4,800 (+1,758), $4,500 (+1,578) and $5,500 (+1,019) against a lone defensive put build of +868 at $4,200. Max pain finally drifted $6,200 -> $6,000 (-$200), its first move in five sessions, but at $1,320 above spot it remains a structural artifact of legacy call OI rather than a tradeable magnet - the pain function still declines monotonically across the entire +/-$400 window, so the mechanical pull stays upward. The long-gamma cushion thickened materially, window net GEX +511.18 -> +879.78 (+72%), which explains why the advance has been a grind rather than an impulse. P/C OI is effectively frozen at 0.35-0.36 all week: this is a call-owned chain, and nothing in five sessions has challenged that.",
+  "spot_at_analysis": 4697.1,
+  "today_summary": "GCM26 marks $4,697.1, a fifth consecutive higher session and +$17.6 on the day. The chain is structurally call-dominated at P/C OI 0.36 (201,914 calls vs 73,621 puts), with net GEX of +503 within ±$200 of spot — dealers are deeply long gamma and actively suppressing realized vol. Max pain sits at $6,000, $1,303 above spot, so it is an artifact of the 27,048-contract $8,000 call book rather than a usable magnet. The 1σ daily move on 24.77% ATM IV is $73.3 (1.56%).",
+  "five_day_thesis": "Spot has advanced $277.1 (+6.3%) in five straight sessions from $4,420 with no down day, and the notable feature is that ATM IV expanded alongside it, 22.51% → 24.77% (+2.26pp) — spot-up/vol-up is chase behavior, not a healthy grind. The gamma flip has been pinned at $4,510 for four consecutive sessions while spot climbed, widening the long-gamma cushion from +$34 on 2026-08-20 to +$187 today; near-spot net GEX nearly doubled over the window, 271.6 → 503.1. That combination is the whole thesis: dealers are longer gamma the higher price goes, which caps upside velocity and explains why a 6.3% rally has arrived in $20–$110 increments rather than a gap. Max pain repriced down once, $6,200 → $6,000 on 2026-08-24, the only structural adjustment in the window — writers rolled the far call book lower rather than defending it. The put book has not moved with spot at all: the heaviest put OI still sits at $3,900–$4,000, roughly 15% below market, which means the downside hedge is crash insurance, not a proximate floor.",
   "what_changed": [
-    "Call OI at $4,800 built +1,758 (3,972 -> 5,730), the window's largest single strike build and now the nearest real supply shelf above spot.",
-    "ATM IV expanded +2.88pp (21.89% -> 24.77%) alongside a +4.62% rally - upside convexity demand, not fear.",
-    "Max pain drifted $6,200 -> $6,000 (-$200), its first move in five sessions, still $1,320 above spot.",
-    "Call volume hit 20,417 vs 5,612 puts (3.64:1), roughly 4x the 5,238 calls printed on 2026-08-18.",
-    "Window net GEX deepened +511.18 -> +879.78 (+72%), thickening the long-gamma cushion that is damping realized vol.",
-    "Put OI at $4,200 added +868, the only meaningful downside build all week and 10.2% below spot - hedges are distant, not defensive."
+    "Spot +$277.1 (+6.3%) over 5 sessions, 4,420 → 4,697, with zero down days",
+    "ATM IV expanded 22.51% → 24.77% (+2.26pp) into a rally — call-chasing, not vol crush",
+    "Near-spot net GEX (±$200) nearly doubled, 271.6 → 503.1 — dealer long-gamma deepening",
+    "Gamma flip static at $4,510 for 4 sessions while spot rose — cushion widened $34 → $187",
+    "Max pain repriced $6,200 → $6,000 on 2026-08-24 — far call book rolled down, not defended",
+    "Today's flow is barbelled: calls bought at $5,500 (725) / $5,300 (349), puts at $3,950 (554) / $3,600 (501)"
   ],
-  "prediction": "Bias bullish while $4,600 holds, with the caveat that long dealer gamma (+500.2 net within +/-$200) caps impulse and favors a grind: 1-sigma daily is $73.02 (1.56%), so a $4,750 print is a full standard deviation of work. Path of least resistance runs $4,700 (3,888 call OI) then the $4,800 wall (5,730 call OI), where the week's heaviest build will meet supply. Invalidation is $4,510 - cumulative GEX turns decisively positive there on the back of the 11,012-contract $4,500 call wall, and losing it thins the gamma cushion and opens $4,500 then $4,400.",
-  "day_trade_cta": {
-    "bias": "Bullish - Gamma Damped",
-    "bias_note": "Spot $4,679.50 with 3.64:1 call flow and +500.2 net GEX. Long-gamma dealers mute impulse moves - trade the grind, not the breakout. Bias flips neutral below $4,600.",
-    "entry_zone": "$4,630-$4,680",
-    "entry_note": "Buy pullbacks into the $4,650 shelf (1,027 calls traded there today). Long-gamma dealers buy weakness, so dips inside this band should be shallow and fast.",
-    "pivot": "$4,700",
-    "pivot_note": "3,888 call OI. Sustained trade above opens $4,750 then the $4,800 wall. Sustained trade below returns price to the $4,600 shelf (4,827 call OI).",
-    "stop": "$4,595",
-    "stop_note": "-1.4% from entry midpoint, just under the $4,600 gamma shelf. Below it the next real bid is the $4,500 wall.",
-    "targets": [
-      "$4,750",
-      "$4,800"
+  "prediction": "Bias constructive but range-bound above $4,510. With net GEX +503 near spot, the path of least resistance is a grinding advance into the $4,800 call shelf (5,730 OI, +80.2 GEX) rather than an impulse move, and each 1σ day is worth only $73. The bias fails below $4,510 — that is the gamma flip, and beneath it dealer hedging reverses to vol-amplifying with no meaningful put OI until $4,300 (2,571) and the real wall at $3,900 (3,799).",
+  "levels": {
+    "spot": 4697.1,
+    "max_pain": 6000,
+    "gamma_flip": 4510,
+    "net_gex_near_spot": 503.1,
+    "one_sigma_daily": 73.3,
+    "one_sigma_pct": 1.56,
+    "atm_iv": 24.77,
+    "pc_oi_ratio": 0.36,
+    "support_zones": [
+      { "strike": 4500, "put_oi": 1494, "call_oi": 11012, "net_gex": 131.4, "note": "Gamma shelf — largest single net GEX print near spot; flip at 4,510 sits on top" },
+      { "strike": 4300, "put_oi": 2571, "net_gex": -13.3, "note": "First real put concentration below the flip" },
+      { "strike": 3900, "put_oi": 3799, "net_gex": -16.9, "note": "Top put wall in window — crash hedge, 17% below spot" }
     ],
-    "target_note": "T1 $4,750 (2,879 call OI, ~1 sigma) - take 50% off. T2 $4,800 (5,730 call OI, the week's biggest build) - exit remaining into the wall.",
-    "risk_label": "DAMPED - LONG GAMMA",
-    "risk_note": "1-sigma daily $73.02 (1.56%) but +879.78 window GEX suppresses realized vol below that. Expect 1.0-1.5% range and size for chop, not trend."
+    "resistance_zones": [
+      { "strike": 4800, "call_oi": 5730, "net_gex": 80.2, "note": "Nearest heavy call shelf above spot" },
+      { "strike": 5000, "call_oi": 7992, "net_gex": 101.4, "note": "Round-number call concentration" },
+      { "strike": 5500, "call_oi": 14469, "net_gex": 105.4, "note": "Largest in-window call wall; drew today's heaviest call volume (725)" }
+    ],
+    "note": "Top-3 raw put-OI strikes ($3,900 / $4,000 / $3,950) all sit ~15% below spot, so proximate support is gamma-based at $4,500–$4,510, not put-wall based."
+  },
+  "day_trade_cta": {
+    "bias": "Constructive — Grind",
+    "bias_note": "Five-session uptrend intact with dealers long gamma (+503 near spot). Bias holds above the $4,510 gamma flip; below it the regime inverts to vol-amplifying.",
+    "entry_zone": "$4,650–$4,700",
+    "entry_note": "Buy pullbacks into the $4,650 (1,277 call OI) / $4,700 (3,875 call OI) gamma shelf. Long gamma means dips get absorbed — fade weakness rather than chase strength.",
+    "pivot": "$4,700",
+    "pivot_note": "Today's most-traded near-money call strike (267 contracts, +49.7 GEX). Sustained trade above opens $4,800 then $4,900. Sustained trade below returns price to the $4,600 shelf (4,827 call OI).",
+    "stop": "$4,600",
+    "stop_note": "−1.6% from entry midpoint $4,675, beneath the $4,600 call shelf. A break there puts the $4,510 flip in play with no put support behind it.",
+    "targets": ["$4,800", "$4,900"],
+    "target_note": "T1 $4,800 (5,730 call OI, +80.2 GEX) — take 50% off; it is +2.2% from spot, roughly 1.4σ. T2 $4,900 (4,805 call OI, 328 contracts traded today) — exit remaining.",
+    "risk_label": "SUPPRESSED VOL — LONG GAMMA",
+    "risk_note": "Net GEX +503 within ±$200 of spot caps realized range near the $73 (1.56%) 1σ. Size for a grind, not a breakout, and do not pay up for premium at 24.77% IV — sell the wings rather than buy them."
   }
 }
