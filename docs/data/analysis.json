@@ -1,30 +1,30 @@
 {
-  "generated_at": "2026-08-26T07:12:00+07:00",
+  "generated_at": "2026-08-28T07:11:07+07:00",
   "symbol": "GCM26",
-  "spot_at_analysis": 4693.8,
-  "today_summary": "GCM26 marked $4,693.8, down $3.3 (-0.07%) and the third straight session inside a $17.6 band — 0.24σ of the $74.30 implied daily move. The chain is heavily call-skewed at P/C OI 0.37 (203,899 calls vs 74,819 puts), with today's flow concentrated in the $4,700 call (631 contracts, the single most active strike). Net GEX within ±$200 of spot is +490.5, so dealers sit long gamma and are actively dampening range. Nearest structural resistance is $4,700 (3,733 call OI) then $4,750 (2,867) and $4,800 (5,483); the first real put shelf below is $4,500 (1,593 put OI).",
-  "five_day_thesis": "The five-day tape is a completed advance that has stopped advancing: spot is +$149.4 (+3.29%) from $4,544.4 on 08-20, but the entire gain was booked by 08-24 and the last three sessions have travelled a net $14.3. The tell is that ATM IV rose 22.0% → 25.13% (+3.13pp) straight into that flat tape — implied vol is being bid while realized vol collapses, which is a rich-premium condition, not a breakout condition. Dealer positioning corroborates it: net GEX in the ±20% window climbed 598.9 → 899.4 (+50%) across the week and stayed positive all five days, so the pinning force is materially stronger now than when the rally started. Participation is draining at the same time — call volume fell 20,417 (08-24) → 6,897 and put volume 5,612 → 2,557, a two-thirds drop in three sessions. Max pain drifted down $6,200 → $6,000 on 08-24 and has not moved since, while the put wall ($3,500) and call wall ($8,000) have been frozen for all five sessions: the extremes of the book are static and all the action is a narrowing coil around $4,700.",
+  "spot_at_analysis": 4652.6,
+  "today_summary": "GCM26 marked $4,652.6, down $41.2 (-0.88%) — the first clean down session of the week and 0.57σ against the $72.10 implied daily move. The notable change is beneath the headline P/C OI of 0.37: inside the ±25% strike window put OI jumped 56,434 → 64,174 (+7,740, +13.7%) in a single session while calls added only 1,890, lifting window P/C from 0.495 to 0.554. Net GEX within ±$200 of spot is +494.8 and effectively unchanged on the week, so dealers remain long gamma and the pin is intact. First shelf below is $4,600 (4,793 call OI), then the $4,500/$4,510 block holding a combined 16,002 call contracts — the structural floor and the gamma flip.",
+  "five_day_thesis": "The five-day picture has turned from accumulation into distribution without breaking structure: spot is +$82.1 (+1.80%) from $4,570.5 on 08-21, but it peaked at $4,697.1 on 08-25 and has given back $44.5 over the two sessions since. What actually changed this week is the hedging mix. Window P/C OI compressed 0.570 → 0.494 through 08-25 as buyers chased calls, then reversed hard to 0.554 on 08-27 — the entire swing came from a downside ladder built in one session at $4,550 (+273 puts), $4,300 (+222), $4,200 (+229) and $4,400 (+153). Implied vol did not confirm the fear: ATM IV is +1.45pp on the week (23.15% → 24.60%) but fell 0.53pp on the down day itself, which reads as orderly de-risking rather than a bid for protection. Participation continues to drain — call volume 12,610 → 20,417 → 7,438 → 6,897 → 4,888 and put volume 3,651 → 2,108 — so the put build is positioning, not flow. Through all of it the gamma flip has not moved off $4,510 for five straight sessions and net GEX at spot has held between +401.9 and +503.1, meaning the dealer regime that pinned the tape last week is still the one governing it now.",
   "what_changed": [
-    "ATM IV expanded 22.0% → 25.13% (+3.13pp) while spot moved a net $14.3 over the last three sessions — implied rising into collapsing realized",
-    "Net GEX strengthened 598.9 → 899.4 (+50%) and held positive all 5 days — long-gamma pinning is tightening, not loosening",
-    "Call volume collapsed 20,417 → 6,897 and put volume 5,612 → 2,557 since 08-24 — participation down two-thirds",
-    "Max pain drifted $6,200 → $6,000 (-$200) on 08-24 and has been static since — skew still points up but the pull stopped moving",
-    "Call OI added 8,260 contracts (195,639 → 203,899) vs 5,874 puts — P/C OI edged 0.35 → 0.37, still deeply call-heavy",
-    "Gamma flip drifted $3,640 → $3,760 (+$120), leaving spot $934 above it — no realistic path into short-gamma territory this week"
+    "Window put OI added 7,740 contracts (56,434 → 64,174, +13.7%) in one session vs 1,890 calls — the first genuine downside hedge of the week",
+    "Window P/C OI reversed 0.495 → 0.554 after four sessions of compression from 0.570 — call-chasing stopped on 08-27",
+    "Spot rolled over $4,697.1 (08-25) → $4,652.6, surrendering $44.5 of a $126.6 five-day advance",
+    "ATM IV fell 25.13% → 24.60% (-0.53pp) on a down day — de-risking, not a protection bid; still +1.45pp on the week",
+    "Call volume drained 20,417 (08-24) → 4,888, a 76% collapse, with today's activity concentrated in far-OTM $5,500 (1,312) and $6,000 (599) lottery strikes",
+    "Gamma flip unmoved at $4,510 for all 5 sessions while near-spot call OI rebuilt closer in — $5,200 +875, $5,000 +531, $4,800 +506, $5,500 -893"
   ],
-  "prediction": "Base case is continued compression around the $4,700 call pin: +490.5 net GEX at spot, a three-day realized range of $17.6 against a $74.30 1σ, and evaporating volume all argue for mean-reversion inside $4,620–$4,760 rather than a directional leg. Bias stays mildly constructive — OI keeps accumulating on the call side and the $4,600 shelf (4,813 call OI vs 956 put OI) is thin on downside protection — but the thesis is invalidated on a sustained close below $4,600, which opens an air pocket to the $4,500 put shelf. Treat max pain $6,000 as directional skew from legacy far-OTM call OI (17,518 at $6,000, 27,036 at $8,000), not as a reachable target.",
+  "prediction": "Base case remains a pinned, slowly decaying range: +494.8 net GEX at spot, a five-session IV that has outrun realized movement, and 4,888 contracts of call volume are not the ingredients of a directional leg. The new put ladder tilts the near-term bias mildly lower toward the $4,600 shelf, but downside is structurally capped at $4,500/$4,510 where 16,002 call contracts sit long-gamma; only a sustained break below $4,510 turns cumulative GEX negative and opens the thin corridor to $4,300 (2,618 put OI). The bullish case needs a reclaim of $4,700 (3,749 call OI) on volume that has been absent all week. Treat max pain $6,000 as skew from legacy far-OTM call OI (18,112 at $6,000, 27,026 at $8,000), not a reachable target.",
   "day_trade_cta": {
-    "bias": "Neutral-Bullish / Pinned",
-    "bias_note": "Long-gamma dealers (+490.5 GEX) anchor price to the $4,700 call concentration. Bias flips bearish on a sustained break of $4,600.",
-    "entry_zone": "$4,650–$4,700",
-    "entry_note": "Fade dips into the lower half of the coil; the $4,700 strike drew 631 call contracts today and acts as the magnet.",
-    "pivot": "$4,700",
-    "pivot_note": "Sustained trade above → $4,750 then the $4,800 call wall (5,483 OI). Sustained trade below → drift to $4,650, then $4,600 decides the week.",
-    "stop": "$4,600",
-    "stop_note": "-1.6% from entry midpoint, roughly 1σ. Below it there is almost no put OI until $4,500 (1,593) — the move accelerates.",
-    "targets": ["$4,750", "$4,800"],
-    "target_note": "T1 $4,750 (2,867 call OI) — take 50% off. T2 $4,800 call wall (5,483 OI) — exit remaining; upside beyond needs volume that is not present.",
-    "risk_label": "PINNED / RICH PREMIUM",
-    "risk_note": "IV 25.13% implies $74.30 daily; three-day realized is $17.6. Options are expensive relative to delivered movement — favor premium selling over long gamma, and size directional trades small."
+    "bias": "Neutral / Range-Bound, Mild Downside Tilt",
+    "bias_note": "Dealers long gamma (+494.8) keep the tape pinned, but the one-day +7,740 put build tilts the near-term drift toward the $4,600 shelf. Bias turns genuinely bearish only below $4,510.",
+    "entry_zone": "$4,590–$4,625",
+    "entry_note": "Fade weakness into the $4,600 shelf (4,793 call OI). Do not chase strength — $4,700 has capped every attempt since 08-25.",
+    "pivot": "$4,652",
+    "pivot_note": "Sustained trade above → retest $4,700, then $4,750. Sustained trade below → drift to $4,600, where the $4,500/$4,510 gamma block decides the week.",
+    "stop": "$4,540",
+    "stop_note": "-1.5% from entry midpoint, roughly 0.9σ. Sits above the $4,510 flip; below that level cumulative GEX turns negative and the move accelerates.",
+    "targets": ["$4,700", "$4,750"],
+    "target_note": "T1 $4,700 (3,749 call OI) — take 50% off, it has rejected twice this week. T2 $4,750 (2,833 call OI) — exit remaining; the $4,800 wall (5,989 OI, +1,212 on the week) is out of reach on current volume.",
+    "risk_label": "PINNED / THINNING LIQUIDITY",
+    "risk_note": "IV 24.60% implies a $72.10 daily move; the tape delivered $41.2. Options remain rich to realized — favor premium selling inside $4,510–$4,750 and cut directional size, because 4,888 call contracts of volume means slippage on any move that does start."
   }
 }
