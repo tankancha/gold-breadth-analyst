@@ -1,27 +1,7 @@
 {
-  "generated_at": "2026-09-03T01:31:15.717210+00:00",
+  "generated_at": "2026-09-04T01:24:12.005983+00:00",
   "window_days": 5,
   "days": [
-    {
-      "date": "2026-08-28",
-      "spot": 4663.1,
-      "max_pain": 6000,
-      "pc_oi_ratio": 0.37,
-      "atm_iv": 24.55,
-      "total_call_oi": 206271,
-      "total_put_oi": 76945,
-      "total_call_vol": 8968,
-      "total_put_vol": 1060,
-      "put_wall": 3500,
-      "put_wall_oi": 5728,
-      "call_wall": 8000,
-      "call_wall_oi": 27025,
-      "gex_sign": "positive",
-      "gex_total_window": 854.84,
-      "gex_flip_strike": 3735,
-      "scraped_at": "2026-08-28T07:07:17.441219+00:00",
-      "symbol": "GCM26"
-    },
     {
       "date": "2026-08-31",
       "spot": 4529.3,
@@ -101,13 +81,33 @@
       "gex_flip_strike": 3540,
       "scraped_at": "2026-09-03T01:31:15.128150+00:00",
       "symbol": "GCM26"
+    },
+    {
+      "date": "2026-09-04",
+      "spot": 4539.2,
+      "max_pain": 5685,
+      "pc_oi_ratio": 0.39,
+      "atm_iv": 23.02,
+      "total_call_oi": 201965,
+      "total_put_oi": 79398,
+      "total_call_vol": 14671,
+      "total_put_vol": 6614,
+      "put_wall": 3500,
+      "put_wall_oi": 5732,
+      "call_wall": 6000,
+      "call_wall_oi": 18809,
+      "gex_sign": "positive",
+      "gex_total_window": 711.7,
+      "gex_flip_strike": 3640,
+      "scraped_at": "2026-09-04T01:24:11.532530+00:00",
+      "symbol": "GCM26"
     }
   ],
   "deltas": {
-    "spot_change": -249.0,
-    "max_pain_drift": -310,
-    "iv_change_pp": -1.82,
-    "pc_oi_change": 0.02,
+    "spot_change": 9.9,
+    "max_pain_drift": -265,
+    "iv_change_pp": -0.9,
+    "pc_oi_change": 0.0,
     "put_wall_migration": [
       3500,
       3500,
@@ -118,23 +118,23 @@
     "call_wall_migration": [
       8000,
       8000,
-      8000,
+      6000,
       6000,
       6000
     ],
     "max_pain_path": [
-      6000,
       5950,
       5900,
       5650,
-      5690
+      5690,
+      5685
     ],
     "spot_path": [
-      4663.1,
       4529.3,
       4481.0,
       4396.0,
-      4414.1
+      4414.1,
+      4539.2
     ]
   }
 }
