@@ -1,27 +1,7 @@
 {
-  "generated_at": "2026-09-07T01:19:07.971609+00:00",
+  "generated_at": "2026-09-08T01:26:11.531034+00:00",
   "window_days": 5,
   "days": [
-    {
-      "date": "2026-09-01",
-      "spot": 4481.0,
-      "max_pain": 5900,
-      "pc_oi_ratio": 0.39,
-      "atm_iv": 22.69,
-      "total_call_oi": 198255,
-      "total_put_oi": 77861,
-      "total_call_vol": 8376,
-      "total_put_vol": 4103,
-      "put_wall": 3500,
-      "put_wall_oi": 5735,
-      "call_wall": 8000,
-      "call_wall_oi": 21013,
-      "gex_sign": "positive",
-      "gex_total_window": 543.26,
-      "gex_flip_strike": 3585,
-      "scraped_at": "2026-09-01T02:05:39.606640+00:00",
-      "symbol": "GCM26"
-    },
     {
       "date": "2026-09-02",
       "spot": 4396.0,
@@ -101,13 +81,33 @@
       "gex_flip_strike": 3585,
       "scraped_at": "2026-09-07T01:19:07.550730+00:00",
       "symbol": "GCM26"
+    },
+    {
+      "date": "2026-09-08",
+      "spot": 4476.0,
+      "max_pain": 5650,
+      "pc_oi_ratio": 0.4,
+      "atm_iv": 23.69,
+      "total_call_oi": 201767,
+      "total_put_oi": 79770,
+      "total_call_vol": 4762,
+      "total_put_vol": 1301,
+      "put_wall": 3500,
+      "put_wall_oi": 5732,
+      "call_wall": 6000,
+      "call_wall_oi": 18802,
+      "gex_sign": "positive",
+      "gex_total_window": 601.32,
+      "gex_flip_strike": 3585,
+      "scraped_at": "2026-09-08T01:26:11.108117+00:00",
+      "symbol": "GCM26"
     }
   ],
   "deltas": {
-    "spot_change": -4.9,
-    "max_pain_drift": -250,
+    "spot_change": 80.0,
+    "max_pain_drift": 0,
     "iv_change_pp": 1.0,
-    "pc_oi_change": 0.01,
+    "pc_oi_change": 0.0,
     "put_wall_migration": [
       3500,
       3500,
@@ -116,25 +116,25 @@
       3500
     ],
     "call_wall_migration": [
-      8000,
+      6000,
       6000,
       6000,
       6000,
       6000
     ],
     "max_pain_path": [
-      5900,
       5650,
       5690,
       5685,
+      5650,
       5650
     ],
     "spot_path": [
-      4481.0,
       4396.0,
       4414.1,
       4539.2,
-      4476.1
+      4476.1,
+      4476.0
     ]
   }
 }
