@@ -1,30 +1,30 @@
 {
-  "generated_at": "2026-09-08T07:15:00+07:00",
+  "generated_at": "2026-09-09T07:12:00+07:00",
   "symbol": "GCM26",
-  "spot_at_analysis": 4476.1,
-  "today_summary": "GCM26 marked $4,476 on the 2026-09-07 snapshot, −$63 (−1.39%) from Friday's $4,539, finishing pinned $24 beneath the $4,500 call wall — 11,108 contracts, the largest live-strike concentration in the chain. ATM IV lifted to 23.69%, a 5-session high, putting the 1σ daily move at $66.80 (1.49%). The chain stays structurally call-heavy at 0.40 P/C OI (201,767 calls vs 79,770 puts), but that skew is legacy far-OTM inventory: the $5,500 line alone holds 12,715 calls and drags reported max pain to $5,650, 26% above spot and non-operative as a magnet. Session volume was the week's thinnest at 7,208 calls / 3,334 puts.",
-  "five_day_thesis": "Spot has round-tripped to nowhere — $4,481 on 09-01 to $4,476 on 09-07, a net −$4.90 (−0.11%) that conceals a $143 swing through $4,396 and $4,539. What changed is the price of that chop: ATM IV climbed 22.69% → 23.69% (+1.0pp), so the market is paying more for the same net displacement and realized-versus-implied is deteriorating for premium buyers. Max pain compressed $5,900 → $5,650 (−$250) and the call wall collapsed $8,000 → $6,000 on 09-02 and has not moved in four sessions — far-dated upside inventory is being written down rather than rolled higher. Dealer gamma held positive all five days but the ±$200 window total oscillated 543 → 441 → 495 → 712 → 601, peaking on Friday's $4,539 rally and bleeding off on the retrace, so the stabilizing bid is thinning at the top of the range. The put wall has not left $3,500 (5,732 contracts) for the entire window, meaning there is no OI-defined floor anywhere near spot — the nearest real put support is $4,300 with just 3,315 contracts.",
+  "spot_at_analysis": 4476.0,
+  "today_summary": "No 2026-09-09 scrape has landed yet — the working chain is the 2026-09-08 snapshot, and its open interest is identical strike-for-strike to 09-07 (0 of 894 strikes changed), so these are carry-over levels rather than a fresh session. GCM26 marks $4,476 with ATM IV 23.69%, putting the 1σ daily move at $66.80 (1.49%) and the band at $4,409–$4,543. Combined volume collapsed to 6,063 contracts (4,762 calls / 1,301 puts), 72% below the 09-04 peak of 21,285 — the thinnest tape of the window by a wide margin. The $4,500 call wall still caps price $24 overhead with 11,108 contracts and +135.4 net GEX, the single largest pinning node in the chain.",
+  "five_day_thesis": "Spot is +$80.0 (+1.82%) over the window, $4,396 → $4,476, but the entire gain was banked by 09-04 at $4,539 and the three sessions since have handed back $63 and then gone flat. The structural frame has not moved at all: max pain pinned at $5,650 (path 5,650 / 5,690 / 5,685 / 5,650 / 5,650), the put wall welded to $3,500 (5,732 contracts) and the call wall to $6,000 for five straight days, P/C OI unchanged at 0.40. What has moved is the price of that stasis — ATM IV +1.0pp (22.69% → 23.69%) into a market that stopped trading, which is the wrong direction for anyone carrying long premium. Dealer gamma stayed positive all five days, peaking at 711.7 on the 09-04 rally and settling to 601.3 on the ±20% basis (+274.8 in the tight ±$200 window), so the stabilizing bid is intact but thinner than it was at the highs. The tell is participation: call volume fell 13,159 → 4,762 and put volume 6,177 → 1,301 across the window while OI froze outright — positioning is being abandoned rather than rolled, and the chain is carrying stale risk into whatever reprices it.",
   "what_changed": [
-    "ATM IV +1.0pp over 5 sessions (22.69% → 23.69%) against a −0.11% net spot move — vol repricing with no directional payoff.",
-    "Max pain −$250 ($5,900 → $5,650) as far-OTM call inventory is written down instead of rolled forward.",
-    "Call wall collapsed $8,000 → $6,000 on 09-02 and has held there four straight sessions.",
-    "Net GEX in the ±$200 window faded from Friday's 711.7 peak to 601.5 — thinning stabilization after the $4,539 high.",
-    "Put volume concentrated below spot at $4,150 (853) and $4,300 (414) — fresh downside hedging, not roll activity.",
-    "Gamma flip sits at $4,600, $124 above spot; cumulative net GEX is negative from $2,975 all the way through $4,595."
+    "Open interest unchanged on all 894 strikes between 09-07 and 09-08 — the chain is frozen, not rolling.",
+    "Combined volume 6,063 contracts, −72% from the 09-04 peak of 21,285 — thinnest tape of the 5-day window.",
+    "ATM IV +1.0pp (22.69% → 23.69%) while the last three sessions netted −$63 and then zero.",
+    "Max pain unmoved at $5,650 all five days — 26% above spot and non-operative as a magnet.",
+    "Put wall stuck at $3,500 (5,732) since 09-02 — no OI-defined floor within $176 of spot; nearest shelf is $4,300 (3,315).",
+    "Net GEX faded 711.7 → 601.3 off the 09-04 high; gamma flip holds at $4,600, $124 above spot."
   ],
-  "prediction": "Neutral-to-heavy while $4,500 caps. That strike carries 11,108 call OI and +135.4 net GEX — the single strongest pinning node in the chain — so rallies into it should be sold absent a volume expansion beyond Friday's 14,671 call prints. Bias turns constructive only above $4,545 (1σ), which opens the $4,600 gamma flip; below $4,400 cumulative gamma is short and the next OI shelf is not until $4,300.",
+  "prediction": "Neutral and pinned while $4,500 caps. That strike carries 11,108 call OI and +135.4 net GEX against a tape printing 6,063 contracts a session, so absent a genuine volume expansion the path of least resistance is continued compression inside the $4,409–$4,543 band. Constructive only on acceptance above $4,543 (1σ), which opens the $4,600 gamma flip; below $4,400 cumulative gamma turns short with no put OI shelf until $4,300, and the frozen chain means there is no fresh hedging bid to catch it.",
   "day_trade_cta": {
-    "bias": "Neutral — Pinned",
-    "bias_note": "Spot $4,476 caught between the $4,500 call wall above and short-gamma air below $4,400. 1σ band $4,409–$4,543.",
+    "bias": "Neutral — Pinned, Stale Chain",
+    "bias_note": "Spot $4,476 trapped between the $4,500 call wall above and short-gamma air below $4,400. Levels are carried over from the 09-08 snapshot — confirm against live tape before acting.",
     "entry_zone": "$4,415–$4,450",
-    "entry_note": "Fade the lower 1σ edge only while the $4,400 shelf holds. Light size — session volume is the week's thinnest.",
+    "entry_note": "Fade the lower 1σ edge only while $4,400 holds. Half size or less — volume is 72% off the window peak and OI has not updated in two sessions.",
     "pivot": "$4,500",
-    "pivot_note": "Sustained acceptance above → $4,545, then the $4,600 gamma flip. Rejection is the base case given +135.4 net GEX parked at the strike.",
+    "pivot_note": "Sustained acceptance above → $4,543, then the $4,600 gamma flip. Rejection is the base case given +135.4 net GEX parked on the strike and 11,108 call OI.",
     "stop": "$4,395",
-    "stop_note": "−0.9% from the entry midpoint. Below it cumulative GEX turns negative and there is no put OI shelf until $4,300.",
-    "targets": ["$4,500", "$4,545"],
-    "target_note": "T1 is the call wall — take 60% off into it. T2 is the 1σ high; leave nothing on beyond it.",
-    "risk_label": "ELEVATED IV, THIN TAPE",
-    "risk_note": "ATM IV 23.69% (5-day high), 1σ $66.80. Volume 7,208c / 3,334p is the lightest of the window. Cut size 30%."
+    "stop_note": "−0.9% from the entry midpoint. Below it cumulative GEX turns negative and there is no put OI shelf until $4,300 (3,315).",
+    "targets": ["$4,500", "$4,543"],
+    "target_note": "T1 is the call wall — take 60% off into it. T2 is the 1σ high; nothing carries beyond it in this regime.",
+    "risk_label": "STALE DATA, THIN TAPE",
+    "risk_note": "OI identical to the prior session and volume at 6,063 contracts — treat every level as unconfirmed. ATM IV 23.69% (5-day high), 1σ $66.80. Cut size 50% until a fresh scrape lands."
   }
 }
