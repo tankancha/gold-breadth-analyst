@@ -1,27 +1,7 @@
 {
-  "generated_at": "2026-09-10T01:30:41.289941+00:00",
+  "generated_at": "2026-09-11T01:30:55.828203+00:00",
   "window_days": 5,
   "days": [
-    {
-      "date": "2026-09-04",
-      "spot": 4539.2,
-      "max_pain": 5685,
-      "pc_oi_ratio": 0.39,
-      "atm_iv": 23.02,
-      "total_call_oi": 201965,
-      "total_put_oi": 79398,
-      "total_call_vol": 14671,
-      "total_put_vol": 6614,
-      "put_wall": 3500,
-      "put_wall_oi": 5732,
-      "call_wall": 6000,
-      "call_wall_oi": 18809,
-      "gex_sign": "positive",
-      "gex_total_window": 711.7,
-      "gex_flip_strike": 3640,
-      "scraped_at": "2026-09-04T01:24:11.532530+00:00",
-      "symbol": "GCM26"
-    },
     {
       "date": "2026-09-07",
       "spot": 4476.1,
@@ -101,13 +81,33 @@
       "gex_flip_strike": 3570,
       "scraped_at": "2026-09-10T01:30:40.700992+00:00",
       "symbol": "GCM26"
+    },
+    {
+      "date": "2026-09-11",
+      "spot": 4406.8,
+      "max_pain": 5600,
+      "pc_oi_ratio": 0.37,
+      "atm_iv": 24.12,
+      "total_call_oi": 218258,
+      "total_put_oi": 80089,
+      "total_call_vol": 24999,
+      "total_put_vol": 2468,
+      "put_wall": 3500,
+      "put_wall_oi": 5482,
+      "call_wall": 6000,
+      "call_wall_oi": 18477,
+      "gex_sign": "positive",
+      "gex_total_window": 648.62,
+      "gex_flip_strike": 3540,
+      "scraped_at": "2026-09-11T01:30:55.312326+00:00",
+      "symbol": "GCM26"
     }
   ],
   "deltas": {
-    "spot_change": -78.9,
-    "max_pain_drift": -40,
-    "iv_change_pp": 0.76,
-    "pc_oi_change": 0.01,
+    "spot_change": -69.3,
+    "max_pain_drift": -50,
+    "iv_change_pp": 0.43,
+    "pc_oi_change": -0.03,
     "put_wall_migration": [
       3500,
       3500,
@@ -123,18 +123,18 @@
       6000
     ],
     "max_pain_path": [
-      5685,
       5650,
       5650,
       5650,
-      5645
+      5645,
+      5600
     ],
     "spot_path": [
-      4539.2,
       4476.1,
       4476.0,
       4438.6,
-      4460.3
+      4460.3,
+      4406.8
     ]
   }
 }
