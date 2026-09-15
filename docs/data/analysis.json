@@ -1,30 +1,31 @@
 {
-  "generated_at": "2026-09-11T07:08:24+07:00",
+  "generated_at": "2026-09-15T07:10:00+07:00",
   "symbol": "GCM26",
-  "spot_at_analysis": 4460.3,
-  "today_summary": "GCM26 marks $4,460.3 on the 2026-09-10 settle chain, a $21.7 (+0.49%) bounce off the 09-09 low print (today's scrape lands at 08:30 BKK, after this run). The chain stays call-dominant at 201,361 call OI vs 80,092 put OI (P/C 0.40), but the important move is beneath the totals: $4,500 call OI jumped 11,108 to 11,908 (+800) in a single session after three frozen days, thickening the wall $39.7 above spot. Max pain prints $5,645, some 26.6% above spot, and remains a legacy far-OTM artifact rather than a tradable magnet. Positive net GEX of +268.5 within $200 of spot keeps dealers stabilizing into a 1sigma band of $4,393.5-$4,527.1.",
-  "five_day_thesis": "Five sessions ago spot was $4,539.2; it is $4,460.3 now, a $78.9 (-1.74%) net decline that came almost entirely in the 09-04 to 09-09 fade before this session's +$21.7 stabilization. The real change is that positioning finally moved: total OI sat frozen at 201,767 calls / 79,768 puts for three straight sessions (09-07 through 09-09), then on 09-10 calls fell 406 and puts rose 324 — the first genuine repositioning of the window. That new OI rotated toward spot, not away from it: the $5,500 line shed 561 contracts (12,715 to 12,154) while $4,500 gained 800, pulling the effective supply zone from 23% out-of-the-money to less than 1% above spot. The dealer gamma cushion tells the same stabilizing story after a wobble — near-spot net GEX decayed 404.1 to 233.6 by 09-09, then rebuilt to 268.5, and the cumulative flip strike popped to $4,650 on 09-09 before snapping back to $4,600, where it sat the prior three sessions. Conviction, however, keeps draining: call volume has collapsed 14,671 to 4,979 (-66%) and put volume 6,614 to 2,014 while ATM IV rose just 0.76pp to 23.78%, so this is a quiet grind being fenced in by option supply, not a trend anyone is paying up to chase.",
+  "spot_at_analysis": 4408.5,
+  "today_summary": "GCM26 marks $4,408.5 on the 2026-09-14 chain, up just $1.7 from the 09-11 print — two sessions of dead-flat spot after the $53.5 break. The chain is the most call-lopsided of the window at 218,808 call OI vs 80,751 put OI (P/C 0.37), and flow is more extreme still: 15,129 call contracts traded against 2,003 puts, a 0.13 volume ratio, with 8,201 of those calls concentrated in the single $5,225 strike. Resistance is stacked at $4,500 (12,089 call OI, just $91.5 above spot), then $4,725 (9,607) and $5,500 (11,192); the only support inside 3% is the $4,300 put shelf at 3,536, with the $3,900 (3,936) and $3,500 (5,516) walls too far out to matter. Max pain prints $5,600, 27.0% above spot — a legacy artifact, not a magnet — and near-spot net GEX of +231.7 pins the tape inside a 1sigma band of $4,342.8–$4,474.2."
+  ,
+  "five_day_thesis": "Five sessions ago spot was $4,476.0; it is $4,408.5 now, a $67.5 (-1.51%) decline that has gone completely flat over the last two prints. The defining event of the window was 09-11, when total call OI exploded 201,361 to 218,258 (+16,897) in one session on 24,999 contracts of volume — and it was two strikes, not a broad bid: $4,725 went 1,436 to 9,609 (+8,173) and $5,225 went 1,223 to 9,407 (+8,184), a matched ~8,200-lot structure that reads as a financed upside spread rather than outright demand. Spot's answer was nothing at all — $4,406.8 then $4,408.5 — so someone paid for 2026 upside while the front tape refused to move. That build dragged the cumulative gamma flip from $4,600 up to $4,700, pushing it $291.5 above spot and widening the short-gamma pocket underneath even as localized net GEX held positive at +231.7. Meanwhile the put side never engaged: the put wall has been frozen at $3,500 for all five sessions, put volume has drained to 2,003 contracts, and ATM IV is unchanged at 23.67% (-0.02pp) after a one-day 24.12% spike — nobody is paying for downside protection here.",
   "what_changed": [
-    "$4,500 call OI built 11,108 to 11,908 (+800) in one session — the wall $39.7 above spot just got heavier",
-    "Total OI unfroze after three static sessions: calls -406, puts +324 on 09-10 — first real repositioning of the window",
-    "$5,500 call OI shed 561 (12,715 to 12,154) — supply rotated down toward spot from deep OTM",
-    "Near-spot net GEX rebuilt 233.6 to 268.5 (+15%) after decaying from 404.1 — dealer stabilization firming again",
-    "Gamma flip strike snapped back $4,650 to $4,600 after a one-session drift higher",
-    "Call volume down 66% across the window (14,671 to 4,979) with ATM IV up only 0.76pp — participation gone, no vol bid"
+    "$5,225 call OI built 1,223 to 9,407 (+8,184) and $4,725 built 1,436 to 9,609 (+8,173) on 09-11 — a matched ~8,200-lot upside structure",
+    "Total call OI jumped 201,361 to 218,808 (+17,447) across the window while put OI added just 659 — P/C OI compressed 0.40 to 0.37",
+    "Cumulative gamma flip drifted $4,600 to $4,700 (+$100) as spot fell $67.5 — the short-gamma pocket below spot widened on both ends",
+    "Call volume ran 15,129 vs 2,003 puts (0.13 ratio), with 8,201 recycling through $5,225 at zero net OI change — position maintenance, not new risk",
+    "Put wall unmoved at $3,500 for five straight sessions and put volume down to 2,003 — no downside hedging bid at any price",
+    "ATM IV flat at 23.67% (-0.02pp) after a 24.12% spike on 09-11 — the OI build was executed without paying up for vol"
   ],
-  "prediction": "Neutral with a fade lean while spot holds below $4,500. The +800 contract build at the $4,500 strike plus positive near-spot GEX of +268.5 argues for containment inside the 1sigma $4,393.5-$4,527.1 band, with rallies into the wall sold absent a volume expansion back toward 09-04's 14,671 calls. A sustained close above $4,532 invalidates the fade and opens $4,600, the cumulative gamma flip; below $4,393 the next real bid is the $4,300 put shelf at 3,257 OI.",
+  "prediction": "Neutral-to-fade while spot holds below the $4,500 call wall. Positive near-spot GEX of +231.7 and a 23.67% IV argue for containment inside the 1sigma $4,342.8–$4,474.2 band, and the $16,357 of fresh call OI sits $317–$817 out of the money — it caps rallies before it fuels them. A sustained close above $4,500 invalidates the fade and opens $4,725; below $4,342 there is no real bid until the $4,300 put shelf at 3,536 OI, and beneath that spot is trading $400 under the gamma flip with nothing structural underneath.",
   "day_trade_cta": {
     "bias": "Range Fade",
-    "bias_note": "Spot $4,460.3 capped by a freshly reinforced $4,500 call wall (11,908 OI, +800 in one session). Bias flips constructive only above $4,532.",
-    "entry_zone": "$4,488-$4,515",
-    "entry_note": "Sell rallies into the $4,500 call concentration. The +800 OI build is new supply, not legacy — it defends this line harder than it did last week.",
+    "bias_note": "Spot $4,408.5 flat for two sessions under a 12,089-contract call wall at $4,500. Bias flips constructive only on a sustained close above $4,500.",
+    "entry_zone": "$4,462–$4,495",
+    "entry_note": "Sell rallies into the 1sigma cap of $4,474 through the $4,500 wall. Require volume confirmation — today's 15,129 calls were concentrated in one far-OTM strike, not near-spot conviction.",
     "pivot": "$4,500",
-    "pivot_note": "Sustained trade above -> $4,532 then the $4,600 gamma flip. Sustained trade below -> $4,393 then the $4,300 put shelf.",
-    "stop": "$4,532",
-    "stop_note": "+0.9% above entry midpoint and just above the 1sigma cap of $4,527. Through it the wall stops holding and dealers chase higher.",
-    "targets": ["$4,393", "$4,300"],
-    "target_note": "T1 is the 1sigma downside band ($66.8 move), take 50% off. T2 is the nearest meaningful put OI at 3,257, exit remaining.",
-    "risk_label": "LOW VOL / RANGE REGIME",
-    "risk_note": "ATM IV 23.78%, positive near-spot GEX +268.5, volume down 66% over five sessions -> expect a contained 1.5% range. Chain is one session old; size accordingly."
+    "pivot_note": "Sustained trade above -> $4,600 then the $4,725 build at 9,607 OI. Sustained trade below -> $4,343 then the $4,300 put shelf.",
+    "stop": "$4,522",
+    "stop_note": "+0.6% above entry midpoint and clear of the 1sigma cap at $4,474. Through it the wall is not holding and the $4,700 flip comes into play.",
+    "targets": ["$4,343", "$4,300"],
+    "target_note": "T1 is the 1sigma downside band ($65.7 move), take 50% off. T2 is the $4,300 put shelf at 3,536 OI, the last real support above $3,900 — exit remaining.",
+    "risk_label": "CONTAINED / POSITIVE GAMMA",
+    "risk_note": "Near-spot net GEX +231.7 and ATM IV 23.67% imply a 1.5% daily range. Two caveats: spot sits $291.5 below the $4,700 cumulative flip, so a break of $4,300 leaves short-gamma air underneath, and this chain is the 09-14 scrape (22h old) — today's print has not landed yet."
   }
 }
