@@ -1,33 +1,30 @@
 {
-  "generated_at": "2026-09-16T07:08:21+07:00",
+  "generated_at": "2026-09-17T07:12:00+07:00",
   "symbol": "GCM26",
-  "spot_at_analysis": 4351.6,
-  "today_summary": "GCM26 prints $4,351.6 on the 2026-09-15 chain, down $56.9 (-1.29%) from the $4,408.5 shelf that held two sessions - a 0.87sigma break that stopped $8.8 above the prior lower 1sigma band at $4,342.8. Near-spot net GEX collapsed to +156.0 from +231.7, a 33% cut to the stabilizing cushion after four sessions pinned at +233.6, +232.7, +231.7. Resistance is unchanged and stacked overhead at $4,500 (12,102 call OI), $4,725 (9,606) and $5,225 (9,407); the nearest real support is the $4,300 put shelf at 3,475 OI, just $51.6 below spot, with the top-3 put walls at $3,500 (5,546), $3,900 (3,860) and $4,000 (3,524) far out of play. Max pain $5,600 sits 28.7% above spot - a legacy artifact, not a magnet - and today's 1sigma band is $4,286.7-$4,416.5 on 23.67% ATM IV.",
-  "five_day_thesis": "Five sessions ago spot was $4,438.6; it is $4,351.6 now, an $87.0 (-1.96%) grind lower that finally broke its shelf today. The structural story of the window was the 09-11 upside build - $5,225 +8,184 and $4,725 +8,171 in matched size - which lifted total call OI 201,767 to 219,333 (+17,566) against just +1,356 on the put side and dragged the cumulative gamma flip from $4,650 to $4,700. That combination widened the short-gamma gap beneath spot from $211 to $348 across the window: the flip rose $50 while spot fell $87. Today is the first session the cushion actually cracked - near-spot GEX had been frozen at +233.6, +232.7, +231.7 straight through the decline and printed +156.0 today, while call volume decayed 24,999 (09-11) to 15,129 to 9,127 and put volume rose to 2,838, taking the volume P/C from 0.13 to 0.31. Most telling, ATM IV is 23.67% against 23.69% five sessions ago - unchanged through a 2% drawdown, so nobody has paid up for downside yet even as near-spot put OI quietly built at $4,120 (+400), $4,000 (+273), $4,075 (+242) and $4,300 (+160).",
+  "spot_at_analysis": 4332.6,
+  "today_summary": "GCM26 marked $4,332.6, a fifth straight lower print and -$127.7 (-2.86%) from $4,460.3 five sessions ago. The book stays call-dominated at P/C OI 0.38 with the $4,500 call wall (12,108 contracts) capping $168 above spot, while the nominal $3,500 put wall (5,546) sits 19% below and offers no near-term defense. Headline max pain $5,570 is a legacy-OI artifact of deep call stock at $6,000/$8,000/$10,000; the local pin within +/-$400 of spot is $4,730. ATM IV 23.74% prices a 1-sigma daily move of $64.79 (1.50%).",
+  "five_day_thesis": "The defining change over five sessions is that price fell 2.86% and bought no volatility: ATM IV went 23.78% -> 23.74% (-0.04pp), so the entire slide has been sold as orderly, and downside premium never repriced. Beneath that calm, the dealer cushion eroded hard - net GEX within +/-$200 of spot decayed 268.5 -> 232.7 -> 231.7 -> 156.0 -> 114.7, a 57% collapse, and what is left is not a cushion at all: sub-spot strikes sum to -105.5 and the positive headline comes almost entirely from $4,500 (+141.1) and $4,510 (+67.0), both above the market. Strip those two and the local book reads -93.3 - dealers damp rallies into $4,500 and accelerate breaks below $4,325. Positioning diverged from price: call OI grew +18,019 to 219,380 while put OI added only +2,749 to 82,841, but the new call length went into $6,000 and $5,500 lottery strikes (787 and 773 lots traded), not into anything that defends spot. The only genuine demand shift is downside: put volume ran 2,014 -> 3,589 (+78%) and today's single largest print in the entire chain was 1,311 lots of the $4,200 put.",
   "what_changed": [
-    "Spot broke the $4,408.5 two-session shelf to $4,351.6 (-$56.9, -1.29%), a 0.87sigma move that stopped $8.8 inside the prior lower 1sigma band",
-    "Near-spot net GEX cut to +156.0 from +231.7 (-33%) - first break in a cushion that held +233.6/+232.7/+231.7 through the entire decline",
-    "Volume P/C jumped 0.13 to 0.31 as put volume rose 2,003 to 2,838 and call volume decayed 15,129 to 9,127 - the first genuine downside engagement of the window",
-    "Put OI built near spot at $4,075 (+237 on 333 lots) and $4,000 (+152) while the $3,500 far wall sat frozen at 5,546 OI for a fifth straight session",
-    "Gamma flip held $4,700 as spot fell $56.9 - the short-gamma gap beneath spot widened to $348.4",
-    "Call OI bled at the top of the chain - $4,800 -276, $6,000 -226, $5,200 -169 - with the only meaningful build at $5,000 (+299)"
+    "Net GEX (+/-$200) collapsed 268.5 -> 114.7 (-57%) in five sessions - the stabilizing cushion is nearly spent",
+    "ATM IV flat at 23.78% -> 23.74% despite a 2.86% drawdown - no fear premium has been paid for the slide",
+    "Call wall migrated $5,500 -> $4,500 on 2026-09-11 and has held four sessions, capping every bounce",
+    "Call OI added +18,019 vs put OI +2,749, but the length went to $6,000/$5,500 moonshots, not spot defense",
+    "Put volume rose +78% (2,014 -> 3,589); the $4,200 put printed 1,311 lots, the chain's largest single flow",
+    "Max pain drifted $5,645 -> $5,570 (-$75); the actionable local pin sits far lower at $4,730"
   ],
-  "prediction": "Bias bearish below $4,416. The stabilizer that pinned this tape for four sessions just lost a third of its magnitude while spot sits $348.4 under the $4,700 gamma flip, and with IV unrepriced at 23.67% there is no vol premium cushioning a slide. The $4,300 put shelf at 3,475 OI is the first real test; beneath it the chain is thin until $4,200 (2,537) and $4,000 (3,524), while a reclaim of $4,416 negates the short and puts the $4,500 wall back in play.",
+  "prediction": "Bias lower while spot holds under $4,400. Spot at $4,332.6 sits in a negative-gamma pocket - $4,325 (-11.0), $4,300 (-28.6), $4,250 (-23.3), $4,200 (-30.0) - so a break of $4,325 hands dealers short gamma into the $4,200 put concentration with no IV bid to slow it. Reclaiming $4,500 is what invalidates: that strike alone carries +141.1 GEX and flips dealers to fading extremes.",
   "day_trade_cta": {
-    "bias": "Lean Short",
-    "bias_note": "Spot $4,351.6 broke a two-session shelf with the near-spot gamma cushion down 33% to +156.0. Bias flips neutral on a reclaim of $4,416.",
-    "entry_zone": "$4,395-$4,420",
-    "entry_note": "Fade rallies into broken support at $4,408.5 through the 1sigma cap at $4,416.5. Require volume confirmation - today's 9,127 calls were the lightest of the window and concentrated far OTM.",
-    "pivot": "$4,408",
-    "pivot_note": "Sustained trade above -> $4,416 then the $4,500 wall at 12,102 OI. Sustained trade below -> $4,300 put shelf then $4,287 1sigma floor.",
-    "stop": "$4,445",
-    "stop_note": "+0.8% above entry midpoint and clear of the 1sigma cap. Through it the shelf has been reclaimed and the fade is wrong.",
-    "targets": [
-      "$4,300",
-      "$4,200"
-    ],
-    "target_note": "T1 is the $4,300 put shelf at 3,475 OI ($51.6 below spot, just above the $4,286.7 1sigma floor) - take 50% off. T2 is $4,200 at 2,537 put OI, the next shelf in an otherwise empty zone - exit remaining.",
-    "risk_label": "GAMMA CUSHION THINNING",
-    "risk_note": "Near-spot net GEX +156.0 (was +231.7) and 23.67% ATM IV imply a 1.49% daily range ($64.9). Two caveats: spot is $348.4 below the $4,700 flip, so a break of $4,300 leaves short-gamma air down to $4,000, and this is the 09-15 scrape at 22h old - today's GHA print has not landed yet."
+    "bias": "Cautious Bear",
+    "bias_note": "Five consecutive lower prints into an eroding gamma cushion. Bias flips neutral above $4,400, bullish only on a reclaim of $4,500.",
+    "entry_zone": "$4,325-$4,400",
+    "entry_note": "Sell rallies into the $4,350-$4,400 positive-gamma band (+3.9 / +13.9), where dealer hedging damps upside beneath the $4,500 wall.",
+    "pivot": "$4,325",
+    "pivot_note": "Sustained trade below -> negative-gamma pocket opens to $4,250 then $4,200. Sustained trade above $4,400 -> squeeze risk into $4,500 call wall.",
+    "stop": "$4,415",
+    "stop_note": "+1.2% from entry midpoint, above the $4,400 +GEX node (+13.9) and the 2026-09-14 shelf at $4,408.5. Structural invalidation is $4,500.",
+    "targets": ["$4,250", "$4,200"],
+    "target_note": "T1 $4,250 is -1.3 sigma and a -23.3 GEX node - take 50% off. T2 $4,200 carries 3,159 put OI and today's 1,311-lot print - exit remaining.",
+    "risk_label": "SHORT GAMMA BELOW SPOT",
+    "risk_note": "1-sigma daily $64.79 (1.50%) at 23.74% ATM IV. Flat IV into a falling tape means a downside break repriced fast - size for a 2% range, not 1.5%."
   }
 }
