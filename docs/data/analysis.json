@@ -1,30 +1,30 @@
 {
-  "generated_at": "2026-10-07T07:25:00+07:00",
+  "generated_at": "2026-10-08T07:20:00+07:00",
   "symbol": "GCM26",
-  "spot_at_analysis": 4156.7,
-  "today_summary": "GCM26 marked $4,156.7 with ATM IV 21.14%, implying a $55.4 (1.33%) 1σ daily move. Put walls sit at $3,500 (6,464 OI), $4,000 (4,654) and $3,900 (4,067); call walls at $5,000 (12,384), $4,500 (9,908) and $4,725 (9,546), with P/C OI 0.39 on 238,788 calls against 94,042 puts. Net GEX within ±$200 of spot is −233.7 and the gamma flip strike sits $698 higher at $4,855, so every strike in the tradeable range is short-gamma. Session flow was the thinnest of the window — 5,877 call lots and 2,054 put lots, concentrated in the $5,000 call (864) and $4,850 call (855), both more than $690 out of the money.",
-  "five_day_thesis": "Spot net −$22.9 over five sessions (4,179.6 → 4,156.7) but the path matters more than the number: a $45.5 advance into the 4,202.2 high on 10/02, then two straight down days that gave all of it back — a failed breakout, not a downtrend. The structural change is upside OI migrating toward spot: far-OTM calls unwound hard ($8,000 −3,864, $6,000 −3,272) while the $4,700–$5,100 band built ($5,100 +2,973, $4,850 +1,073, $4,700 +760), dragging the call wall from $6,000 to $5,500 and compressing the resistance shelf closer to price. The put floor never moved — $3,500 pinned all five sessions and added 358 contracts to 6,464 — so the chain is tightening from above, not firming from below. Gamma is the risk: net GEX ±$200 deepened from −223.8 to −233.7 while the flip strike drifted up $55 to $4,855, widening the spot-to-flip short-gamma pocket from $620 to $698. IV compressed 21.80% → 21.14% (−0.66pp) into a 75% collapse in call volume (23,620 → 5,877) — dealers are short gamma into a market that has stopped transacting, the setup where a single real bid or offer travels.",
+  "spot_at_analysis": 4187.0,
+  "today_summary": "GCM26 marks $4,187.0 with ATM IV at 20.45% and 49 days to expiry, on a call-dominated chain — P/C OI 0.40 (239,820 calls vs 94,837 puts). Max pain sits at $5,500, a structurally inert $1,313 (+31.4%) above spot, parked on 17,168 contracts of legacy far-OTM call OI rather than any tradable magnet. The live supply shelf is $4,500 (9,879 call OI, 560 lots traded — the most active real strike in the chain); near demand stacks at $4,300 / $4,250 / $4,200 (3,336 / 2,653 / 2,407 put OI). Figures come from the 2026-10-07 02:44 UTC scrape; today's snapshot had not landed at analysis time.",
+  "five_day_thesis": "Spot is net unchanged across the window — $4,186.6 to $4,187.0 (+$0.4) — but the path was a full round trip: $4,202.2 on 10/02, a $4,156.7 low on 10/06, then a +$30.3 recovery into 10/07. The structure never moved with it: max pain pegged at $5,500, put wall $3,500 and call wall $5,500 for all five sessions — zero drift, zero migration anywhere. What did change is vol and positioning: ATM IV compressed 21.66% to 20.45% (-1.21pp), the sharpest leg -0.69pp on 10/07, while call OI added +6,168 contracts against just +1,821 puts, a 3.4:1 upside-skewed build on a flat tape. Windowed GEX collapsed from 203.6 on 10/02 to 67.3 into the 10/06 low, then rebuilt to 182.1 — the gamma cushion thins on every dip and re-forms on every bounce. The regime read is premium decay into frozen structure, not trend: vol bleeding, walls static, upside OI quietly accumulating ahead of a 49-DTE expiry.",
   "what_changed": [
-    "Far-OTM call OI unwound −3,864 at $8,000 and −3,272 at $6,000, rebuilding at $5,100 (+2,973) and $4,850 (+1,073) — resistance compressing toward spot",
-    "Call wall migrated $6,000 → $5,500 on 10/01 and has held there four sessions",
-    "Gamma flip strike drifted $4,800 → $4,855 (+$55) while spot fell $22.9 — short-gamma pocket widened to $698",
-    "Net GEX within ±$200 deepened −223.8 → −233.7; the broader GEX window collapsed 168.7 → 67.3 (−60%)",
-    "Call volume collapsed 23,620 → 5,877 (−75%) and put volume 6,583 → 2,054 (−69%) — liquidity, not conviction, is setting price",
-    "ATM IV compressed 21.80% → 21.14% (−0.66pp) with max pain pinned at $5,500 all five sessions"
+    "ATM IV compressed 21.66% to 20.45% over 5 sessions (-1.21pp), with the sharpest single-day leg -0.69pp on 10/07",
+    "Call OI added +6,168 contracts against puts +1,821 — a 3.4:1 upside-skewed build on a net-flat tape",
+    "Max pain froze at $5,500 for all 5 sessions — zero drift, sitting $1,313 (31.4%) above spot",
+    "Put wall $3,500 and call wall $5,500 unmoved every session — no wall migration whatsoever",
+    "Windowed GEX collapsed 203.6 to 67.3 into the 10/06 low at $4,156.7, then rebuilt to 182.1",
+    "Local GEX within $200 of spot reads -218.8 (puts -411.5 vs calls +192.7) — dealers short gamma at spot despite the positive wide-window print"
   ],
-  "prediction": "Bias neutral-to-bearish below $4,175, where the nearest call shelf (833 OI) caps the failed-breakout retest. Short gamma through the entire range plus 75% lower volume means moves extend rather than mean-revert — expect the 1σ $55 range to be exceeded on any headline, with the first real downside shelf not until the $4,050 put (2,450 OI). Reclaiming $4,202 (the 10/02 high) invalidates the bearish read and opens the thin air to the $4,500 call wall.",
+  "prediction": "Bias mildly bullish while $4,150 holds, with spot sitting inside the $4,150-$4,250 put-OI pocket after a +$30.3 recovery off the 10/06 low. Above $4,250 the next genuine supply is not until $4,500 (9,879 call OI), leaving $4,300 and $4,400 as thin-air waypoints. Below $4,150 the bid thins to $4,100 (2,111 put OI) then $4,000 (4,622) — and with local GEX at -218.8 and the full-chain gamma flip up at $4,800, breaks extend rather than mean-revert, so treat the $53.94 1-sigma as a floor on range, not a cap.",
   "day_trade_cta": {
-    "bias": "Neutral–Bearish",
-    "bias_note": "Two consecutive down days off the 4,202.2 high with resistance OI compressing toward spot. Bias flips bullish above $4,202.",
-    "entry_zone": "$4,165–$4,190",
-    "entry_note": "Sell strength into the $4,175 call shelf on a failed retest; do not chase weakness below $4,130 — the short-gamma pocket makes entry slippage the main cost.",
-    "pivot": "$4,175",
-    "pivot_note": "Sustained trade below → $4,130 then $4,100. Sustained trade above → $4,200 and a retest of the 10/02 high at $4,202.",
-    "stop": "$4,215",
-    "stop_note": "+0.8% above entry midpoint and above the 10/02 pivot high. Through it, the failed-breakout thesis is dead.",
-    "targets": ["$4,100", "$4,050"],
-    "target_note": "T1 $4,100 (2,067 put OI) — take 50% off. T2 $4,050 (2,450 put OI), the first genuine downside wall — exit remaining.",
-    "risk_label": "SHORT GAMMA — THIN TAPE",
-    "risk_note": "Net GEX −233.7 with the flip $698 above spot and volume down 75% in five sessions. Dealers amplify rather than dampen; size down 30–50% and expect gaps over the $55 1σ band."
+    "bias": "Range Bull",
+    "bias_note": "Spot $4,187.0 recovered +$30.3 off the 10/06 low $4,156.7 on a 2.87:1 call/put volume skew. Bias flips bearish below $4,150.",
+    "entry_zone": "$4,150-$4,190",
+    "entry_note": "Accumulate longs into the $4,150 put shelf (1,293 OI) through spot; the $4,175 call strike traded 220 lots, the most active near-the-money print.",
+    "pivot": "$4,250",
+    "pivot_note": "Sustained trade above $4,250 (2,653 put OI) opens $4,300 then $4,400. Sustained trade below $4,150 hands the tape to $4,100 and the $4,000 put wall (4,622 OI).",
+    "stop": "$4,128",
+    "stop_note": "-1.0% from the $4,170 entry midpoint, set beneath both the -1-sigma level $4,133 and the $4,130 OI shelf.",
+    "targets": ["$4,300", "$4,400"],
+    "target_note": "T1 $4,300 is the heaviest near-spot cluster (3,336 put OI, 1,655 call OI) — take 50% off. T2 $4,400 (2,184 call OI, 214 lots traded) — exit remainder; $4,500 above it is a hard wall, not a target.",
+    "risk_label": "LOCAL SHORT GAMMA",
+    "risk_note": "IV 20.45% implies a 1-sigma daily move of $53.94 (1.29%), range $4,133-$4,241. Net GEX within $200 of spot is -218.8 with the flip strike at $4,800, so expect breaks to accelerate — standard size, stops wider than $54."
   }
 }
