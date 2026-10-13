@@ -1,30 +1,30 @@
 {
-  "generated_at": "2026-10-09T07:25:00+07:00",
+  "generated_at": "2026-10-13T07:22:00+07:00",
   "symbol": "GCM26",
-  "spot_at_analysis": 4140.6,
-  "today_summary": "GCM26 marks $4,140.6, down $46.4 on the session and sitting at the bottom of a 61-point 5-day range. The chain stays structurally call-heavy at 0.39 P/C OI, but today's tape disagrees: put volume 4,169 vs call volume 4,855 is a 0.859 P/C volume ratio, the highest of the week. Net GEX within +/-$200 of spot is -258 (put GEX -437 against call GEX +180), placing price in a short-gamma pocket $709 below the 4,850 gamma flip. ATM IV 20.76% puts the 1-sigma daily move at $54.15 (1.31%).",
-  "five_day_thesis": "Spot has gone almost nowhere in five sessions, $4,202.2 to $4,140.6 (-1.47%) inside a 1.5% range, while the option structure underneath it quietly thinned. Net GEX across the +/-20% window decayed from +203.6 to +65.9, a 68% collapse in the dealer cushion that was damping every move last Friday. The decisive change is flow rotation rather than structure: put volume rose 55% from 2,684 to 4,169 while call volume fell 37% from 7,709 to 4,855, lifting P/C volume from 0.348 to 0.859 and quadrupling Monday's 0.215 reading. Open interest still disagrees with that flow, with call OI building +9,218 (+4.0%) against put OI +2,047 (+2.2%), so the upside carry is slow money while the hedging bid is today's money. ATM IV is -0.63pp on the week at 20.76% but ticked +0.31pp on the last session, the first uptick alongside the put bid and the cleanest early warning in the series.",
+  "spot_at_analysis": 4216.2,
+  "today_summary": "GCM26 marks $4,216.2 on the 10-12 snapshot, +$59.3 (+1.43%) on the session and a new 5-day high that clears the prior $4,187.0 ceiling. The chain stays structurally call-heavy at 0.39 P/C OI, with the near-field call wall at $4,500 (10,148 OI, net GEX +102) and the first real put shelf at $4,000 (4,325 OI). Net GEX within +/-$200 of spot is -113.5 (call +254.3 against put -367.8) - still a short-gamma pocket, but half as deep as five sessions ago. ATM IV 20.29% is the 5-day low, putting the 1-sigma daily move at $53.89 (1.28%).",
+  "five_day_thesis": "Spot has gone $4,156.7 to $4,216.2 (+$59.5, +1.43%) and, more importantly, finally left the $4,140-$4,187 box that contained the previous four sessions. The decisive change is gamma, not price: local net GEX inside +/-$200 repaired from -233.7 to -113.5, halving the pocket, while total chain GEX expanded +247.7 to +432.0 - a 5-day high and a 74% rebuild of the dealer cushion that eroded all of last week. The gamma flip strike has walked down from $4,855 to $4,750 (-$105), so the short-gamma zone is contracting toward spot from above rather than price climbing toward a fixed flip. Flow turned barbell rather than directional - 1,395 puts traded at $4,000 against 1,087 calls at $5,000 - lifting P/C volume 0.349 to 0.551 while P/C OI sat dead flat at 0.39 and both OI books grew by exactly +2.9%. ATM IV compressed 21.14% to 20.29% (-0.85pp) into a new spot high, the signature of a grind rather than a squeeze.",
   "what_changed": [
-    "Put volume jumped 2,684 to 4,169 (+55%) while call volume fell 7,709 to 4,855 (-37%) - P/C volume 0.348 to 0.859, a 5-day high",
-    "Net GEX in the +/-20% window decayed +203.6 to +65.9 (-68%) - dealer stabilization is the thinnest of the week",
-    "Local gamma within +/-$200 of spot reads -258, with put GEX -437 overwhelming call GEX +180 below the 4,850 flip strike",
-    "Put wall $3,500 (6,398 OI) and call wall $5,500 (17,237 OI) have not moved in five sessions - no structural repricing behind the flow shift",
-    "ATM IV compressed 21.39% to 20.76% (-0.63pp) on the week but added +0.31pp on the last session",
-    "Call OI built +9,218 (+4.0%) against put OI +2,047 (+2.2%) - upside carry still accumulating against a softening tape"
+    "Spot $4,216.2 broke the $4,187.0 five-day ceiling - first print outside the $4,140-$4,187 box in five sessions",
+    "Local net GEX inside +/-$200 repaired -233.7 to -113.5 - short-gamma pocket halved",
+    "Total chain GEX expanded +247.7 to +432.0 (+74%), a 5-day high - dealer cushion rebuilding",
+    "Gamma flip strike walked down $4,855 to $4,750 (-$105) over five sessions - short-gamma zone contracting toward spot",
+    "ATM IV compressed 21.14% to 20.29% (-0.85pp) to a 5-day low even as spot made a 5-day high",
+    "Put wall $3,500 (6,354 OI) and call wall $5,000 (12,093 OI) unmoved for five sessions - no structural repricing behind the move"
   ],
-  "prediction": "Bias neutral to lower while $4,187 caps the tape. With 1-sigma at $54 the base case is continued $4,100-$4,190 chop, but the -258 local GEX means a loss of $4,100 extends rather than mean-reverts, with $4,000 (4,566 put OI) the first genuine demand shelf and $3,900 (4,395 OI) behind it. Max pain $5,495 sits 32% overhead on legacy call OI and exerts no pinning force at 48 DTE - treat it as structure, not a target.",
+  "prediction": "Bias cautiously bullish while $4,187 holds as the breakout shelf. With 1-sigma at $53.89 the base case is a grind to $4,270 then the $4,350 strike where net GEX first turns positive (+6.2) and upside begins to damp, with the $4,500 call wall (10,148 OI, +102 GEX) capping the swing. Loss of $4,187 returns price to the $4,140-$4,187 balance and re-deepens the pocket, with $4,100 (2,064 put OI) and $4,000 (4,325 OI) the demand shelves; max pain $5,475 sits 30% overhead on legacy call OI and exerts no pinning force at 44 DTE.",
   "day_trade_cta": {
-    "bias": "Neutral / Fade Rallies",
-    "bias_note": "Spot $4,140.6 at the low of a 61-point range with P/C volume at a 5-day high of 0.859. Bias flips bullish above $4,187, accelerates bearish below $4,100.",
-    "entry_zone": "$4,170-$4,190",
-    "entry_note": "Sell strength into the 10/07 swing high $4,187 while net GEX stays negative. No long edge until $4,187 closes behind price on rising call volume.",
-    "pivot": "$4,140",
-    "pivot_note": "Sustained trade above keeps the $4,100-$4,190 balance intact. Sustained trade below opens $4,085 then the $4,000 put shelf.",
-    "stop": "$4,215",
-    "stop_note": "+0.84% from entry midpoint, above the 5-day range high $4,202.2. A reclaim there invalidates the short-gamma fade.",
-    "targets": ["$4,085", "$4,000"],
-    "target_note": "T1 is 1-sigma from spot, take 50% off. T2 is the $4,000 put wall at 4,566 OI, exit remaining.",
-    "risk_label": "SHORT GAMMA BELOW $4,850",
-    "risk_note": "1-sigma daily $54.15 (1.31%) with net GEX -258 inside +/-$200 - downside breaks extend instead of reverting. Keep normal size but set stops wider than 1-sigma."
+    "bias": "Cautious Bull",
+    "bias_note": "Spot $4,216.2 at a 5-day high with the gamma pocket half as deep as last week (-113.5 against -233.7). Bias flips neutral below $4,187, bearish below $4,140.",
+    "entry_zone": "$4,187-$4,218",
+    "entry_note": "Buy the retest of the $4,187 breakout shelf into the $4,200 put OI (2,445). No chase above $4,230 - 1-sigma is only $53.89.",
+    "pivot": "$4,187",
+    "pivot_note": "Sustained trade above keeps the breakout and the $4,270 / $4,350 path live. Sustained trade below returns price to the $4,140-$4,187 balance.",
+    "stop": "$4,160",
+    "stop_note": "-1.01% from entry midpoint $4,202.5, below the 10-09 settle $4,156.9. A break there voids the breakout and re-opens $4,100.",
+    "targets": ["$4,270", "$4,350"],
+    "target_note": "T1 is 1-sigma from spot ($53.89), take 50% off. T2 is the first sustained positive net-GEX strike (1,215 call OI) where upside damps - exit remaining.",
+    "risk_label": "SHORT GAMMA BELOW $4,750",
+    "risk_note": "1-sigma daily $53.89 (1.28%) with local net GEX -113.5 - breaks still extend rather than revert, though the cushion is the strongest in five sessions. Normal size, stops beyond 1-sigma."
   }
 }
