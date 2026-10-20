@@ -1,33 +1,30 @@
 {
-  "generated_at": "2026-10-16T07:23:11+07:00",
+  "generated_at": "2026-10-20T07:15:00+07:00",
   "symbol": "GCM26",
-  "spot_at_analysis": 4107.8,
-  "today_summary": "GCM26 prints $4,107.8 on the 10-15 snapshot, -$69.4 (-1.66%) and a clean break of the five-day box floor at $4,156.9 — the largest one-day move of the cycle and 1.39x the $49.99 1-sigma envelope. ATM IV did not bid: it held exactly 19.32% through a 1.66% down day, so the break was absorbed with no vol premium and no cushion. Local net GEX inside ±$200 deteriorated to -271.4 (calls +191.4 against puts -462.8), the most short-gamma reading of the window, while the gamma flip migrated up to $4,900 and left spot $792 below it. Participation finally came home — 16.1% of a 15,432-contract tape traded within ±$200 of spot, a five-day high versus 9.0% yesterday, with put volume +87% to 3,449.",
-  "five_day_thesis": "Five sessions have netted -$49.1 (-1.18%), $4,156.9 to $4,107.8, but the shape of the tape inverted in the last 24 hours: four sessions of $4,156.9-$4,216.2 chop ended in a 1.66% break, and the $4,187 shelf that framed the whole week is now $79 overhead. The dealer cushion, not the price, is what deteriorated: total chain GEX has collapsed from 432.0 on 10-12 to 179.6 (-58.4%), the ±20% window metric from 210.02 to 26.26, and local ±$200 net GEX from -113.5 at Monday's best to -271.4 — the gamma flip walked $4,750 to $4,900 (+$150), so dealers are shorter gamma at the money than at any point in the window with price further from the stabilizing zone. Flow composition reversed just as sharply: calls fell from 89.6% to 77.7% of volume, far-OTM call share (strikes ≥$6,000) from 42.3% to 15.2%, and ATM participation doubled 9.0% to 16.1% — the tail-convexity lottery of midweek was replaced by real near-the-money hedging. The defensive build that had been quietly accumulating all week confirmed on the break: put OI added +496 at $3,950, +466 at $3,700 and +328 at $3,750 over five days, and 864 lots traded the $3,750 strike alone yesterday, 8.7% below spot. What has not moved is the pinning structure — P/C OI is frozen at 0.39 for all five sessions, the $3,500 put wall and $5,500 call wall have not migrated once, and global max pain sits $1,392 (33.9%) overhead with no interior minimum; the only pain level with any local meaning drifted down to $4,325 from $4,350.",
+  "spot_at_analysis": 4181.0,
+  "today_summary": "GCM26 marked $4,181 on the 19 Oct 08:46 BKK scrape, +$11.0 on the session and the fourth close inside a $4,108–$4,191 five-day box. The chain is the most call-heavy of the window — 258,436 call OI against 99,432 put OI, P/C 0.38 — with the near-money resistance shelf at $4,400 (2,831 call OI, 1,064 contracts traded, the single busiest strike) and the first real put floor down at $4,000 (4,564 OI). ATM IV re-expanded to 20.12% from Friday's 19.29%, putting the 1σ daily envelope at ±$53 (1.27%), or $4,128–$4,234. Headline max pain is $5,500, but it has not moved in five sessions and sits +$1,319 above spot — a legacy far-OTM OI artifact, not a magnet worth trading toward.",
+  "five_day_thesis": "Spot has round-tripped and gone nowhere: $4,190.5 on 13 Oct, a flush to $4,107.8 on 15 Oct, back to $4,181.0 — net −$9.5 (−0.23%) across the full window. The structural skeleton is frozen: max pain $5,500 and the outer walls at $3,500 / $5,500 are unchanged on all five prints, so nothing in the deep OI has repriced. What has changed is the composition — call OI added 11,323 contracts over five sessions versus 2,436 puts, a 4.6:1 build that dragged P/C OI to a window low of 0.38, and the fresh Monday paper went to lottery strikes ($7,000 +998, $6,500 +376, $6,750 +300) rather than anything near the money. The second shift is volatility: ATM IV compressed from 20.40% to 19.29% through Friday, then expanded +0.83pp to 20.12% on Monday — the first expansion of the window, and it came alongside a higher spot, which marks call-side demand rather than downside hedging. Windowed GEX collapsed to +26.3 on 15 Oct as spot broke $4,108, then rebuilt to +246.9, but that positive total lives entirely in the $4,500–$5,000 call walls — the ±$200 corridor around spot is −174.8 net, and cumulative gamma stays negative all the way up to the $4,750 flip.",
   "what_changed": [
-    "Spot $4,107.8, -$69.4 (-1.66%) — a 1.39-sigma move and the first close outside the five-day $4,156.9-$4,216.2 box, confirming yesterday's sub-$4,140 bearish trigger",
-    "ATM IV unchanged at 19.32% through a 1.66% down day — vol refused to bid the break, holding 1-sigma at $49.99 (1.22%)",
-    "Local net GEX -271.4 from -199.5, a five-day extreme, with put gamma -462.8 now 2.4x call gamma +191.4",
-    "Gamma flip migrated $4,800 → $4,900 while spot fell $69 — the short-gamma gap widened to $792 from $618",
-    "ATM participation 16.1% of a 15,432-contract tape, a five-day high and double yesterday's 9.0%; far-OTM call share collapsed 42.3% → 15.2%",
-    "Put OI built +468 at $3,950, +304 at $3,750, +277 at $4,000 and +245 at $4,100 in one session — a continuous defensive ladder from the money down to -9.9%"
+    "P/C OI ratio 0.39 → 0.38, a five-day low — calls added 11,323 contracts to puts' 2,436 (4.6:1)",
+    "ATM IV 19.29% → 20.12% (+0.83pp), the window's first expansion, and it printed with spot up, not down",
+    "Monday's new call OI went far OTM — $7,000 +998, $6,500 +376, $6,750 +300 — while $4,700 shed 256 and $5,000 shed 215",
+    "Windowed net GEX +26.3 (15 Oct) → +246.9, but the ±$200 corridor around spot reads −174.8 — dealers short gamma where price actually trades",
+    "$4,400 calls were the busiest strike on the board at 1,064 lots on 2,831 OI — fresh speculation one band above spot",
+    "Max pain and both outer walls ($5,500 / $3,500) unchanged on all five sessions — no repricing in the deep OI"
   ],
-  "prediction": "Bias bearish while $4,150 caps, with the 1-sigma envelope $4,057.8-$4,157.8 now sitting entirely below the broken box — a short-gamma market that has just lost a four-session floor on rising near-the-money participation continues rather than reverts, and unchanged 19.32% IV means the move is not yet crowded. Downside path runs $4,100 (2,445 put OI) to $4,050 (2,520 OI) and then the $4,000 wall (4,596 OI, net GEX -54.93, the most negative near-field strike), with $3,950 (3,078 OI) and $3,900 (4,229 OI) behind it. The bear case invalidates on a reclaim of $4,150, and above $4,175 — the first strike where net GEX turns positive at +7.89 — the tape re-opens $4,200 (1,710 call OI) and the $4,300 shelf (2,167 call OI); $5,500 max pain exerts no pull from 33.9% overhead at 41 DTE.",
+  "prediction": "Bias moderately bullish above $4,150 while the 4.6:1 call build and re-expanding IV keep upside paper bid, with the 1σ envelope $4,128–$4,234 framing the session. Cumulative gamma is negative from the chain floor through $4,700 and troughs at $4,350, so dealers amplify rather than dampen moves in this corridor — expect realized to run at or above the 1.27% implied daily, in both directions. Below $4,128 the thesis is dead and the next real bid is the $4,000 put wall; the $4,400 call shelf caps the first leg up.",
   "day_trade_cta": {
-    "bias": "Bearish",
-    "bias_note": "Spot $4,107.8 broke the five-day floor $4,156.9 with local net GEX at a window-worst -271.4 and the gamma flip $792 overhead at $4,900. Flips neutral above $4,150, bullish above $4,200.",
-    "entry_zone": "$4,100–$4,150",
-    "entry_note": "Short rallies into $4,150 (1-sigma ceiling $4,157.8, 1,157 put OI against only 470 call OI) and scale at $4,175, the first positive net-GEX strike (+7.89). Add on sustained trade below $4,100, where put OI built +245 to 2,445 yesterday. Do not chase more than 1-sigma below spot — the envelope is only $49.99.",
-    "pivot": "$4,150",
-    "pivot_note": "The broken box's lower edge and the 1-sigma ceiling. Sustained trade below keeps the $4,050-$4,000 corridor live. Sustained trade above neutralizes the break and re-targets $4,200 then $4,300.",
-    "stop": "$4,180",
-    "stop_note": "+1.33% from entry midpoint $4,125 and above $4,175, where net GEX turns positive. A reclaim there puts price back inside the five-day box and the short thesis is void.",
-    "targets": [
-      "$4,050",
-      "$4,000"
-    ],
-    "target_note": "T1 $4,050 (2,520 put OI) sits on the 1-sigma floor $4,057.8 — take 50% off. T2 is the $4,000 wall (4,596 put OI, net GEX -54.93) and the largest near-field put concentration — exit remaining; $3,950 (3,078 OI) and $3,900 (4,229 OI) are stretch levels only on an IV expansion.",
-    "risk_label": "SHORT GAMMA BELOW $4,900",
-    "risk_note": "1-sigma daily $49.99 (1.22%) but realized was 1.66% yesterday — the envelope is already understating the tape. Local net GEX -271.4 and total chain GEX down 58.4% from Monday mean dealer hedging amplifies rather than dampens; flat 19.32% IV offers no warning premium. Normal size on the short into $4,150, half size on continuation entries below $4,100."
+    "bias": "Cautious Bull",
+    "bias_note": "Call OI building 4.6:1 over five sessions with IV expanding into a higher spot. Bias flips neutral below $4,150 and bearish below $4,128.",
+    "entry_zone": "$4,150–$4,185",
+    "entry_note": "Buy the lower half of the 1σ band on a pullback that holds; avoid chasing above $4,200 without the pivot clearing first.",
+    "pivot": "$4,200",
+    "pivot_note": "Sustained trade above opens $4,234 (1σ upper) then the $4,300 call shelf. Sustained trade below returns price to $4,150 and the short-gamma air pocket beneath.",
+    "stop": "$4,128",
+    "stop_note": "−0.94% from the $4,167 entry midpoint, exactly 1σ below spot. Below it nothing structural bids until $4,000 (4,564 put OI).",
+    "targets": ["$4,234", "$4,300"],
+    "target_note": "T1 is the 1σ upper bound — take 50% off. T2 is the $4,300 call shelf (2,430 OI); the $4,400 wall (2,831 OI, 1,064 lots traded) caps anything beyond.",
+    "risk_label": "SHORT GAMMA CORRIDOR",
+    "risk_note": "Net GEX −174.8 within ±$200 of spot and cumulative gamma negative to the $4,750 flip — dealer hedging amplifies both directions. Size down 25–40% versus a long-gamma tape."
   }
 }
