@@ -1,27 +1,7 @@
 {
-  "generated_at": "2026-11-03T04:03:47.662311+00:00",
+  "generated_at": "2026-11-04T03:19:11.298239+00:00",
   "window_days": 5,
   "days": [
-    {
-      "date": "2026-10-28",
-      "spot": 4074.5,
-      "max_pain": 5400,
-      "pc_oi_ratio": 0.39,
-      "atm_iv": 20.12,
-      "total_call_oi": 274025,
-      "total_put_oi": 107450,
-      "total_call_vol": 6625,
-      "total_put_vol": 2507,
-      "put_wall": 3500,
-      "put_wall_oi": 6337,
-      "call_wall": 5500,
-      "call_wall_oi": 16930,
-      "gex_sign": "positive",
-      "gex_total_window": 27.03,
-      "gex_flip_strike": 3260,
-      "scraped_at": "2026-10-28T02:37:10.724000+00:00",
-      "symbol": "GCM26"
-    },
     {
       "date": "2026-10-29",
       "spot": 4051.7,
@@ -101,19 +81,39 @@
       "gex_flip_strike": 3180,
       "scraped_at": "2026-11-03T04:03:47.351536+00:00",
       "symbol": "GCM26"
+    },
+    {
+      "date": "2026-11-04",
+      "spot": 3940.3,
+      "max_pain": 5250,
+      "pc_oi_ratio": 0.4,
+      "atm_iv": 22.74,
+      "total_call_oi": 292282,
+      "total_put_oi": 116668,
+      "total_call_vol": 5430,
+      "total_put_vol": 4874,
+      "put_wall": 3900,
+      "put_wall_oi": 6070,
+      "call_wall": 5500,
+      "call_wall_oi": 16931,
+      "gex_sign": "negative",
+      "gex_total_window": -157.34,
+      "gex_flip_strike": 3155,
+      "scraped_at": "2026-11-04T03:19:10.859197+00:00",
+      "symbol": "GCM26"
     }
   ],
   "deltas": {
-    "spot_change": -105.0,
-    "max_pain_drift": -150,
-    "iv_change_pp": 2.17,
-    "pc_oi_change": 0.01,
+    "spot_change": -111.4,
+    "max_pain_drift": -50,
+    "iv_change_pp": 2.66,
+    "pc_oi_change": 0.0,
     "put_wall_migration": [
       3500,
       3500,
-      3500,
       3900,
-      3500
+      3500,
+      3900
     ],
     "call_wall_migration": [
       5500,
@@ -123,18 +123,18 @@
       5500
     ],
     "max_pain_path": [
-      5400,
       5300,
       5300,
+      5250,
       5250,
       5250
     ],
     "spot_path": [
-      4074.5,
       4051.7,
       4031.3,
       3898.9,
-      3969.5
+      3969.5,
+      3940.3
     ]
   }
 }
