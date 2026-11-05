@@ -1,27 +1,7 @@
 {
-  "generated_at": "2026-11-04T03:19:11.298239+00:00",
+  "generated_at": "2026-11-05T03:44:53.907969+00:00",
   "window_days": 5,
   "days": [
-    {
-      "date": "2026-10-29",
-      "spot": 4051.7,
-      "max_pain": 5300,
-      "pc_oi_ratio": 0.4,
-      "atm_iv": 20.08,
-      "total_call_oi": 281802,
-      "total_put_oi": 113607,
-      "total_call_vol": 6858,
-      "total_put_vol": 13523,
-      "put_wall": 3500,
-      "put_wall_oi": 6266,
-      "call_wall": 5500,
-      "call_wall_oi": 16932,
-      "gex_sign": "positive",
-      "gex_total_window": 18.67,
-      "gex_flip_strike": 3245,
-      "scraped_at": "2026-10-29T02:57:41.743425+00:00",
-      "symbol": "GCM26"
-    },
     {
       "date": "2026-10-30",
       "spot": 4031.3,
@@ -101,19 +81,39 @@
       "gex_flip_strike": 3155,
       "scraped_at": "2026-11-04T03:19:10.859197+00:00",
       "symbol": "GCM26"
+    },
+    {
+      "date": "2026-11-05",
+      "spot": 4072.9,
+      "max_pain": 5225,
+      "pc_oi_ratio": 0.41,
+      "atm_iv": 20.99,
+      "total_call_oi": 290587,
+      "total_put_oi": 119183,
+      "total_call_vol": 9073,
+      "total_put_vol": 3393,
+      "put_wall": 3700,
+      "put_wall_oi": 6686,
+      "call_wall": 5500,
+      "call_wall_oi": 16935,
+      "gex_sign": "positive",
+      "gex_total_window": 167.74,
+      "gex_flip_strike": 3260,
+      "scraped_at": "2026-11-05T03:44:53.574776+00:00",
+      "symbol": "GCM26"
     }
   ],
   "deltas": {
-    "spot_change": -111.4,
-    "max_pain_drift": -50,
-    "iv_change_pp": 2.66,
-    "pc_oi_change": 0.0,
+    "spot_change": 41.6,
+    "max_pain_drift": -75,
+    "iv_change_pp": 1.32,
+    "pc_oi_change": 0.01,
     "put_wall_migration": [
-      3500,
       3500,
       3900,
       3500,
-      3900
+      3900,
+      3700
     ],
     "call_wall_migration": [
       5500,
@@ -124,17 +124,17 @@
     ],
     "max_pain_path": [
       5300,
-      5300,
       5250,
       5250,
-      5250
+      5250,
+      5225
     ],
     "spot_path": [
-      4051.7,
       4031.3,
       3898.9,
       3969.5,
-      3940.3
+      3940.3,
+      4072.9
     ]
   }
 }
