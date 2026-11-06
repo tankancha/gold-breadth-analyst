@@ -1,27 +1,7 @@
 {
-  "generated_at": "2026-11-05T03:44:53.907969+00:00",
+  "generated_at": "2026-11-06T03:41:04.864139+00:00",
   "window_days": 5,
   "days": [
-    {
-      "date": "2026-10-30",
-      "spot": 4031.3,
-      "max_pain": 5300,
-      "pc_oi_ratio": 0.4,
-      "atm_iv": 19.67,
-      "total_call_oi": 283940,
-      "total_put_oi": 113685,
-      "total_call_vol": 6705,
-      "total_put_vol": 2753,
-      "put_wall": 3500,
-      "put_wall_oi": 6149,
-      "call_wall": 5500,
-      "call_wall_oi": 16932,
-      "gex_sign": "negative",
-      "gex_total_window": -16.35,
-      "gex_flip_strike": 3230,
-      "scraped_at": "2026-10-30T03:01:52.048089+00:00",
-      "symbol": "GCM26"
-    },
     {
       "date": "2026-11-02",
       "spot": 3898.9,
@@ -101,18 +81,38 @@
       "gex_flip_strike": 3260,
       "scraped_at": "2026-11-05T03:44:53.574776+00:00",
       "symbol": "GCM26"
+    },
+    {
+      "date": "2026-11-06",
+      "spot": 4113.4,
+      "max_pain": 5225,
+      "pc_oi_ratio": 0.41,
+      "atm_iv": 23.02,
+      "total_call_oi": 292405,
+      "total_put_oi": 119622,
+      "total_call_vol": 9600,
+      "total_put_vol": 3882,
+      "put_wall": 3700,
+      "put_wall_oi": 6644,
+      "call_wall": 5500,
+      "call_wall_oi": 16932,
+      "gex_sign": "positive",
+      "gex_total_window": 306.87,
+      "gex_flip_strike": 3295,
+      "scraped_at": "2026-11-06T03:41:04.434491+00:00",
+      "symbol": "GCM26"
     }
   ],
   "deltas": {
-    "spot_change": 41.6,
-    "max_pain_drift": -75,
-    "iv_change_pp": 1.32,
+    "spot_change": 214.5,
+    "max_pain_drift": -25,
+    "iv_change_pp": -0.65,
     "pc_oi_change": 0.01,
     "put_wall_migration": [
-      3500,
       3900,
       3500,
       3900,
+      3700,
       3700
     ],
     "call_wall_migration": [
@@ -123,18 +123,18 @@
       5500
     ],
     "max_pain_path": [
-      5300,
       5250,
       5250,
       5250,
+      5225,
       5225
     ],
     "spot_path": [
-      4031.3,
       3898.9,
       3969.5,
       3940.3,
-      4072.9
+      4072.9,
+      4113.4
     ]
   }
 }
