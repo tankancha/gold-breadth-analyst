@@ -1,30 +1,33 @@
 {
-  "generated_at": "2026-11-05T07:14:00+07:00",
+  "generated_at": "2026-11-06T07:20:00+07:00",
   "symbol": "GCM26",
-  "spot_at_analysis": 3940.3,
-  "today_summary": "GCM26 at $3,940 with ATM IV 22.74% and 21 DTE; spot sits just $40 above the $3,900 put wall (6,070 OI), which is also the chain's largest single gamma node at net GEX -71.2. Net GEX within +/-$200 of spot is -328 (calls +181 / puts -509) — dealers are short gamma across the entire tradable range, with the flip strike far below at $3,155. Headline max pain $5,250 is a legacy-OI artifact rather than a magnet: 151,281 call contracts (52% of all call OI) sit at strikes >= $5,000 and pain declines monotonically across the whole +/-$400 window. Intraday flow was defensive — 3,149 puts traded at $3,600-$3,800 against 677 calls at $4,150-$4,400.",
-  "five_day_thesis": "Spot has lost $111.4 (-2.75%) over five sessions, from $4,051.7 on 10-29 to $3,940.3, while ATM IV expanded +2.66pp (20.08% -> 22.74%) — a falling-price, rising-vol combination that rules out the premium-selling regime that worked a week ago. The decisive structural change is GEX: it flipped from positive (+18.7) to negative (-16.4) on 2026-10-30 and has now printed negative four consecutive sessions (-16.4, -314.3, -92.3, -157.3), so dealer posture went from dampening moves to amplifying them. The put wall migrated up from $3,500 to $3,900 and now oscillates between the two, meaning fresh downside protection was written at the money rather than far OTM — the floor moved up to spot instead of spot falling to the floor. Max pain drifted down only $50 (5,300 -> 5,250) and the call wall never left $5,500 across all five days, confirming the upper structure is stale legacy OI that carries no directional information. Put OI grew +3,061 to 116,668 and call OI grew +10,480 to 292,282, yet P/C OI held flat at exactly 0.40 every session — that ratio is pinned by the far-OTM call block and is the least informative number on the dashboard right now.",
+  "spot_at_analysis": 4072.9,
+  "today_summary": "GCM26 at $4,072.9 on the 2026-11-05 settle (ATM IV 20.99%, 20 DTE) after a $132.6 two-day rally off the 11-04 low of $3,940.3 that carried spot off the $3,900 put wall into the base of the long-gamma shelf. The chain now has a genuine max-pain magnet: pain forms a clean U inside +/-$400 with a true interior minimum at $4,200 (9.79M vs 14.0M at $4,000 and 13.9M at $4,400), sitting +$127 above spot — yesterday's curve was monotonic with no magnet anywhere in the window. Gamma is a dipole centred on spot: net GEX sums -473.2 across $3,673-$4,090 but +312.7 across $4,095-$4,473, so the +/-$200 window still reads -123.6 (calls +414.3 / puts -537.8) while everything above $4,100 stabilises. Flow rotated with price — 1,642 puts against 61 calls traded below $3,950, versus 1,985 calls against 221 puts above $4,100.",
+  "five_day_thesis": "Five sessions ago (10-30) spot was $4,031.3 with window GEX at -16.4 and ATM IV 19.67%; the window closes at $4,072.9 for a net +$41.6, but the path was a V — $4,031.3 to $3,898.9 to $3,969.5 to $3,940.3 to $4,072.9 — so that flat net change hides a 3.3% drawdown and a 4.4% recovery. The decisive structural change is GEX: four consecutive negative sessions (-16.4, -314.3, -92.3, -157.3) ended with the first positive print of the window on 11-05 at +167.7, shifting dealers from amplifying moves to dampening them above spot. IV peaked at 22.74% on 11-04 and compressed -1.75pp to 20.99% as price rallied — vol falling on a rally is the signature of hedge unwind rather than fresh upside demand, and it inverts the falling-price/rising-vol combination that defined the first four days. Max pain drifted down only -$75 (5,300 to 5,225) and the call wall never left $5,500 in any of the five sessions, confirming the headline upper structure is inert legacy OI: 147,603 contracts, 51% of all call OI, sit at strikes >= $5,000. The put wall oscillated 3,500 to 3,900 to 3,500 to 3,900 to 3,700 while put OI grew +5,498 to 119,183, so downside protection keeps being rewritten nearer the money as it decays instead of being abandoned — the floor is active, not stale.",
   "what_changed": [
-    "GEX sign — negative four consecutive sessions after flipping on 2026-10-30; dealer posture is now vol-amplifying, not stabilizing.",
-    "Put wall — migrated $3,500 -> $3,900 (+$400), placing the largest put-OI node (6,070) at the money instead of 11% OTM.",
-    "ATM IV — expanded 20.08% -> 22.74% (+2.66pp) while spot fell 2.75%; 1-sigma daily move widened to $56.44 (1.43%).",
-    "Gamma flip strike — drifted $3,245 -> $3,155 (-$90), extending the short-gamma zone further below spot.",
-    "Max pain — slipped $5,300 -> $5,250 (-$50) and still sits +33% above spot, an artifact of 151,281 call contracts at strikes >= $5,000.",
-    "Intraday volume — 3,149 puts at $3,600-$3,800 against 677 calls at $4,150-$4,400; downside hedging dominates the tape."
+    "Max pain — a true interior minimum reappeared at $4,200 (+$127 above spot); yesterday the pain curve was monotonic across the entire +/-$400 window with no magnet at all.",
+    "GEX sign — first positive window print in five sessions (+167.7 after -157.3), ending a four-day short-gamma streak.",
+    "ATM IV — compressed 22.74% -> 20.99% (-1.75pp) on a +$132.6 rally; 1-sigma daily narrowed to $53.85 (1.32%).",
+    "Spot — reclaimed $4,072.9 from the $3,900 wall, clearing the $4,000 node (4,744 put OI, net GEX -39.7) that capped the previous four sessions.",
+    "Flow — rotated into calls above $4,100 (1,188 contracts at $4,100-$4,250 against 176 puts), reversing the defensive $3,600-$3,800 put tape.",
+    "Put wall — migrated $3,900 -> $3,700 (-$200) as at-the-money protection decayed, leaving $4,000 as the nearest meaningful put node."
   ],
-  "prediction": "Bias neutral with a bearish tail while spot holds $3,900. Negative GEX of -328 within +/-$200 makes the $3,900 wall a trapdoor rather than a cushion once breached — a close below $3,848 opens $3,800 then $3,750, and the -2.75% five-day slide plus +2.66pp IV expansion both argue the break is the higher-probability resolution. A reclaim of $4,000 on volume invalidates the bearish tail and puts the $4,100 positive-gamma shelf back in play.",
+  "prediction": "Bias bullish toward $4,200 while spot holds $4,000. The max-pain magnet is now only +$127 away with supportive gamma behind it — every strike from $4,095 to $4,473 sums +312.7 net GEX, so dealer hedging dampens pullbacks inside that band and the path of least resistance is a grind up into the $4,200-$4,350 call OI (5,308 and 6,229 contracts). A close below $3,995 re-enters the short-gamma zone that sums -473.2 down to $3,673, re-opening $3,950 (net GEX -55.1) and the $3,900 wall; that is the level that invalidates the long.",
   "day_trade_cta": {
-    "bias": "Neutral / Bearish Tail",
-    "bias_note": "Spot $3,940 sits $40 above the $3,900 put wall (6,070 OI, net GEX -71.2). Holds -> range trade. Breaks -> negative-GEX cascade.",
-    "entry_zone": "$3,900-$3,945",
-    "entry_note": "Long only on a defended retest of the $3,900 wall with volume confirmation. Net GEX -328 within +/-$200 means failed tests accelerate — no averaging down.",
-    "pivot": "$3,900",
-    "pivot_note": "Sustained above -> $4,000 (4,841 put OI) then the $4,100 long-gamma shelf (net GEX +18.4). Sustained below -> $3,850, then $3,800 (1,081 puts traded today), then $3,750.",
-    "stop": "$3,848",
-    "stop_note": "-1.9% from the $3,922 entry midpoint, just under the $3,850 node (net GEX -19.3). 1-sigma daily is $56, so anything tighter gets noise-hunted.",
-    "targets": ["$4,000", "$4,100"],
-    "target_note": "T1 $4,000 — 4,841 put OI, trim 50%. T2 $4,100 — first positive-GEX shelf (+18.4) and the heaviest call gamma (44.9) inside the window; exit the rest.",
-    "risk_label": "HIGH VOL REGIME",
-    "risk_note": "ATM IV 22.74% (+2.66pp in five sessions) plus negative GEX four days running -> expect a 1.4-2.5% daily range. Reduce size 30-50%."
+    "bias": "Bullish",
+    "bias_note": "Spot $4,072.9 sits just inside the long-gamma shelf with max pain $4,200 pulling +$127 higher. Bias flips neutral below $4,000, bearish below $3,950.",
+    "entry_zone": "$4,045-$4,085",
+    "entry_note": "Buy pullbacks into the $4,050 node (net GEX -7.9) while $4,000 holds. Positive gamma above $4,100 means dips inside the band get absorbed rather than extended.",
+    "pivot": "$4,100",
+    "pivot_note": "First positive net-GEX strike (+19.1) and the hinge of the dipole. Sustained above -> $4,200 then $4,350. Sustained below -> back into the short-gamma zone and a retest of $4,000.",
+    "stop": "$3,995",
+    "stop_note": "-1.7% from the $4,065 entry midpoint, just under the $4,000 put wall (4,744 OI, net GEX -39.7). 1-sigma daily is $53.85, so a tighter stop gets noise-hunted.",
+    "targets": [
+      "$4,200",
+      "$4,350"
+    ],
+    "target_note": "T1 $4,200 — true max pain, net GEX +38.1, 5,308 call OI; trim 50%. T2 $4,350 — heaviest positive gamma node in the window (+64.3) and 6,229 call OI; exit the rest.",
+    "risk_label": "MODERATING VOL",
+    "risk_note": "ATM IV 20.99% (-1.75pp in one session) and GEX positive above $4,100 — expect a 1.0-1.5% daily range, down from 1.4-2.5%. Size can return toward normal, but the +/-$200 net GEX is still -123.6, so keep stops mechanical."
   }
 }
