@@ -1,27 +1,7 @@
 {
-  "generated_at": "2026-11-13T03:36:41.282863+00:00",
+  "generated_at": "2026-11-16T03:09:42.859260+00:00",
   "window_days": 5,
   "days": [
-    {
-      "date": "2026-11-09",
-      "spot": 4074.8,
-      "max_pain": 5225,
-      "pc_oi_ratio": 0.41,
-      "atm_iv": 22.16,
-      "total_call_oi": 293184,
-      "total_put_oi": 120142,
-      "total_call_vol": 6655,
-      "total_put_vol": 4508,
-      "put_wall": 3700,
-      "put_wall_oi": 6630,
-      "call_wall": 5500,
-      "call_wall_oi": 16910,
-      "gex_sign": "positive",
-      "gex_total_window": 189.35,
-      "gex_flip_strike": 3260,
-      "scraped_at": "2026-11-09T02:59:33.068393+00:00",
-      "symbol": "GCM26"
-    },
     {
       "date": "2026-11-10",
       "spot": 4114.4,
@@ -101,19 +81,39 @@
       "gex_flip_strike": 3110,
       "scraped_at": "2026-11-13T03:36:40.954006+00:00",
       "symbol": "GCM26"
+    },
+    {
+      "date": "2026-11-16",
+      "spot": 3886.2,
+      "max_pain": 5300,
+      "pc_oi_ratio": 0.38,
+      "atm_iv": 22.52,
+      "total_call_oi": 290819,
+      "total_put_oi": 110403,
+      "total_call_vol": 4932,
+      "total_put_vol": 2572,
+      "put_wall": 3900,
+      "put_wall_oi": 6318,
+      "call_wall": 5500,
+      "call_wall_oi": 16547,
+      "gex_sign": "negative",
+      "gex_total_window": -242.95,
+      "gex_flip_strike": 3110,
+      "scraped_at": "2026-11-16T03:09:42.529402+00:00",
+      "symbol": "GCM26"
     }
   ],
   "deltas": {
-    "spot_change": -189.6,
-    "max_pain_drift": 0,
-    "iv_change_pp": 1.03,
-    "pc_oi_change": -0.01,
+    "spot_change": -228.2,
+    "max_pain_drift": 75,
+    "iv_change_pp": 1.01,
+    "pc_oi_change": -0.03,
     "put_wall_migration": [
       3700,
       3700,
       3700,
-      3700,
-      3500
+      3500,
+      3900
     ],
     "call_wall_migration": [
       5500,
@@ -127,14 +127,14 @@
       5225,
       5225,
       5225,
-      5225
+      5300
     ],
     "spot_path": [
-      4074.8,
       4114.4,
       4030.1,
       4000.4,
-      3885.2
+      3885.2,
+      3886.2
     ]
   }
 }
