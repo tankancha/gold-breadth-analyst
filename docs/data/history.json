@@ -1,27 +1,7 @@
 {
-  "generated_at": "2026-11-18T04:43:38.426917+00:00",
+  "generated_at": "2026-11-19T04:31:41.531183+00:00",
   "window_days": 5,
   "days": [
-    {
-      "date": "2026-11-12",
-      "spot": 4000.4,
-      "max_pain": 5225,
-      "pc_oi_ratio": 0.41,
-      "atm_iv": 21.7,
-      "total_call_oi": 295134,
-      "total_put_oi": 120803,
-      "total_call_vol": 4901,
-      "total_put_vol": 2136,
-      "put_wall": 3700,
-      "put_wall_oi": 6662,
-      "call_wall": 5500,
-      "call_wall_oi": 16547,
-      "gex_sign": "positive",
-      "gex_total_window": 35.77,
-      "gex_flip_strike": 3210,
-      "scraped_at": "2026-11-12T04:18:02.107805+00:00",
-      "symbol": "GCM26"
-    },
     {
       "date": "2026-11-13",
       "spot": 3885.2,
@@ -101,18 +81,38 @@
       "gex_flip_strike": 3095,
       "scraped_at": "2026-11-18T04:43:38.000474+00:00",
       "symbol": "GCM26"
+    },
+    {
+      "date": "2026-11-19",
+      "spot": 3741.8,
+      "max_pain": 5400,
+      "pc_oi_ratio": 0.34,
+      "atm_iv": 25.66,
+      "total_call_oi": 306878,
+      "total_put_oi": 104172,
+      "total_call_vol": 9570,
+      "total_put_vol": 7916,
+      "put_wall": 3700,
+      "put_wall_oi": 6013,
+      "call_wall": 5500,
+      "call_wall_oi": 16556,
+      "gex_sign": "negative",
+      "gex_total_window": -294.68,
+      "gex_flip_strike": 3000,
+      "scraped_at": "2026-11-19T04:31:41.099834+00:00",
+      "symbol": "GCM26"
     }
   ],
   "deltas": {
-    "spot_change": -136.3,
-    "max_pain_drift": 0,
-    "iv_change_pp": 2.1,
-    "pc_oi_change": -0.03,
+    "spot_change": -143.4,
+    "max_pain_drift": 175,
+    "iv_change_pp": 2.47,
+    "pc_oi_change": -0.06,
     "put_wall_migration": [
-      3700,
       3500,
       3900,
       3500,
+      3700,
       3700
     ],
     "call_wall_migration": [
@@ -124,17 +124,17 @@
     ],
     "max_pain_path": [
       5225,
-      5225,
       5300,
       5225,
-      5225
+      5225,
+      5400
     ],
     "spot_path": [
-      4000.4,
       3885.2,
       3886.2,
       3853.1,
-      3864.1
+      3864.1,
+      3741.8
     ]
   }
 }
