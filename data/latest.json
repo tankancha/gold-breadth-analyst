@@ -1,13 +1,13 @@
 {
-  "scraped_at": "2026-11-26T05:29:07.746501+00:00",
+  "scraped_at": "2026-11-27T05:22:13.944922+00:00",
   "symbol": "GCM26",
   "expiry": {
     "symbol": "",
     "label": "Unknown",
-    "dte": 62,
+    "dte": 61,
     "iv": 29.53
   },
-  "spot": 3566.3,
+  "spot": 3566.4,
   "future_chg": null,
   "volume": null,
   "iv_atm": 29.53,
@@ -17,8 +17,8 @@
   "intraday_put": null,
   "total_call_oi": 99858,
   "total_put_oi": 56063,
-  "total_call_vol": 10897,
-  "total_put_vol": 7654,
+  "total_call_vol": 7393,
+  "total_put_vol": 4419,
   "pc_oi_ratio": 0.56,
   "max_pain": 4450,
   "gex_heatmap": [
@@ -193,7 +193,7 @@
     {
       "strike": 3000,
       "call_gex": 0.09,
-      "put_gex": -4.15,
+      "put_gex": -4.14,
       "net_gex": -4.05
     },
     {
@@ -553,7 +553,7 @@
     {
       "strike": 3300,
       "call_gex": 0.02,
-      "put_gex": -7.62,
+      "put_gex": -7.61,
       "net_gex": -7.6
     },
     {
@@ -793,7 +793,7 @@
     {
       "strike": 3500,
       "call_gex": 4.91,
-      "put_gex": -72.2,
+      "put_gex": -72.19,
       "net_gex": -67.29
     },
     {
@@ -912,7 +912,7 @@
     },
     {
       "strike": 3600,
-      "call_gex": 42.39,
+      "call_gex": 42.4,
       "put_gex": -23.08,
       "net_gex": 19.31
     },
@@ -974,7 +974,7 @@
       "strike": 3650,
       "call_gex": 1.62,
       "put_gex": -8.63,
-      "net_gex": -7.01
+      "net_gex": -7.02
     },
     {
       "strike": 3655,
@@ -1141,7 +1141,7 @@
     {
       "strike": 3790,
       "call_gex": 0.02,
-      "put_gex": -1.93,
+      "put_gex": -1.94,
       "net_gex": -1.91
     },
     {
@@ -1272,9 +1272,9 @@
     },
     {
       "strike": 3900,
-      "call_gex": 35.91,
+      "call_gex": 35.92,
       "put_gex": -5.76,
-      "net_gex": 30.15
+      "net_gex": 30.16
     },
     {
       "strike": 3905,
@@ -1392,8 +1392,8 @@
     },
     {
       "strike": 4000,
-      "call_gex": 31.47,
-      "put_gex": -10.02,
+      "call_gex": 31.48,
+      "put_gex": -10.03,
       "net_gex": 21.45
     },
     {
@@ -1453,7 +1453,7 @@
     {
       "strike": 4050,
       "call_gex": 11.12,
-      "put_gex": -18.27,
+      "put_gex": -18.28,
       "net_gex": -7.16
     },
     {
@@ -1483,7 +1483,7 @@
     {
       "strike": 4075,
       "call_gex": 0.65,
-      "put_gex": -0.38,
+      "put_gex": -0.39,
       "net_gex": 0.26
     },
     {
@@ -1512,9 +1512,9 @@
     },
     {
       "strike": 4100,
-      "call_gex": 9.6,
+      "call_gex": 9.61,
       "put_gex": -15.94,
-      "net_gex": -6.33
+      "net_gex": -6.34
     },
     {
       "strike": 4105,
@@ -1572,7 +1572,7 @@
     },
     {
       "strike": 4150,
-      "call_gex": 6.3,
+      "call_gex": 6.31,
       "put_gex": -2.84,
       "net_gex": 3.46
     },
@@ -1585,7 +1585,7 @@
     {
       "strike": 4160,
       "call_gex": 5.14,
-      "put_gex": -1.19,
+      "put_gex": -1.2,
       "net_gex": 3.94
     },
     {
@@ -1626,7 +1626,7 @@
     },
     {
       "strike": 4195,
-      "call_gex": 0.26,
+      "call_gex": 0.27,
       "put_gex": -0.16,
       "net_gex": 0.11
     },
@@ -1694,7 +1694,7 @@
       "strike": 4250,
       "call_gex": 11.08,
       "put_gex": -2.2,
-      "net_gex": 8.87
+      "net_gex": 8.88
     },
     {
       "strike": 4255,
@@ -1746,15 +1746,15 @@
     },
     {
       "strike": 4295,
-      "call_gex": 0.16,
+      "call_gex": 0.17,
       "put_gex": -0.04,
       "net_gex": 0.12
     },
     {
       "strike": 4300,
       "call_gex": 7.84,
-      "put_gex": -0.98,
-      "net_gex": 6.85
+      "put_gex": -0.99,
+      "net_gex": 6.86
     },
     {
       "strike": 4305,
@@ -1820,7 +1820,7 @@
       "strike": 4355,
       "call_gex": 0.26,
       "put_gex": -0.01,
-      "net_gex": 0.24
+      "net_gex": 0.25
     },
     {
       "strike": 4360,
@@ -1872,9 +1872,9 @@
     },
     {
       "strike": 4400,
-      "call_gex": 5.91,
+      "call_gex": 5.92,
       "put_gex": -1.73,
-      "net_gex": 4.18
+      "net_gex": 4.19
     },
     {
       "strike": 4405,
@@ -2352,7 +2352,7 @@
     },
     {
       "strike": 4800,
-      "call_gex": 1.95,
+      "call_gex": 1.96,
       "put_gex": -0.24,
       "net_gex": 1.71
     },
@@ -3870,8 +3870,8 @@
       "call_vol": 0,
       "call_last": 1067.3,
       "put_oi": 69,
-      "put_vol": 17,
-      "put_last": 5.7,
+      "put_vol": 3,
+      "put_last": 4.9,
       "call_iv": null,
       "put_iv": null,
       "iv": null
@@ -3882,8 +3882,8 @@
       "call_vol": 0,
       "call_last": 969.3,
       "put_oi": 35,
-      "put_vol": 33,
-      "put_last": 7.9,
+      "put_vol": 2,
+      "put_last": 5.0,
       "call_iv": null,
       "put_iv": null,
       "iv": null
@@ -3930,8 +3930,8 @@
       "call_vol": 0,
       "call_last": 800.2,
       "put_oi": 9,
-      "put_vol": 4,
-      "put_last": 13.2,
+      "put_vol": 1,
+      "put_last": 8.1,
       "call_iv": null,
       "put_iv": null,
       "iv": null
@@ -3954,8 +3954,8 @@
       "call_vol": 0,
       "call_last": 752.7,
       "put_oi": 24,
-      "put_vol": 24,
-      "put_last": 21.8,
+      "put_vol": 1,
+      "put_last": 12.7,
       "call_iv": null,
       "put_iv": null,
       "iv": null
@@ -3990,8 +3990,8 @@
       "call_vol": 0,
       "call_last": 682.3,
       "put_oi": 151,
-      "put_vol": 78,
-      "put_last": 21.5,
+      "put_vol": 40,
+      "put_last": 16.2,
       "call_iv": null,
       "put_iv": null,
       "iv": null
@@ -4146,8 +4146,8 @@
       "call_vol": 0,
       "call_last": 590.7,
       "put_oi": 1036,
-      "put_vol": 967,
-      "put_last": 27.5,
+      "put_vol": 20,
+      "put_last": 20.0,
       "call_iv": null,
       "put_iv": null,
       "iv": null
@@ -4266,8 +4266,8 @@
       "call_vol": 0,
       "call_last": 546.1,
       "put_oi": 417,
-      "put_vol": 113,
-      "put_last": 45.9,
+      "put_vol": 4,
+      "put_last": 25.5,
       "call_iv": null,
       "put_iv": null,
       "iv": null
@@ -4386,8 +4386,8 @@
       "call_vol": 0,
       "call_last": 502.4,
       "put_oi": 1742,
-      "put_vol": 1089,
-      "put_last": 37.0,
+      "put_vol": 11,
+      "put_last": 26.4,
       "call_iv": null,
       "put_iv": null,
       "iv": null
@@ -4578,8 +4578,8 @@
       "call_vol": 0,
       "call_last": 434.8,
       "put_oi": 12,
-      "put_vol": 1,
-      "put_last": 66.1,
+      "put_vol": 2,
+      "put_last": 47.2,
       "call_iv": null,
       "put_iv": null,
       "iv": null
@@ -4626,8 +4626,8 @@
       "call_vol": 1,
       "call_last": 418.4,
       "put_oi": 614,
-      "put_vol": 51,
-      "put_last": 48.1,
+      "put_vol": 285,
+      "put_last": 34.2,
       "call_iv": null,
       "put_iv": null,
       "iv": null
@@ -4674,8 +4674,8 @@
       "call_vol": 0,
       "call_last": 402.2,
       "put_oi": 9,
-      "put_vol": 7,
-      "put_last": 58.5,
+      "put_vol": 100,
+      "put_last": 53.3,
       "call_iv": null,
       "put_iv": null,
       "iv": null
@@ -4746,8 +4746,8 @@
       "call_vol": 0,
       "call_last": 378.5,
       "put_oi": 515,
-      "put_vol": 316,
-      "put_last": 93.3,
+      "put_vol": 215,
+      "put_last": 52.0,
       "call_iv": null,
       "put_iv": null,
       "iv": null
@@ -4770,8 +4770,8 @@
       "call_vol": 0,
       "call_last": 370.7,
       "put_oi": 26,
-      "put_vol": 21,
-      "put_last": 92.4,
+      "put_vol": 2,
+      "put_last": 53.7,
       "call_iv": null,
       "put_iv": null,
       "iv": null
@@ -4783,7 +4783,7 @@
       "call_last": 366.8,
       "put_oi": 30,
       "put_vol": 1,
-      "put_last": 75.8,
+      "put_last": 58.3,
       "call_iv": null,
       "put_iv": null,
       "iv": null
@@ -4794,8 +4794,8 @@
       "call_vol": 0,
       "call_last": 363.0,
       "put_oi": 59,
-      "put_vol": 48,
-      "put_last": 110.3,
+      "put_vol": 6,
+      "put_last": 55.6,
       "call_iv": null,
       "put_iv": null,
       "iv": null
@@ -4806,8 +4806,8 @@
       "call_vol": 0,
       "call_last": 359.2,
       "put_oi": 54,
-      "put_vol": 135,
-      "put_last": 81.4,
+      "put_vol": 3,
+      "put_last": 49.2,
       "call_iv": null,
       "put_iv": null,
       "iv": null
@@ -4842,8 +4842,8 @@
       "call_vol": 0,
       "call_last": 347.8,
       "put_oi": 72,
-      "put_vol": 37,
-      "put_last": 66.5,
+      "put_vol": 1,
+      "put_last": 51.9,
       "call_iv": null,
       "put_iv": null,
       "iv": null
@@ -4866,8 +4866,8 @@
       "call_vol": 2,
       "call_last": 303.1,
       "put_oi": 845,
-      "put_vol": 4,
-      "put_last": 66.9,
+      "put_vol": 24,
+      "put_last": 48.3,
       "call_iv": null,
       "put_iv": null,
       "iv": null
@@ -4879,7 +4879,7 @@
       "call_last": 336.5,
       "put_oi": 9,
       "put_vol": 1,
-      "put_last": 109.0,
+      "put_last": 66.9,
       "call_iv": null,
       "put_iv": null,
       "iv": null
@@ -4890,8 +4890,8 @@
       "call_vol": 0,
       "call_last": 332.8,
       "put_oi": 44,
-      "put_vol": 1,
-      "put_last": 69.4,
+      "put_vol": 2,
+      "put_last": 55.4,
       "call_iv": null,
       "put_iv": null,
       "iv": null
@@ -4914,8 +4914,8 @@
       "call_vol": 0,
       "call_last": 325.5,
       "put_oi": 114,
-      "put_vol": 44,
-      "put_last": 75.7,
+      "put_vol": 6,
+      "put_last": 57.1,
       "call_iv": null,
       "put_iv": null,
       "iv": null
@@ -4926,8 +4926,8 @@
       "call_vol": 0,
       "call_last": 321.8,
       "put_oi": 80,
-      "put_vol": 9,
-      "put_last": 94.5,
+      "put_vol": 1,
+      "put_last": 71.9,
       "call_iv": null,
       "put_iv": null,
       "iv": null
@@ -4974,8 +4974,8 @@
       "call_vol": 0,
       "call_last": 307.4,
       "put_oi": 25,
-      "put_vol": 9,
-      "put_last": 135.3,
+      "put_vol": 2,
+      "put_last": 76.1,
       "call_iv": null,
       "put_iv": null,
       "iv": null
@@ -4986,8 +4986,8 @@
       "call_vol": 0,
       "call_last": 303.9,
       "put_oi": 469,
-      "put_vol": 60,
-      "put_last": 83.4,
+      "put_vol": 267,
+      "put_last": 79.2,
       "call_iv": null,
       "put_iv": null,
       "iv": null
@@ -4998,7 +4998,7 @@
       "call_vol": 0,
       "call_last": 300.3,
       "put_oi": 79,
-      "put_vol": 1,
+      "put_vol": 2,
       "put_last": 80.7,
       "call_iv": null,
       "put_iv": null,
@@ -5046,7 +5046,7 @@
       "call_vol": 0,
       "call_last": 286.4,
       "put_oi": 21,
-      "put_vol": 1,
+      "put_vol": 3,
       "put_last": 86.2,
       "call_iv": null,
       "put_iv": null,
@@ -5106,8 +5106,8 @@
       "call_vol": 0,
       "call_last": 269.4,
       "put_oi": 707,
-      "put_vol": 1,
-      "put_last": 95.5,
+      "put_vol": 24,
+      "put_last": 69.5,
       "call_iv": null,
       "put_iv": null,
       "iv": null
@@ -5118,8 +5118,8 @@
       "call_vol": 0,
       "call_last": 266.0,
       "put_oi": 20,
-      "put_vol": 72,
-      "put_last": 93.0,
+      "put_vol": 78,
+      "put_last": 70.6,
       "call_iv": null,
       "put_iv": null,
       "iv": null
@@ -5130,8 +5130,8 @@
       "call_vol": 0,
       "call_last": 262.7,
       "put_oi": 52,
-      "put_vol": 10,
-      "put_last": 107.3,
+      "put_vol": 3,
+      "put_last": 91.8,
       "call_iv": null,
       "put_iv": null,
       "iv": null
@@ -5226,8 +5226,8 @@
       "call_vol": 78,
       "call_last": 237.0,
       "put_oi": 1517,
-      "put_vol": 1517,
-      "put_last": 129.9,
+      "put_vol": 285,
+      "put_last": 93.6,
       "call_iv": null,
       "put_iv": null,
       "iv": null
@@ -5250,8 +5250,8 @@
       "call_vol": 0,
       "call_last": 230.8,
       "put_oi": 37,
-      "put_vol": 1,
-      "put_last": 112.1,
+      "put_vol": 9,
+      "put_last": 107.5,
       "call_iv": null,
       "put_iv": null,
       "iv": null
@@ -5322,8 +5322,8 @@
       "call_vol": 124,
       "call_last": 175.6,
       "put_oi": 469,
-      "put_vol": 27,
-      "put_last": 150.2,
+      "put_vol": 4,
+      "put_last": 116.0,
       "call_iv": null,
       "put_iv": null,
       "iv": null
@@ -5343,10 +5343,10 @@
     {
       "strike": 3500,
       "call_oi": 441,
-      "call_vol": 727,
-      "call_last": 232.0,
+      "call_vol": 7,
+      "call_last": 220.5,
       "put_oi": 6488,
-      "put_vol": 11,
+      "put_vol": 62,
       "put_last": 126.0,
       "call_iv": null,
       "put_iv": null,
@@ -5358,8 +5358,8 @@
       "call_vol": 0,
       "call_last": 204.2,
       "put_oi": 36,
-      "put_vol": 5,
-      "put_last": 133.4,
+      "put_vol": 11,
+      "put_last": 119.9,
       "call_iv": null,
       "put_iv": null,
       "iv": null
@@ -5391,8 +5391,8 @@
     {
       "strike": 3520,
       "call_oi": 5,
-      "call_vol": 3,
-      "call_last": 180.1,
+      "call_vol": 1,
+      "call_last": 219.0,
       "put_oi": 151,
       "put_vol": 5,
       "put_last": 145.4,
@@ -5406,7 +5406,7 @@
       "call_vol": 116,
       "call_last": 149.1,
       "put_oi": 61,
-      "put_vol": 1,
+      "put_vol": 7,
       "put_last": 141.0,
       "call_iv": null,
       "put_iv": null,
@@ -5442,8 +5442,8 @@
       "call_vol": 5,
       "call_last": 151.3,
       "put_oi": 86,
-      "put_vol": 2,
-      "put_last": 166.1,
+      "put_vol": 3,
+      "put_last": 139.8,
       "call_iv": null,
       "put_iv": null,
       "iv": null
@@ -5502,8 +5502,8 @@
       "call_vol": 3,
       "call_last": 147.6,
       "put_oi": 11,
-      "put_vol": 2,
-      "put_last": 158.4,
+      "put_vol": 4,
+      "put_last": 150.9,
       "call_iv": null,
       "put_iv": null,
       "iv": null
@@ -5583,11 +5583,11 @@
     {
       "strike": 3600,
       "call_oi": 3725,
-      "call_vol": 4,
-      "call_last": 176.0,
+      "call_vol": 19,
+      "call_last": 188.0,
       "put_oi": 2028,
-      "put_vol": 32,
-      "put_last": 183.6,
+      "put_vol": 56,
+      "put_last": 132.6,
       "call_iv": null,
       "put_iv": null,
       "iv": null
@@ -5670,8 +5670,8 @@
       "call_vol": 1,
       "call_last": 152.0,
       "put_oi": 41,
-      "put_vol": 1,
-      "put_last": 187.8,
+      "put_vol": 2,
+      "put_last": 153.9,
       "call_iv": null,
       "put_iv": null,
       "iv": null
@@ -5682,8 +5682,8 @@
       "call_vol": 1,
       "call_last": 149.3,
       "put_oi": 48,
-      "put_vol": 2,
-      "put_last": 190.5,
+      "put_vol": 3,
+      "put_last": 156.0,
       "call_iv": null,
       "put_iv": null,
       "iv": null
@@ -5694,8 +5694,8 @@
       "call_vol": 1,
       "call_last": 143.6,
       "put_oi": 34,
-      "put_vol": 0,
-      "put_last": 214.8,
+      "put_vol": 2,
+      "put_last": 156.7,
       "call_iv": null,
       "put_iv": null,
       "iv": null
@@ -5703,11 +5703,11 @@
     {
       "strike": 3650,
       "call_oi": 143,
-      "call_vol": 2,
+      "call_vol": 10,
       "call_last": 141.7,
       "put_oi": 764,
-      "put_vol": 3,
-      "put_last": 188.8,
+      "put_vol": 5,
+      "put_last": 178.1,
       "call_iv": null,
       "put_iv": null,
       "iv": null
@@ -5716,7 +5716,7 @@
       "strike": 3655,
       "call_oi": 5,
       "call_vol": 1,
-      "call_last": 130.7,
+      "call_last": 155.5,
       "put_oi": 39,
       "put_vol": 0,
       "put_last": 220.6,
@@ -5727,11 +5727,11 @@
     {
       "strike": 3660,
       "call_oi": 7,
-      "call_vol": 2,
-      "call_last": 136.9,
+      "call_vol": 8,
+      "call_last": 159.5,
       "put_oi": 57,
-      "put_vol": 1,
-      "put_last": 194.6,
+      "put_vol": 2,
+      "put_last": 160.8,
       "call_iv": null,
       "put_iv": null,
       "iv": null
@@ -5739,8 +5739,8 @@
     {
       "strike": 3665,
       "call_oi": 8,
-      "call_vol": 2,
-      "call_last": 134.9,
+      "call_vol": 3,
+      "call_last": 157.6,
       "put_oi": 53,
       "put_vol": 0,
       "put_last": 226.4,
@@ -5751,8 +5751,8 @@
     {
       "strike": 3670,
       "call_oi": 8,
-      "call_vol": 1,
-      "call_last": 135.1,
+      "call_vol": 2,
+      "call_last": 148.3,
       "put_oi": 79,
       "put_vol": 0,
       "put_last": 229.4,
@@ -5763,11 +5763,11 @@
     {
       "strike": 3675,
       "call_oi": 20,
-      "call_vol": 10,
-      "call_last": 112.4,
+      "call_vol": 1,
+      "call_last": 146.0,
       "put_oi": 44,
-      "put_vol": 0,
-      "put_last": 232.4,
+      "put_vol": 8,
+      "put_last": 208.5,
       "call_iv": null,
       "put_iv": null,
       "iv": null
@@ -5775,8 +5775,8 @@
     {
       "strike": 3680,
       "call_oi": 5,
-      "call_vol": 1,
-      "call_last": 136.8,
+      "call_vol": 3,
+      "call_last": 150.0,
       "put_oi": 39,
       "put_vol": 1,
       "put_last": 217.6,
@@ -5787,8 +5787,8 @@
     {
       "strike": 3685,
       "call_oi": 32,
-      "call_vol": 3,
-      "call_last": 121.9,
+      "call_vol": 1,
+      "call_last": 150.5,
       "put_oi": 31,
       "put_vol": 0,
       "put_last": 238.5,
@@ -5799,8 +5799,8 @@
     {
       "strike": 3690,
       "call_oi": 9,
-      "call_vol": 2,
-      "call_last": 102.1,
+      "call_vol": 1,
+      "call_last": 139.1,
       "put_oi": 102,
       "put_vol": 0,
       "put_last": 241.5,
@@ -5811,11 +5811,11 @@
     {
       "strike": 3695,
       "call_oi": 33,
-      "call_vol": 2,
-      "call_last": 113.6,
+      "call_vol": 1,
+      "call_last": 143.0,
       "put_oi": 56,
-      "put_vol": 0,
-      "put_last": 244.6,
+      "put_vol": 1,
+      "put_last": 179.6,
       "call_iv": null,
       "put_iv": null,
       "iv": null
@@ -5823,11 +5823,11 @@
     {
       "strike": 3700,
       "call_oi": 959,
-      "call_vol": 2,
-      "call_last": 130.0,
+      "call_vol": 57,
+      "call_last": 140.0,
       "put_oi": 1826,
-      "put_vol": 63,
-      "put_last": 226.4,
+      "put_vol": 10,
+      "put_last": 214.8,
       "call_iv": null,
       "put_iv": null,
       "iv": null
@@ -5835,8 +5835,8 @@
     {
       "strike": 3705,
       "call_oi": 15,
-      "call_vol": 0,
-      "call_last": 111.2,
+      "call_vol": 1,
+      "call_last": 139.3,
       "put_oi": 85,
       "put_vol": 0,
       "put_last": 250.9,
@@ -5871,11 +5871,11 @@
     {
       "strike": 3720,
       "call_oi": 39,
-      "call_vol": 3,
-      "call_last": 96.2,
+      "call_vol": 1,
+      "call_last": 131.8,
       "put_oi": 58,
-      "put_vol": 0,
-      "put_last": 260.3,
+      "put_vol": 2,
+      "put_last": 217.3,
       "call_iv": null,
       "put_iv": null,
       "iv": null
@@ -5943,8 +5943,8 @@
     {
       "strike": 3750,
       "call_oi": 255,
-      "call_vol": 253,
-      "call_last": 104.3,
+      "call_vol": 270,
+      "call_last": 117.1,
       "put_oi": 1048,
       "put_vol": 2,
       "put_last": 272.7,
@@ -5979,8 +5979,8 @@
     {
       "strike": 3765,
       "call_oi": 22,
-      "call_vol": 1,
-      "call_last": 98.9,
+      "call_vol": 2,
+      "call_last": 89.1,
       "put_oi": 60,
       "put_vol": 0,
       "put_last": 290.0,
@@ -5991,8 +5991,8 @@
     {
       "strike": 3770,
       "call_oi": 108,
-      "call_vol": 1,
-      "call_last": 96.6,
+      "call_vol": 4,
+      "call_last": 108.9,
       "put_oi": 98,
       "put_vol": 0,
       "put_last": 293.4,
@@ -6003,8 +6003,8 @@
     {
       "strike": 3775,
       "call_oi": 30,
-      "call_vol": 52,
-      "call_last": 102.7,
+      "call_vol": 1,
+      "call_last": 85.8,
       "put_oi": 23,
       "put_vol": 0,
       "put_last": 296.8,
@@ -6015,8 +6015,8 @@
     {
       "strike": 3780,
       "call_oi": 32,
-      "call_vol": 1,
-      "call_last": 99.0,
+      "call_vol": 14,
+      "call_last": 87.5,
       "put_oi": 39,
       "put_vol": 0,
       "put_last": 300.2,
@@ -6063,8 +6063,8 @@
     {
       "strike": 3800,
       "call_oi": 986,
-      "call_vol": 132,
-      "call_last": 88.7,
+      "call_vol": 172,
+      "call_last": 101.3,
       "put_oi": 1192,
       "put_vol": 32,
       "put_last": 319.0,
@@ -6123,8 +6123,8 @@
     {
       "strike": 3825,
       "call_oi": 171,
-      "call_vol": 118,
-      "call_last": 54.0,
+      "call_vol": 13,
+      "call_last": 71.3,
       "put_oi": 570,
       "put_vol": 47,
       "put_last": 332.3,
@@ -6135,8 +6135,8 @@
     {
       "strike": 3830,
       "call_oi": 12,
-      "call_vol": 5,
-      "call_last": 52.5,
+      "call_vol": 55,
+      "call_last": 74.6,
       "put_oi": 20,
       "put_vol": 0,
       "put_last": 336.0,
@@ -6207,8 +6207,8 @@
     {
       "strike": 3860,
       "call_oi": 40,
-      "call_vol": 1,
-      "call_last": 68.3,
+      "call_vol": 7,
+      "call_last": 64.5,
       "put_oi": 38,
       "put_vol": 0,
       "put_last": 358.5,
@@ -6255,8 +6255,8 @@
     {
       "strike": 3880,
       "call_oi": 22,
-      "call_vol": 12,
-      "call_last": 62.5,
+      "call_vol": 7,
+      "call_last": 60.6,
       "put_oi": 190,
       "put_vol": 0,
       "put_last": 373.9,
@@ -6303,8 +6303,8 @@
     {
       "strike": 3900,
       "call_oi": 3905,
-      "call_vol": 711,
-      "call_last": 65.0,
+      "call_vol": 52,
+      "call_last": 69.9,
       "put_oi": 626,
       "put_vol": 9,
       "put_last": 460.0,
@@ -6423,8 +6423,8 @@
     {
       "strike": 3950,
       "call_oi": 993,
-      "call_vol": 440,
-      "call_last": 54.4,
+      "call_vol": 291,
+      "call_last": 56.4,
       "put_oi": 1606,
       "put_vol": 105,
       "put_last": 430.0,
@@ -6447,8 +6447,8 @@
     {
       "strike": 3960,
       "call_oi": 237,
-      "call_vol": 9,
-      "call_last": 32.2,
+      "call_vol": 1,
+      "call_last": 46.2,
       "put_oi": 40,
       "put_vol": 0,
       "put_last": 438.2,
@@ -6507,8 +6507,8 @@
     {
       "strike": 3985,
       "call_oi": 88,
-      "call_vol": 5,
-      "call_last": 42.8,
+      "call_vol": 2,
+      "call_last": 39.9,
       "put_oi": 141,
       "put_vol": 0,
       "put_last": 459.1,
@@ -6543,8 +6543,8 @@
     {
       "strike": 4000,
       "call_oi": 3987,
-      "call_vol": 13,
-      "call_last": 44.0,
+      "call_vol": 48,
+      "call_last": 45.5,
       "put_oi": 1270,
       "put_vol": 820,
       "put_last": 539.7,
@@ -6567,8 +6567,8 @@
     {
       "strike": 4010,
       "call_oi": 20,
-      "call_vol": 12,
-      "call_last": 38.1,
+      "call_vol": 9,
+      "call_last": 34.8,
       "put_oi": 81,
       "put_vol": 0,
       "put_last": 480.4,
@@ -6579,8 +6579,8 @@
     {
       "strike": 4015,
       "call_oi": 52,
-      "call_vol": 2,
-      "call_last": 36.6,
+      "call_vol": 1,
+      "call_last": 37.1,
       "put_oi": 9,
       "put_vol": 0,
       "put_last": 484.7,
@@ -6603,8 +6603,8 @@
     {
       "strike": 4025,
       "call_oi": 40,
-      "call_vol": 27,
-      "call_last": 34.1,
+      "call_vol": 2,
+      "call_last": 32.3,
       "put_oi": 82,
       "put_vol": 0,
       "put_last": 493.4,
@@ -6615,8 +6615,8 @@
     {
       "strike": 4030,
       "call_oi": 37,
-      "call_vol": 2,
-      "call_last": 34.7,
+      "call_vol": 10,
+      "call_last": 39.0,
       "put_oi": 82,
       "put_vol": 0,
       "put_last": 497.7,
@@ -6651,8 +6651,8 @@
     {
       "strike": 4045,
       "call_oi": 7,
-      "call_vol": 9,
-      "call_last": 24.8,
+      "call_vol": 5,
+      "call_last": 31.5,
       "put_oi": 14,
       "put_vol": 0,
       "put_last": 510.8,
@@ -6735,8 +6735,8 @@
     {
       "strike": 4080,
       "call_oi": 38,
-      "call_vol": 8,
-      "call_last": 27.8,
+      "call_vol": 1,
+      "call_last": 28.4,
       "put_oi": 62,
       "put_vol": 6,
       "put_last": 610.0,
@@ -6783,11 +6783,11 @@
     {
       "strike": 4100,
       "call_oi": 1469,
-      "call_vol": 1294,
-      "call_last": 29.9,
+      "call_vol": 61,
+      "call_last": 25.4,
       "put_oi": 2438,
-      "put_vol": 4,
-      "put_last": 559.7,
+      "put_vol": 6,
+      "put_last": 472.8,
       "call_iv": null,
       "put_iv": null,
       "iv": null
@@ -6819,8 +6819,8 @@
     {
       "strike": 4115,
       "call_oi": 56,
-      "call_vol": 4,
-      "call_last": 29.5,
+      "call_vol": 20,
+      "call_last": 28.1,
       "put_oi": 22,
       "put_vol": 0,
       "put_last": 573.2,
@@ -6927,8 +6927,8 @@
     {
       "strike": 4160,
       "call_oi": 894,
-      "call_vol": 15,
-      "call_last": 21.1,
+      "call_vol": 3,
+      "call_last": 19.8,
       "put_oi": 208,
       "put_vol": 0,
       "put_last": 614.3,
@@ -6999,8 +6999,8 @@
     {
       "strike": 4190,
       "call_oi": 49,
-      "call_vol": 1,
-      "call_last": 12.5,
+      "call_vol": 5,
+      "call_last": 16.5,
       "put_oi": 14,
       "put_vol": 2,
       "put_last": 642.0,
@@ -7023,8 +7023,8 @@
     {
       "strike": 4200,
       "call_oi": 2154,
-      "call_vol": 1,
-      "call_last": 20.6,
+      "call_vol": 17,
+      "call_last": 20.5,
       "put_oi": 544,
       "put_vol": 1,
       "put_last": 665.6,
@@ -7059,8 +7059,8 @@
     {
       "strike": 4215,
       "call_oi": 107,
-      "call_vol": 0,
-      "call_last": 17.9,
+      "call_vol": 11,
+      "call_last": 15.0,
       "put_oi": 21,
       "put_vol": 0,
       "put_last": 665.3,
@@ -7096,7 +7096,7 @@
       "strike": 4230,
       "call_oi": 97,
       "call_vol": 2,
-      "call_last": 15.1,
+      "call_last": 15.2,
       "put_oi": 45,
       "put_vol": 0,
       "put_last": 679.4,
@@ -7119,8 +7119,8 @@
     {
       "strike": 4240,
       "call_oi": 76,
-      "call_vol": 0,
-      "call_last": 16.5,
+      "call_vol": 1,
+      "call_last": 14.2,
       "put_oi": 29,
       "put_vol": 0,
       "put_last": 688.8,
@@ -7143,8 +7143,8 @@
     {
       "strike": 4250,
       "call_oi": 2390,
-      "call_vol": 1193,
-      "call_last": 15.9,
+      "call_vol": 794,
+      "call_last": 14.1,
       "put_oi": 475,
       "put_vol": 0,
       "put_last": 698.2,
@@ -7167,8 +7167,8 @@
     {
       "strike": 4260,
       "call_oi": 53,
-      "call_vol": 2,
-      "call_last": 15.4,
+      "call_vol": 3,
+      "call_last": 13.6,
       "put_oi": 21,
       "put_vol": 0,
       "put_last": 707.7,
@@ -7179,8 +7179,8 @@
     {
       "strike": 4265,
       "call_oi": 125,
-      "call_vol": 0,
-      "call_last": 15.1,
+      "call_vol": 3,
+      "call_last": 13.4,
       "put_oi": 30,
       "put_vol": 0,
       "put_last": 712.4,
@@ -7299,8 +7299,8 @@
     {
       "strike": 4315,
       "call_oi": 34,
-      "call_vol": 0,
-      "call_last": 12.9,
+      "call_vol": 5,
+      "call_last": 10.9,
       "put_oi": 113,
       "put_vol": 0,
       "put_last": 760.1,
@@ -7335,8 +7335,8 @@
     {
       "strike": 4330,
       "call_oi": 41,
-      "call_vol": 3,
-      "call_last": 8.9,
+      "call_vol": 1,
+      "call_last": 10.4,
       "put_oi": 16,
       "put_vol": 0,
       "put_last": 774.5,
@@ -7383,8 +7383,8 @@
     {
       "strike": 4350,
       "call_oi": 1157,
-      "call_vol": 22,
-      "call_last": 11.2,
+      "call_vol": 92,
+      "call_last": 9.6,
       "put_oi": 29,
       "put_vol": 0,
       "put_last": 793.7,
@@ -7503,8 +7503,8 @@
     {
       "strike": 4400,
       "call_oi": 1924,
-      "call_vol": 303,
-      "call_last": 11.1,
+      "call_vol": 25,
+      "call_last": 8.0,
       "put_oi": 563,
       "put_vol": 0,
       "put_last": 842.0,
@@ -7515,8 +7515,8 @@
     {
       "strike": 4405,
       "call_oi": 29,
-      "call_vol": 0,
-      "call_last": 9.8,
+      "call_vol": 1,
+      "call_last": 8.2,
       "put_oi": 113,
       "put_vol": 0,
       "put_last": 846.9,
@@ -7551,8 +7551,8 @@
     {
       "strike": 4420,
       "call_oi": 8,
-      "call_vol": 0,
-      "call_last": 9.4,
+      "call_vol": 6,
+      "call_last": 7.5,
       "put_oi": 1,
       "put_vol": 0,
       "put_last": 861.4,
@@ -7671,8 +7671,8 @@
     {
       "strike": 4470,
       "call_oi": 39,
-      "call_vol": 0,
-      "call_last": 8.1,
+      "call_vol": 1,
+      "call_last": 8.7,
       "put_oi": 9,
       "put_vol": 0,
       "put_last": 910.1,
@@ -7743,8 +7743,8 @@
     {
       "strike": 4500,
       "call_oi": 3573,
-      "call_vol": 911,
-      "call_last": 8.1,
+      "call_vol": 10,
+      "call_last": 7.0,
       "put_oi": 124,
       "put_vol": 0,
       "put_last": 939.5,
@@ -7827,8 +7827,8 @@
     {
       "strike": 4535,
       "call_oi": 100,
-      "call_vol": 0,
-      "call_last": 6.8,
+      "call_vol": 1,
+      "call_last": 5.8,
       "put_oi": 0,
       "put_vol": 0,
       "put_last": 973.9,
@@ -8223,8 +8223,8 @@
     {
       "strike": 4700,
       "call_oi": 1033,
-      "call_vol": 11,
-      "call_last": 4.9,
+      "call_vol": 1,
+      "call_last": 3.8,
       "put_oi": 135,
       "put_vol": 0,
       "put_last": 1136.8,
@@ -8943,8 +8943,8 @@
     {
       "strike": 5000,
       "call_oi": 6011,
-      "call_vol": 836,
-      "call_last": 2.1,
+      "call_vol": 1503,
+      "call_last": 2.2,
       "put_oi": 103,
       "put_vol": 0,
       "put_last": 1435.5,
@@ -9904,7 +9904,7 @@
       "strike": 5400,
       "call_oi": 1509,
       "call_vol": 1,
-      "call_last": 1.8,
+      "call_last": 1.5,
       "put_oi": 0,
       "put_vol": 0,
       "put_last": 1835.4,
@@ -10683,8 +10683,8 @@
     {
       "strike": 5725,
       "call_oi": 323,
-      "call_vol": 0,
-      "call_last": 1.5,
+      "call_vol": 3,
+      "call_last": 1.1,
       "put_oi": 0,
       "put_vol": 0,
       "put_last": 2160.4,
@@ -11343,8 +11343,8 @@
     {
       "strike": 9000,
       "call_oi": 133,
-      "call_vol": 0,
-      "call_last": 0.3,
+      "call_vol": 20,
+      "call_last": 0.4,
       "put_oi": 0,
       "put_vol": 0,
       "put_last": 5435.4,
